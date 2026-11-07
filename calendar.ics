@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Science & Society Munich//Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Science & Society München
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR
