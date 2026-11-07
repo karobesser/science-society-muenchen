@@ -1,18 +1,61 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Science & Society Munich//Events Calendar//EN
+PRODID:-//Science & Society Munich//Events Calendar//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Science & Society München
 X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
 BEGIN:VEVENT
-UID:test-20261109@science-society-muenchen
-DTSTAMP:20261107T210000Z
-DTSTART:20261109T180000Z
-DTEND:20261109T190000Z
-SUMMARY:TEST - Science & Society München
-DESCRIPTION:Dies ist ein Testtermin für unseren abonnierbaren Veranstaltungskalender.
-LOCATION:Online - Testveranstaltung
+UID:20261111-1900-waerme-leben@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261111T190000
+DTEND;TZID=Europe/Berlin:20261111T210000
+SUMMARY:Wie Wärme dem Leben auf die Sprünge half
+LOCATION:Deutsches Museum\, Museumsinsel 1\, Auditorium\, München
+DESCRIPTION:Öffentlicher Vortrag von Christof Mast zur Entstehung des Lebens und zur Rolle von Wärme. Weitere Informationen: https://www.mpe.mpg.de/events/47134/2163
+URL:https://www.mpe.mpg.de/events/47134/2163
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261112-1900-demokratie-stress@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261112T190000
+SUMMARY:Demokratie unter Stress – Wie können wir Umbrüche meistern?
+LOCATION:Bayerische Akademie der Wissenschaften\, München
+DESCRIPTION:Öffentliche Diskussion über Demokratie und gesellschaftliche Umbrüche. Teilnahme und Livestream auf der Veranstaltungsseite prüfen. Weitere Informationen: https://badw.de/veranstaltungen/event/demokratie-unter-stress-umbrueche
+URL:https://badw.de/veranstaltungen/event/demokratie-unter-stress-umbrueche
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261115-1100-weibs-bilder@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Münchner Weibs-Bilder – Berühmte und vergessene Frauen
+LOCATION:Treffpunkt Spielzeugmuseum\, Turm des Alten Rathauses\, Marienplatz\, München
+DESCRIPTION:Stadtführung von STATTreisen über Frauen der Münchner Geschichte. Erwachsene 17 EUR. Anmeldung erwünscht. Weitere Informationen: https://stadtgeschichte-muenchen.de/stadtfuehrung/d_stadtfuehrung.php?id=27398
+URL:https://stadtgeschichte-muenchen.de/stadtfuehrung/d_stadtfuehrung.php?id=27398
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-1815-ursprung-leben@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261119T181500
+SUMMARY:Lässt sich der Ursprung des Lebens im Labor nachbauen?
+LOCATION:LMU\, Physikhörsaal H 030\, Schellingstraße 4\, München
+DESCRIPTION:Physik Modern: öffentlicher Vortrag von Prof. Dieter Braun. Weitere Informationen: https://www.physik.lmu.de/de/aktuelles/veranstaltungsuebersicht/veranstaltung/physik-modern-eb7a25aa.html
+URL:https://www.physik.lmu.de/de/aktuelles/veranstaltungsuebersicht/veranstaltung/physik-modern-eb7a25aa.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-1900-maenner-macht-klimakrise@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+SUMMARY:Männer\, Macht und Klimakrise
+LOCATION:Bellevue di Monaco\, Müllerstraße 2\, München
+DESCRIPTION:Podiumsdiskussion über Genderaspekte von Klima und Klimapolitik. Weitere Informationen: https://bellevuedimonaco.de/veranstaltungen/monat/
+URL:https://bellevuedimonaco.de/veranstaltungen/monat/
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
