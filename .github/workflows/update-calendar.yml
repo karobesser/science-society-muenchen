@@ -1,0 +1,24 @@
+name: Update Science & Society Calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+      timezone: 'Europe/Berlin'
+
+permissions:
+  contents: read
+
+jobs:
+  check-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check calendar file
+        run: |
+          test -f calendar.ics
+          grep -q 'BEGIN:VCALENDAR' calendar.ics
+          grep -q 'END:VCALENDAR' calendar.ics
+          echo 'Calendar file found and basic checks passed.'
