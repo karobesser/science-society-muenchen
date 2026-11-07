@@ -5,4 +5,14 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Science & Society München
 X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:test-20261109@science-society-muenchen
+DTSTAMP:20261107T210000Z
+DTSTART:20261109T180000Z
+DTEND:20261109T190000Z
+SUMMARY:TEST - Science & Society München
+DESCRIPTION:Dies ist ein Testtermin für unseren abonnierbaren Veranstaltungskalender.
+LOCATION:Online - Testveranstaltung
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
