@@ -1,0 +1,30 @@
+name: Check EBE Calendar
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'ebe-raus-aus-dem-haus.ics'
+      - '.github/workflows/check-ebe-calendar.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-ebe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate EBE iCalendar structure
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          data = Path('ebe-raus-aus-dem-haus.ics').read_text(encoding='utf-8')
+          lines = data.splitlines()
+          assert lines[0] == 'BEGIN:VCALENDAR'
+          assert lines[-1] == 'END:VCALENDAR'
+          assert 'VERSION:2.0' in lines
+          assert any(x.startswith('X-WR-CALNAME:EBE') for x in lines)
+          assert lines.count('BEGIN:VEVENT') == lines.count('END:VEVENT')
+          print('EBE calendar structure OK')
+          PY
