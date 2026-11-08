@@ -58,4 +58,89 @@ DESCRIPTION:Podiumsdiskussion über Genderaspekte von Klima und Klimapolitik. We
 URL:https://bellevuedimonaco.de/veranstaltungen/monat/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261108-teleskope@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+SUMMARY:Teleskope sinnvoll auswählen
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
+ dwig-Jung-Str.\, 81671 München
+DESCRIPTION:Kostenloses Kolloquium mit Martin Elsässer\; Tic
+ ket erforderlich. Weitere Informationen: https://sternwarte-
+ muenchen.de/event-vsw/teleskope/
+URL:https://sternwarte-muenchen.de/event-vsw/teleskope/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261113-winter26@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+SUMMARY:Der Wintersternhimmel 2026
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
+ dwig-Jung-Str.\, 81671 München
+DESCRIPTION:Vortrag mit Bernhard Buchner\; Beobachtung bei k
+ larem Himmel. Eintritt 10 / 7 EUR\; Buchung erforderlich. We
+ itere Informationen: https://sternwarte-muenchen.de/event-vs
+ w/winter26/
+URL:https://sternwarte-muenchen.de/event-vsw/winter26/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261114-universe@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Our Place in the Universe
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
+ dwig-Jung-Str.\, 81671 München
+DESCRIPTION:English lecture by Paul Salazar\; telescope view
+ ing if clear. Tickets 10 / 7 EUR\; booking recommended. Weit
+ ere Informationen: https://sternwarte-muenchen.de/event-vsw/
+ universe/
+URL:https://sternwarte-muenchen.de/event-vsw/universe/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261116-videoastronomie@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+SUMMARY:Videoastronomie mit freier Software in der Großstadt
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
+ dwig-Jung-Str.\, 81671 München
+DESCRIPTION:Kostenloses Kolloquium mit Andreas Zottmann zu L
+ inux-basierter Videoastronomie\; Ticket erforderlich. Weiter
+ e Informationen: https://sternwarte-muenchen.de/event-vsw/vi
+ deoastronomie/
+URL:https://sternwarte-muenchen.de/event-vsw/videoastronomie
+ /
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261118-hornung2026-2@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261118T180000
+SUMMARY:Unheimliche Welten – Ein Trip durch das Planeten-Sys
+ tem
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
+ dwig-Jung-Str.\, 81671 München
+DESCRIPTION:Familienvortrag ab 8 Jahren mit Helmut Hornung. 
+ 10 / 7 EUR\, Familientickets ab 15 EUR\; Buchung erforderlic
+ h. Weitere Informationen: https://sternwarte-muenchen.de/eve
+ nt-vsw/hornung2026-2/
+URL:https://sternwarte-muenchen.de/event-vsw/hornung2026-2/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261120-typ2supernovae@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Mit Typ II Supernovae der Expansion des Universums a
+ uf der Spur
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
+ dwig-Jung-Str.\, 81671 München
+DESCRIPTION:Vortrag von Dr. Stefan Taubenberger zur Expansio
+ n des Universums. Weitere Informationen: https://sternwarte-
+ muenchen.de/event-vsw/typ2supernovae/
+URL:https://sternwarte-muenchen.de/event-vsw/typ2supernovae/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
