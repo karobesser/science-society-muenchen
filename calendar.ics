@@ -246,4 +246,18 @@ DESCRIPTION:Wissenschaftliches Gespräch über Naturgesetze\, effiziente
 URL:https://www.mpg.de/events/46707/9023208
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261125-2000-gender-salon-romantikdiktat@science-society-muenchen
+DTSTAMP:20261108T080000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+SUMMARY:Gender Salon – Zusammenleben jenseits des Romantikdiktats
+LOCATION:Glockenbachwerkstatt\, Blumenstraße 7\, 80331 München
+DESCRIPTION:Gender Salon mit Soziologin Andrea Newerla über alternative 
+ Formen des Zusammenlebens und die gesellschaftliche Dominanz romantische
+ r Paarbeziehungen. Eintritt 4 EUR\; Einlass 19:30–19:55 Uhr. Veranstal
+ terinfo: https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salo
+ n/
+URL:https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
