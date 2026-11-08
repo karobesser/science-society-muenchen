@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//EBE Raus aus dem Haus//Events Calendar//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EBE – Raus aus dem Haus!
+X-WR-CALDESC:Kuratierte Kultur, Natur und Erlebnisse im Landkreis Ebersberg für Erwachsene, Jugendliche und Kinder.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+END:VCALENDAR
