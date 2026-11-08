@@ -143,4 +143,107 @@ DESCRIPTION:Vortrag von Dr. Stefan Taubenberger zur Expansio
 URL:https://sternwarte-muenchen.de/event-vsw/typ2supernovae/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261110-1400-quantendienstag@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261110T140000
+DTEND;TZID=Europe/Berlin:20261110T153000
+SUMMARY:Quantendienstag – Quanten(t)räume Projektabschluss
+LOCATION:Deutsches Museum\, Museumsinsel 1\, München
+DESCRIPTION:Offene Präsentationen und Austausch zu Quantentechnologien. 
+ Teilnahme im Museumsticket enthalten. Weitere Informationen: https://www
+ .deutsches-museum.de/museumsinsel/programm/veranstaltung/quantendienstag
+URL:https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/q
+ uantendienstag
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261116-1900-hirnforschung-ns@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+DTEND;TZID=Europe/Berlin:20261116T203000
+SUMMARY:Hirnforschung und nationalsozialistische Verbrechen
+LOCATION:NS-Dokumentationszentrum\, Max-Mannheimer-Platz 1\, München und
+  Livestream
+DESCRIPTION:Buchvorstellung zu NS-Verbrechen und Wissenschaftsgeschichte.
+  Präsenz ausgebucht\; Livestream laut Veranstalter vorgesehen. Weitere 
+ Informationen: https://www.mpg.de/26881604/hirnforschung-und-ns-verbrech
+ en-buchvorstellung1
+URL:https://www.mpg.de/26881604/hirnforschung-und-ns-verbrechen-buchvorst
+ ellung1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261124-1800-demokratische-resilienz@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261124T180000
+SUMMARY:Demokratische Resilienz in Zeiten weltpolitischer Umbrüche
+LOCATION:Institut für Zeitgeschichte\, Leonrodstraße 46b\, München
+DESCRIPTION:Podium über die Bundesrepublik und ihre internationalen Bün
+ dnisse in Geschichte und Gegenwart. Online-Anmeldung beim Veranstalter. 
+ Weitere Informationen: https://www.khw-muenchen.de/termine/detailansicht
+ /demokratische-resilienz-in-zeiten-weltpolitischer-umbrueche
+URL:https://www.khw-muenchen.de/termine/detailansicht/demokratische-resil
+ ienz-in-zeiten-weltpolitischer-umbrueche
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261124-1830-learning-peace@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261124T183000
+SUMMARY:Learning for Peace in Times of Conflict – Podium
+LOCATION:Hochschule für Philosophie\, Aula\, Kaulbachstraße 31/33\, Mü
+ nchen
+DESCRIPTION:Wie Hochschulbildung Frieden und Menschenrechte in Krisengebi
+ eten fördern kann. Podium auf Englisch\; Anmeldung für Präsenz erbete
+ n\; Livestream angeboten. Anschließende Vernissage nicht Teil der Kalen
+ derauswahl. Weitere Informationen: https://hfph.de/hochschule/veranstalt
+ ung/learning-for-peace-in-times-of-conflict/
+URL:https://hfph.de/hochschule/veranstaltung/learning-for-peace-in-times-
+ of-conflict/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261124-1900-john-mcdowell@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+DTEND;TZID=Europe/Berlin:20261124T203000
+SUMMARY:John McDowell – zur Einführung
+LOCATION:Hochschule für Philosophie\, Dozenten-Cafeteria (3. OG)\, Kaulb
+ achstraße 31/33\, München
+DESCRIPTION:Philosophische Buchpräsentation und Gespräch über Natur\, 
+ Vernunft\, Ethik und Ästhetik mit Daniel Martin Feige und Dominik Finke
+ lde. Weitere Informationen: https://hfph.de/hochschule/veranstaltung/joh
+ n-mcdowell-zur-einfuehrung/
+URL:https://hfph.de/hochschule/veranstaltung/john-mcdowell-zur-einfuehrun
+ g/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-1900-fingerabdruck-materie@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+DTEND;TZID=Europe/Berlin:20261202T210000
+SUMMARY:Der Fingerabdruck der Materie: Ionen\, Moleküle und die Geheimni
+ sse des Universums
+LOCATION:Deutsches Museum\, Auditorium (Ebene 0)\, Museumsinsel 1\, Münc
+ hen
+DESCRIPTION:Wissenschaft für jedermann: Vortrag von Klaus Blaum (MPIK He
+ idelberg) über Präzisionsmessungen und die Geheimnisse der Materie. We
+ itere Informationen: https://www.mpe.mpg.de/events/47132/6317211
+URL:https://www.mpe.mpg.de/events/47132/6317211
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-1900-natur-kein-parteimitglied@science-society-muenchen
+DTSTAMP:20261108T083000Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+SUMMARY:Harald Lesch & Axel Kleidon: Die Natur ist kein Parteimitglied
+LOCATION:Bayerische Staatsbibliothek\, München
+DESCRIPTION:Wissenschaftliches Gespräch über Naturgesetze\, effiziente 
+ Energienutzung und Klimaschutz. Ticketbedingungen beim Veranstalter prü
+ fen. Weitere Informationen: https://www.mpg.de/events/46707/9023208
+URL:https://www.mpg.de/events/46707/9023208
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
