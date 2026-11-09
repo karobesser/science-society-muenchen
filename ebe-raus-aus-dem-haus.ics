@@ -231,4 +231,129 @@ DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen
 URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261113-platzchenbacken-im-chaxter@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+SUMMARY:Plätzchenbacken im CHAXTER
+LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
+DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 5 EUR\; Anmeldung 
+ beim CHAXTER. Weitere Informationen: https://www.grafing.
+ de/kultur-bildung-soziales/kinder-familie/jugendpflege/ch
+ axter-das-schuelercafe-der-stadt-grafing/novemberangebote
+ -im-chaxter
+URL:https://www.grafing.de/kultur-bildung-soziales/kinder-
+ familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-g
+ rafing/novemberangebote-im-chaxter
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-holzschnitt-selbst-drucken@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Holzschnitt – selbst drucken
+LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, Ebersber
+ g
+DESCRIPTION:Workshop bis 18 Uhr\; ab 8 Jahren\; Erwachsene
+  20 EUR\, Kinder 10 EUR\; Anmeldung erforderlich. Weitere
+  Informationen: https://www.museumwaldundumwelt.de/progra
+ mm/aktuell
+URL:https://www.museumwaldundumwelt.de/programm/aktuell
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-stadtfuhrung-starke-frauen-in-grafing@ebe-rau
+ s-aus-dem-haus
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Stadtführung: Starke Frauen in Grafing
+LOCATION:Rathaus\, Marktplatz 28\, Grafing
+DESCRIPTION:Stadtführung mit Brigitte Binder über bemerken
+ swerte Frauen der Stadt\; Details beim Veranstalter. Weit
+ ere Informationen: https://www.grafing.de/kultur-bildung-
+ soziales/veranstaltungen
+URL:https://www.grafing.de/kultur-bildung-soziales/veranst
+ altungen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261117-meine-antarktis-tagebucher-egon-dorrer@ebe-ra
+ us-aus-dem-haus
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261117T183000
+SUMMARY:Meine Antarktis-Tagebücher – Egon Dorrer
+LOCATION:Stadtbücherei\, Grenzstraße 5\, Grafing
+DESCRIPTION:Antarktisforscher Prof. Dr. Egon Dorrer berich
+ tet von Expeditionen in den 1960er Jahren\; bis 21:30 Uhr
+ . Weitere Informationen: https://www.grafing.de/kultur-bi
+ ldung-soziales/kultur-unterhaltung/stadtbuecherei/veranst
+ altungen-in-der-stadtbuecherei
+URL:https://www.grafing.de/kultur-bildung-soziales/kultur-
+ unterhaltung/stadtbuecherei/veranstaltungen-in-der-stadtb
+ uecherei
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-kicker-turnier-im-chaxter@ebe-raus-aus-dem-ha
+ us
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261120T170000
+SUMMARY:Kicker-Turnier im CHAXTER
+LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
+DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 1\,50 EUR inklusiv
+ e Getränk\; Anmeldung erforderlich. Weitere Informationen
+ : https://www.grafing.de/kultur-bildung-soziales/kinder-f
+ amilie/jugendpflege/chaxter-das-schuelercafe-der-stadt-gr
+ afing/novemberangebote-im-chaxter
+URL:https://www.grafing.de/kultur-bildung-soziales/kinder-
+ familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-g
+ rafing/novemberangebote-im-chaxter
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-casinoabend-im-chaxter@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+SUMMARY:Casinoabend im CHAXTER
+LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
+DESCRIPTION:Ab 10 Jahren\; bis circa 21 Uhr\; Poker\, Roul
+ ette\, Blackjack und alkoholfreie Cocktails\; 3 EUR\; Anm
+ eldung. Weitere Informationen: https://www.grafing.de/kul
+ tur-bildung-soziales/kinder-familie/jugendpflege/chaxter-
+ das-schuelercafe-der-stadt-grafing/novemberangebote-im-ch
+ axter
+URL:https://www.grafing.de/kultur-bildung-soziales/kinder-
+ familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-g
+ rafing/novemberangebote-im-chaxter
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-kreatives-papierschopfen@ebe-raus-aus-dem-hau
+ s
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261205T140000
+SUMMARY:Kreatives Papierschöpfen
+LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, Ebersber
+ g
+DESCRIPTION:Kreativer Workshop bis 18 Uhr\; ab 7 Jahren\; 
+ Anmeldung und Verfügbarkeit beim Museum prüfen. Weitere I
+ nformationen: https://www.museumwaldundumwelt.de/programm
+ /aktuell
+URL:https://www.museumwaldundumwelt.de/programm/aktuell
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-swinging-sunday-swing-tanzen@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261109T190000Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Swinging Sunday – Swing tanzen
+LOCATION:Altes Kino\, Eberhardstraße 3\, Ebersberg
+DESCRIPTION:Swing-Tanzabend zum Mitmachen. Weitere Informa
+ tionen: https://kultur-in-ebersberg.de/ort/altes-kino/
+URL:https://kultur-in-ebersberg.de/ort/altes-kino/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
