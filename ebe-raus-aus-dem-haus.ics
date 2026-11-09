@@ -151,4 +151,84 @@ DESCRIPTION:Flamenco\, Villancicos\, Gitarre\, Cello\, Gesang und Ta
 URL:https://www.stadthalle-grafing.de/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261111-mittwochskino-ein-kuchen-fur-den-prasidenten@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+SUMMARY:Mittwochskino: Ein Kuchen für den Präsidenten
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
+URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-mittwochskino-gelbe-briefe@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+SUMMARY:Mittwochskino: Gelbe Briefe
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
+URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-mittwochskino-nouvelle-vague@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+SUMMARY:Mittwochskino: Nouvelle Vague
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
+URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-mehrwertkneipe-kneipenquiz-6-zusatztermin@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+SUMMARY:MehrwertKneipe: Kneipenquiz #6 – Zusatztermin
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Zusatztermin des Kneipenquiz im Alten Kino. Eintritt frei\; Reservierung und freie Plätze prüfen. Weitere Informationen: https://kultur-in-ebersberg.de/
+URL:https://kultur-in-ebersberg.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-mehrwertkneipe-standupcomedy-6@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+SUMMARY:MehrwertKneipe: StandUpComedy #6
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Stand-up-Abend mit erfahrenen Comedians und Newcomern. Weitere Informationen: https://kultur-in-ebersberg.de/programme/comedy/
+URL:https://kultur-in-ebersberg.de/programme/comedy/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-mittwochskino-cotton-queen@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+SUMMARY:Mittwochskino: Cotton Queen
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
+URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261204-antonia-stabinger-angenehm@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+SUMMARY:Antonia Stabinger: ANGENEHM
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Comedy-Abend im Alten Kino Ebersberg. Weitere Informationen: https://kultur-in-ebersberg.de/programme/comedy/
+URL:https://kultur-in-ebersberg.de/programme/comedy/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261209-mittwochskino-der-frosch-und-das-wasser@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T180000Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+SUMMARY:Mittwochskino: Der Frosch und das Wasser
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
+URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
