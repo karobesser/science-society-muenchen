@@ -260,4 +260,31 @@ DESCRIPTION:Gender Salon mit Soziologin Andrea Newerla über alternative
 URL:https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261201-1900-ukraine-leben-ueberleben@science-society-muenchen
+DTSTAMP:20261109T053200Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+SUMMARY:Ukraine: Leben und Überleben
+LOCATION:Seidlvilla\, Nikolaiplatz 1b\, München
+DESCRIPTION:Vortrag und Diskussion über Alltag\, Resilienz und Solidarit
+ ät im fünften Jahr des russischen Angriffskriegs. Mit Keno Verseck und
+  Ira Ganzhorn. Sprache: Deutsch.
+URL:https://bellevuedimonaco.de/veranstaltung/ukraine-leben-und-ueberlebe
+ n/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261204-1900-westjordanland-widerstand@science-society-muenchen
+DTSTAMP:20261109T053200Z
+DTSTART;TZID=Europe/Berlin:20261204T190000
+DTEND;TZID=Europe/Berlin:20261204T210000
+SUMMARY:Zwischen Besatzung & Widerstand im Westjordanland
+LOCATION:Bellevue di Monaco\, Müllerstraße 2\, 80469 München
+DESCRIPTION:Vortrag und Diskussion mit Kerem Schamberger und Lara Prölß
+  über den Alltag im besetzten Westjordanland\, Landnahme\, Widerstand u
+ nd internationale Solidarität.
+URL:https://bellevuedimonaco.de/veranstaltung/zwischen-besatzung-widersta
+ nd-im-westjordanland/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
