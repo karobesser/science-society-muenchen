@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Einladung zum Rumstreunern//Kulturkalender//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Einladung zum Rumstreunern
+X-WR-CALDESC:Kuratierte Kunst, Kultur, Theater, Design, Musik, Tanz, Stadtleben und Mitmachangebote fuer Erwachsene in Muenchen.
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+END:VCALENDAR
