@@ -7,4 +7,148 @@ X-WR-CALNAME:EBE – Raus aus dem Haus!
 X-WR-CALDESC:Kuratierte Kultur, Natur und Erlebnisse im Landkreis Ebersberg für Erwachsene, Jugendliche und Kinder.
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:20261113-coorie-moderner-celtic-folk@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+SUMMARY:COORIE – moderner Celtic Folk
+LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
+DESCRIPTION:Irisch-schottische Tradition und eigene Songs. Eintritt 
+ frei\, Hutspenden\; Reservierung per E-Mail an reservierung@schrott
+ galerie.de. Mehr Informationen: https://schrottgalerie.de/freitag-1
+ 3-november-26-coorie/
+URL:https://schrottgalerie.de/freitag-13-november-26-coorie/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-black-patti-talkin-roots@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261114T193000
+SUMMARY:Black Patti – Talkin’ Roots
+LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
+DESCRIPTION:Musikalischer Vortrag zur Geschichte afroamerikanischer 
+ Musik und ihrer Aufzeichnung. Eintritt frei\, Hutspenden\; Reservie
+ rung empfohlen. Mehr Informationen: https://schrottgalerie.de/black
+ -patti-talkin-roots/
+URL:https://schrottgalerie.de/black-patti-talkin-roots/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-grado-gluhturm-geschichten-und-musik@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261119T183000
+SUMMARY:GraDo – Glühturm: Geschichten und Musik
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Adventlicher Literatur- und Musikabend mit Robert Wetter
+ stetter\, Wolfgang Hofer\, Albert Zimmerer und Lisa Lohmaier. Eintr
+ itt frei\; Platzreservierung erforderlich. Mehr Informationen: http
+ s://www.stadthalle-grafing.de/
+URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-vernissage-club-der-grafinger-maler@ebe-raus-aus-dem-ha
+ us
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+SUMMARY:Vernissage – Club der Grafinger Maler
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Vernissage der Kunstausstellung zugunsten des Tierschutz
+ vereins Ebersberg. Eintritt frei. Mehr Informationen: https://www.s
+ tadthalle-grafing.de/
+URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-helt-oncale-louisiana-music@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261120T193000
+SUMMARY:Helt Oncale – Louisiana Music
+LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
+DESCRIPTION:Blues\, Cajun\, Swing und Folk aus New Orleans. Eintritt
+  frei\, Hutspenden\; Reservierung empfohlen. Mehr Informationen: ht
+ tps://schrottgalerie.de/helt-oncale/
+URL:https://schrottgalerie.de/helt-oncale/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-johnny-the-yooahoos-indie-folk-und-bluegrass@ebe-raus-a
+ us-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261121T193000
+SUMMARY:Johnny & The Yooahoos – Indie-Folk und Bluegrass
+LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
+DESCRIPTION:Dreistimmiger Gesang\, Banjo\, Mandoline und Americana. 
+ Eintritt frei\, Hutspenden\; Reservierung empfohlen. Mehr Informati
+ onen: https://schrottgalerie.de/johnny-the-yooahoos-4/
+URL:https://schrottgalerie.de/johnny-the-yooahoos-4/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-fernweh-nach-glonn-lyrik-prosa-und-musik@ebe-raus-aus-d
+ em-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261127T193000
+SUMMARY:Fernweh nach Glonn – Lyrik\, Prosa und Musik
+LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
+DESCRIPTION:Frauenneuhartinger Rezitationstrio mit Banda Balorda. Ei
+ ntritt frei\, Hutspenden\; Reservierung empfohlen. Mehr Information
+ en: https://schrottgalerie.de/frauenneuhartinger-rezitationstrio-fe
+ at-banda-balorda/
+URL:https://schrottgalerie.de/frauenneuhartinger-rezitationstrio-fea
+ t-banda-balorda/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-operation-heil-krauter-kabarett-und-zeitgesch@ebe-raus-
+ aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+SUMMARY:Operation HEIL!Kräuter – Kabarett und Zeitgeschichte
+LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
+DESCRIPTION:Historische Kabarettchansons und Texte der 1930er Jahre\
+ , mit Hintergründen zur Verfolgung von Künstlern. Eintritt frei\, H
+ utspenden\; Reservierung empfohlen. Mehr Informationen: https://sch
+ rottgalerie.de/operation-heilkrauter/
+URL:https://schrottgalerie.de/operation-heilkrauter/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261203-wasteland-rudi-baumann-friends@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261203T200000
+SUMMARY:Wasteland & Rudi Baumann + Friends
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Liveabend von Folk bis Rock mit Albumvorstellung von Was
+ teland. Eintritt 15 EUR\, Abendkasse. Mehr Informationen: https://w
+ ww.stadthalle-grafing.de/
+URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-arnulf-rating-jahrespresseschau-2026@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Arnulf Rating – Jahrespresseschau 2026
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Politisches Kabarett zum Nachrichtenjahr 2026. Tickets a
+ b 30 EUR. Mehr Informationen: https://www.stadthalle-grafing.de/
+URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-feliz-navidad-andalusische-weihnacht-flamenco@ebe-raus-
+ aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Feliz Navidad – Andalusische Weihnacht & Flamenco
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Flamenco\, Villancicos\, Gitarre\, Cello\, Gesang und Ta
+ nz. Tickets ab 23 EUR. Mehr Informationen: https://www.stadthalle-g
+ rafing.de/
+URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
