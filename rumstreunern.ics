@@ -7,4 +7,70 @@ X-WR-CALNAME:Einladung zum Rumstreunern
 X-WR-CALDESC:Kuratierte Kunst, Kultur, Theater, Design, Musik, Tanz, Stadtleben und Mitmachangebote fuer Erwachsene in Muenchen.
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:fofs-2026@rumstreunern.ics
+DTSTAMP:20261110T055700Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261121
+SUMMARY:Festival of Future Storytellers – Kurzfilm und neue Erzählformen
+LOCATION:HFF München / Arena Kino / weitere Orte\, München
+DESCRIPTION:Eine Woche junges internationales Kino\, Filmgespräche\, offene Panels und experimentelle Medienformate. Besonders spannend für Kurzfilm- und Designneugierige.
+URL:https://www.future-storytellers.de/de/programm/filme/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fofs-transmedia-2026@rumstreunern.ics
+DTSTAMP:20261110T055700Z
+DTSTART;TZID=Europe/Berlin:20261118T100000
+DTEND;TZID=Europe/Berlin:20261118T180000
+SUMMARY:Transmedia Day – Film\, Games und Storytelling
+LOCATION:HFF München\, Bernd-Eichinger-Platz 1\, München
+DESCRIPTION:Talks und Workshops darüber\, wie Geschichten über Film\, Bücher und Games hinweg neue Welten bilden. Teil des Festival of Future Storytellers.
+URL:https://creatifcenter.com/transmedia-day-festival-of-future-storytellers-2026/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kinoasyl-opening-2026@rumstreunern.ics
+DTSTAMP:20261110T055700Z
+DTSTART;TZID=Europe/Berlin:20261122T190000
+DTEND;TZID=Europe/Berlin:20261122T213000
+SUMMARY:KINO ASYL – Festivaleröffnung im Volkstheater
+LOCATION:Münchner Volkstheater\, München
+DESCRIPTION:Filmfestival mit persönlich kuratierten Perspektiven geflüchteter Menschen. Besondere Eröffnung mit Filmblöcken und Austausch\; Ticket erforderlich.
+URL:https://kinoasyl.de/eroeffnung_2026
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kinoasyl-hp8-2026@rumstreunern.ics
+DTSTAMP:20261110T055700Z
+DTSTART;TZID=Europe/Berlin:20261124T180000
+DTEND;TZID=Europe/Berlin:20261124T200000
+SUMMARY:KINO ASYL – Filme aus unserer Heimat
+LOCATION:Gasteig HP8\, Projektor\, München
+DESCRIPTION:Kostenloser Filmabend mit kuratierten Geschichten aus unterschiedlichen Herkunftsländern – Kino als Einladung zum Perspektivwechsel.
+URL:https://www.gasteig.de/veranstaltungen/kino-asyl-2026/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kinoasyl-kammerspiele-2026@rumstreunern.ics
+DTSTAMP:20261110T055700Z
+DTSTART;TZID=Europe/Berlin:20261125T193000
+DTEND;TZID=Europe/Berlin:20261125T220000
+SUMMARY:KINO ASYL in den Kammerspielen
+LOCATION:Münchner Kammerspiele\, Werkraum\, München
+DESCRIPTION:Ausgewählte Filme\, vorgestellt von Kuratorinnen und Kuratoren mit Fluchterfahrung\, mit anschließendem Gespräch. Kostenfreie Zählkarten.
+URL:https://www.dieneuesituation.de/de/programm/54033-kino-asyl-2026
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kinoasyl-bellevue-2026@rumstreunern.ics
+DTSTAMP:20261110T055700Z
+DTSTART;TZID=Europe/Berlin:20261127T190000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:KINO ASYL – Festivalabend im Bellevue di Monaco
+LOCATION:Bellevue di Monaco\, Müllerstraße 2–6\, München
+DESCRIPTION:Persönlich ausgewählte Filme aus verschiedenen Filmkulturen\; ein ungewöhnlicher Abend zwischen Kino und Begegnung.
+URL:https://kinoasyl.de/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
