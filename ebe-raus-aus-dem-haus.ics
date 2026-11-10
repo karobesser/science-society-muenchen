@@ -356,4 +356,47 @@ DESCRIPTION:Swing-Tanzabend zum Mitmachen. Weitere Informa
 URL:https://kultur-in-ebersberg.de/ort/altes-kino/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261114-architektur-der-gefahrtinnenschaft-werkabend
+ @ebe-raus-aus-dem-haus
+DTSTAMP:20261110T054300Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Architektur der Gefährtinnenschaft – Werkabend
+LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei 
+ Grafing
+DESCRIPTION:Experimenteller offener Werkabend zu Tanz\, K
+ lang und bildender Kunst\; begehbare Performance. Eintri
+ tt frei\, Spenden willkommen.
+URL:https://www.meta-theater.com/8035-architektur-der-gef
+ aehrtinnenschaft-meta-theater-stipendium/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-sudan-verstehen-film-und-gesprach@ebe-raus-a
+ us-dem-haus
+DTSTAMP:20261110T054300Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+SUMMARY:Sudan verstehen – Film und Gespräch
+LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei 
+ Grafing
+DESCRIPTION:Film KHARTOUM (2025) in arabischer Originalfa
+ ssung mit deutschen Untertiteln\; anschließendes Gespräc
+ h über Sudan mit Abdalla Abakar und weiteren Gästen.
+URL:https://www.meta-theater.com/7958-sudan-verstehen-fil
+ mabend-und-gespraech/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-kleine-schritte-schauspiel@ebe-raus-aus-dem-
+ haus
+DTSTAMP:20261110T054300Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Kleine Schritte – Schauspiel
+LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei 
+ Grafing
+DESCRIPTION:Schlosstheater Thurnau: ein Schauspiel über P
+ arkinson\, Begegnung und Hoffnung.
+URL:https://www.meta-theater.com/category/aktuell/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
