@@ -329,4 +329,70 @@ URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muench
  en
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261111-1000-quanten-energienetze@science-society-muenchen
+DTSTAMP:20261110T053200Z
+DTSTART;TZID=Europe/Berlin:20261111T100000
+DTEND;TZID=Europe/Berlin:20261111T110000
+SUMMARY:Nachhaltigkeit: effizientere Energienetze dank Quantencomputing
+LOCATION:LMU\, Amalienstraße 52\, Seminarraum 402\, München
+DESCRIPTION:Vortrag im Rahmen der LMU Sustainability Week zu Quantencompu
+ ting und Energiewende\, anschließend Fragen. Weitere Informationen: htt
+ ps://www.lmu.de/de/newsroom/veranstaltungskalender/veranstaltung/nachhal
+ tigkeit-effizientere-energienetze-dank-quantencomputing-07e0b1b3.html
+URL:https://www.lmu.de/de/newsroom/veranstaltungskalender/veranstaltung/n
+ achhaltigkeit-effizientere-energienetze-dank-quantencomputing-07e0b1b3.h
+ tml
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-1815-osmanische-bildung@science-society-muenchen
+DTSTAMP:20261110T053200Z
+DTSTART;TZID=Europe/Berlin:20261201T181500
+DTEND;TZID=Europe/Berlin:20261201T190000
+SUMMARY:Was Osmanen wissen sollten: Wandel höherer Bildung 1730–1840
+LOCATION:LMU Hauptgebäude\, Hörsaal M010\, Geschwister-Scholl-Platz 1\,
+  München
+DESCRIPTION:Öffentlicher Vortrag von Prof. Henning Sievert in der Reihe 
+ Basiswissen Islam über Bildung und gesellschaftlichen Wandel im Osmanis
+ chen Reich. Weitere Informationen: https://www.kw.lmu.de/inmo/de/aktuell
+ es/veranstaltungsuebersicht/veranstaltung/basiswissen-islam-73-ce230626.
+ html
+URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/vera
+ nstaltung/basiswissen-islam-73-ce230626.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261208-1815-handschriften-bsb@science-society-muenchen
+DTSTAMP:20261110T053200Z
+DTSTART;TZID=Europe/Berlin:20261208T181500
+DTEND;TZID=Europe/Berlin:20261208T190000
+SUMMARY:Arabische\, persische und osmanische Handschriften an der BSB
+LOCATION:LMU Hauptgebäude\, Hörsaal M010\, Geschwister-Scholl-Platz 1\,
+  München
+DESCRIPTION:Öffentlicher Vortrag von Felix Wiedemann und Mirja Dorothée
+  Weinmann über Handschriftenbestände und Kulturgeschichte\, Reihe Basi
+ swissen Islam. Weitere Informationen: https://www.kw.lmu.de/inmo/de/aktu
+ elles/veranstaltungsuebersicht/veranstaltung/basiswissen-islam-74-be2424
+ 47.html
+URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/vera
+ nstaltung/basiswissen-islam-74-be242447.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261210-1815-mihrab-architektur@science-society-muenchen
+DTSTAMP:20261110T053200Z
+DTSTART;TZID=Europe/Berlin:20261210T181500
+DTEND;TZID=Europe/Berlin:20261210T200000
+SUMMARY:Der Mihrab: Entstehung der Gebetsnische in islamischer Architektu
+ r
+LOCATION:LMU\, Raum 009\, Veterinärstraße 1\, München
+DESCRIPTION:Vortrag von Johanna Moussian zur politischen und symbolischen
+  Bedeutung frühislamischer Sakralarchitektur. Weitere Informationen: ht
+ tps://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/veranstal
+ tung/vortrag-von-johanna-moussian-ma-wien-782981ef.html
+URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/vera
+ nstaltung/vortrag-von-johanna-moussian-ma-wien-782981ef.html
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
