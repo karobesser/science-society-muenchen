@@ -4,9 +4,43 @@ PRODID:-//Einladung zum Rumstreunern//Kulturkalender//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Einladung zum Rumstreunern
-X-WR-CALDESC:Kuratierte Kunst, Kultur, Theater, Design, Musik, Tanz, Stadtleben und Mitmachangebote fuer Erwachsene in Muenchen.
+X-WR-CALDESC:Kuratierte Kunst\, Kultur\, Theater\, Design\, Musik\, Tanz\, 
+ Stadtleben und Mitmachangebote für Erwachsene in München.
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19960331T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20261112-florida-word@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261112T190000
+DTEND;TZID=Europe/Berlin:20261112T220000
+SUMMARY:word – Vernissage und Lesungen
+LOCATION:FLORIDA Lothringer 13\, Lothringer Straße 13\, München
+DESCRIPTION:Künstlerisch geführte Verlage zeigen Publizieren als eigene K
+ unstform. Der neue Verlag Fiftycents stellt seine ersten drei Publikatione
+ n vor. Lesungen 19:30–20:30. Ausstellung bis 22.11. Ein ungewöhnlicher 
+ Blick in die unabhängige Kunstbuchszene.
+URL:https://floridalothringer13.org/program/word
+CATEGORIES:Kunst,Design,Literatur
+STATUS:CONFIRMED
+END:VEVENT
 BEGIN:VEVENT
 UID:fofs-2026@rumstreunern.ics
 DTSTAMP:20261110T055700Z
@@ -14,8 +48,56 @@ DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261121
 SUMMARY:Festival of Future Storytellers – Kurzfilm und neue Erzählformen
 LOCATION:HFF München / Arena Kino / weitere Orte\, München
-DESCRIPTION:Eine Woche junges internationales Kino\, Filmgespräche\, offene Panels und experimentelle Medienformate. Besonders spannend für Kurzfilm- und Designneugierige.
+DESCRIPTION:Eine Woche junges internationales Kino\, Filmgespräche\, offen
+ e Panels und experimentelle Medienformate. Besonders spannend für Kurzfil
+ m- und Designneugierige.
 URL:https://www.future-storytellers.de/de/programm/filme/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261113-bbk-foerderpreis@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261113T180000
+DTEND;TZID=Europe/Berlin:20261113T200000
+SUMMARY:BBK-Förderpreis – Preisverleihung und junge Kunst
+LOCATION:Galerie der Künstler*innen\, Maximilianstraße 42\, München
+DESCRIPTION:Drei künstlerische Positionen zu Erinnerung\, digitaler Identi
+ tät und dem Verhältnis von Mensch\, Tier und Technik. Bei der Preisverle
+ ihung lässt sich die aktuelle Münchner Kunstszene entdecken. Eintritt fr
+ ei. Ausstellung bis 20.11.
+URL:https://bbk-muc-obb.de/event/foerderpreis-des-bbk-muenchen-und-oberbaye
+ rn-2026/
+CATEGORIES:Kunst
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-pathos-glitsh7@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261114T210000
+DTEND;TZID=Europe/Berlin:20261114T220000
+SUMMARY:GLITSH #07 – absurde Textwerkstatt und Jubiläumsparty
+LOCATION:PATHOS theater\, Dachauer Straße 110d\, München
+DESCRIPTION:Zum zehnjährigen Bestehen des Netzwerks Münchner Theatertexte
+ r*innen wird aus Beiträgen eine absurde Bühnen-Textcollage. Anschließen
+ d Party bis 1 Uhr. Einlass ab 20 Uhr. Tickets ab 10 € (Mindestpreis).
+URL:https://www.pathos.theater/veranstaltungen/2026/2026_11-12/11_14_Glitsh
+ 7.php
+CATEGORIES:Theater,Performance,Literatur
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261116-dokfest-schwere-reiter@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+DTEND;TZID=Europe/Berlin:20261116T201500
+SUMMARY:DOK.fest goes schwere reiter – zwei Kurzfilme und Artist Talk
+LOCATION:schwere reiter studio\, Dachauer Straße 114a\, München
+DESCRIPTION:Zwei dokumentarische Arbeiten über Identität\, Beziehungen un
+ d die Erfahrung\, sich zu bewegen oder es nicht mehr zu können. Im Anschl
+ uss Gespräch mit den Filmschaffenden. 9 €.
+URL:https://www.pathos.theater/veranstaltungen/2026/2026_11-12/DOK.fest_sch
+ were_reiter.php
+CATEGORIES:Film,Performance
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -25,52 +107,221 @@ DTSTART;TZID=Europe/Berlin:20261118T100000
 DTEND;TZID=Europe/Berlin:20261118T180000
 SUMMARY:Transmedia Day – Film\, Games und Storytelling
 LOCATION:HFF München\, Bernd-Eichinger-Platz 1\, München
-DESCRIPTION:Talks und Workshops darüber\, wie Geschichten über Film\, Bücher und Games hinweg neue Welten bilden. Teil des Festival of Future Storytellers.
-URL:https://creatifcenter.com/transmedia-day-festival-of-future-storytellers-2026/
+DESCRIPTION:Talks und Workshops darüber\, wie Geschichten über Film\, Bü
+ cher und Games hinweg neue Welten bilden. Teil des Festival of Future Stor
+ ytellers.
+URL:https://creatifcenter.com/transmedia-day-festival-of-future-storyteller
+ s-2026/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kinoasyl-opening-2026@rumstreunern.ics
-DTSTAMP:20261110T055700Z
+DTSTAMP:20261111T060229Z
 DTSTART;TZID=Europe/Berlin:20261122T190000
-DTEND;TZID=Europe/Berlin:20261122T213000
 SUMMARY:KINO ASYL – Festivaleröffnung im Volkstheater
 LOCATION:Münchner Volkstheater\, München
-DESCRIPTION:Filmfestival mit persönlich kuratierten Perspektiven geflüchteter Menschen. Besondere Eröffnung mit Filmblöcken und Austausch\; Ticket erforderlich.
+DESCRIPTION:Festivalauftakt mit Osun – The River in Me und Generation Ukr
+ aine. Persönlich kuratierte Filmgeschichten aus Nigeria und der Ukraine. 
+ Tickets 6 € über das Volkstheater oder kostenfreie Ticketanfrage beim F
+ estival. Ende nicht veröffentlicht.
 URL:https://kinoasyl.de/eroeffnung_2026
+STATUS:CONFIRMED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261123-impact-theater-offen@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261123T183000
+DTEND;TZID=Europe/Berlin:20261123T203000
+SUMMARY:IMPACT Theater Offen – selbst improvisieren
+LOCATION:Import Export\, Schwere-Reiter-Straße 2h\, München
+DESCRIPTION:Offene Theaterwerkstatt mit Bewegung\, Improvisation und Texten
+ . Schauspielerische Mittel ausprobieren\, ohne Vorkenntnisse oder Verpflic
+ htung zu einem Kurs. Ab 18 Jahren\, kostenfrei\, ohne Anmeldung.
+URL:https://import-export.cc/event/impact-theater-offen-11/
+CATEGORIES:Mitmachen,Theater,Workshop
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kinoasyl-hp8-2026@rumstreunern.ics
-DTSTAMP:20261110T055700Z
+DTSTAMP:20261111T060229Z
 DTSTART;TZID=Europe/Berlin:20261124T180000
-DTEND;TZID=Europe/Berlin:20261124T200000
 SUMMARY:KINO ASYL – Filme aus unserer Heimat
 LOCATION:Gasteig HP8\, Projektor\, München
-DESCRIPTION:Kostenloser Filmabend mit kuratierten Geschichten aus unterschiedlichen Herkunftsländern – Kino als Einladung zum Perspektivwechsel.
+DESCRIPTION:Kostenloser Filmabend: I still stand. und Nachbarn (Drama/Komö
+ die über ein kurdisches Dorf). Der spätere Film Donbass beginnt laut Gas
+ teig um 21:30\, laut Festival um 21:15. Das Kinderprogramm am Vormittag is
+ t nicht Teil dieses Eintrags.
 URL:https://www.gasteig.de/veranstaltungen/kino-asyl-2026/
 STATUS:CONFIRMED
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:kinoasyl-kammerspiele-2026@rumstreunern.ics
-DTSTAMP:20261110T055700Z
-DTSTART;TZID=Europe/Berlin:20261125T193000
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261125T191500
 DTEND;TZID=Europe/Berlin:20261125T220000
 SUMMARY:KINO ASYL in den Kammerspielen
 LOCATION:Münchner Kammerspiele\, Werkraum\, München
-DESCRIPTION:Ausgewählte Filme\, vorgestellt von Kuratorinnen und Kuratoren mit Fluchterfahrung\, mit anschließendem Gespräch. Kostenfreie Zählkarten.
+DESCRIPTION:Kurzfilme aus Jemen und Afghanistan sowie None of Your Business
+  aus Iran\, mit Gesprächen. Eintritt frei\, kostenfreie Zählkarten. Fest
+ ivalprogramm nennt 19:15 Uhr\, Kammerspiele 19:30 Uhr\; zur Sicherheit ab 
+ 19:15 vor Ort sein.
 URL:https://www.dieneuesituation.de/de/programm/54033-kino-asyl-2026
+STATUS:CONFIRMED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-poetry-hiphop@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+SUMMARY:Poetry & Hip-Hop – das letzte Kapitel
+LOCATION:Import Export\, Schwere-Reiter-Straße 2h\, München
+DESCRIPTION:Der letzte reguläre Münchner Abend dieses Formats: Spoken Wor
+ d\, Rap\, persönliche und politische Texte sowie Beats treffen auf Clubku
+ ltur. Kein klassischer Slam. Einlass 19:30. VVK 10 € zzgl. Gebühr\, Abe
+ ndkasse 15 €.
+URL:https://import-export.cc/event/poetry-hip-hop-10/
+CATEGORIES:Literatur,Musik,Performance
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-brandhorst-muholi@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261126T183000
+DTEND;TZID=Europe/Berlin:20261126T203000
+SUMMARY:Zanele Muholi – Artist Talk und Der Greif
+LOCATION:Museum Brandhorst\, Theresienstraße 35a\, München
+DESCRIPTION:Die international bedeutende südafrikanische Fotokunst verbind
+ et visuelle Selbstbestimmung und Aktivismus. Gespräch zur neuen Ausgabe v
+ on Der Greif und zu Körper\, Gemeinschaft und Umwelt. Auf Englisch\, Eint
+ ritt frei\, ohne Anmeldung. Ausstellungen bis 21 Uhr geöffnet.
+URL:https://www.museum-brandhorst.de/en/events/artist-talk-with-zanele-muho
+ li-on-the-occasion-of-the-new-issue-of-der-greif/?t=17957178002030
+CATEGORIES:Kunst,Fotografie
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-ten-thousand-hours@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261126T193000
+DTEND;TZID=Europe/Berlin:20261126T203000
+SUMMARY:Ten Thousand Hours – zeitgenössischer Zirkus
+LOCATION:Grand Chapiteau\, Tollwood Winterfestival\, Theresienwiese\, Münc
+ hen
+DESCRIPTION:Gravity & Other Myths aus Australien: acht Akrobat*innen und Li
+ ve-Percussion zeigen\, wie Vertrauen\, Übung und Zusammenarbeit körperli
+ che Höchstleistungen ermöglichen. Ab 38 €. Weitere Vorstellungen 25.
+ –28.11. um 19:30\, 28.11. zusätzlich 16:30\, 29.11. um 18 Uhr.
+URL:https://www.tollwood.de/veranstaltungen/2026/ten-thousand-hours/
+CATEGORIES:Zirkus,Performance
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:kinoasyl-bellevue-2026@rumstreunern.ics
-DTSTAMP:20261110T055700Z
-DTSTART;TZID=Europe/Berlin:20261127T190000
-DTEND;TZID=Europe/Berlin:20261127T210000
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
 SUMMARY:KINO ASYL – Festivalabend im Bellevue di Monaco
 LOCATION:Bellevue di Monaco\, Müllerstraße 2–6\, München
-DESCRIPTION:Persönlich ausgewählte Filme aus verschiedenen Filmkulturen\; ein ungewöhnlicher Abend zwischen Kino und Begegnung.
+DESCRIPTION:Festivalabschluss: um 18 Uhr Traces\, ein Dokumentarfilm über 
+ ukrainische Frauen und Kriegsfolgen. Um 20:15 Uhr Filme aus dem Irak und U
+ ganda. Eintritt frei. Zwei Filmblöcke\, kein festes Ende veröffentlicht.
 URL:https://kinoasyl.de/
+STATUS:CONFIRMED
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-pathos-goldclit@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+DTEND;TZID=Europe/Berlin:20261128T211500
+SUMMARY:Goldclit – Jane Bond und das umgekehrte Patriarchat
+LOCATION:PATHOS theater\, Dachauer Straße 110d\, München
+DESCRIPTION:Feministische Theatersatire von Klara Pfeiffer & Team: Eine Age
+ ntin verteidigt ein Matriarchat. Der Rollentausch legt Machtverhältnisse 
+ und Absurditäten rund um Sexualität offen. Zweite Vorstellung 29.11. um 
+ 18 Uhr. Tickets ab 10 € (Mindestpreis).
+URL:https://www.pathos.theater/veranstaltungen/2026/2026_11-12/11_28_Goldcl
+ it.php
+CATEGORIES:Theater,Performance
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261129-german-design-graduates-finissage@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261129T100000
+DTEND;TZID=Europe/Berlin:20261129T180000
+SUMMARY:Make It Make Sense – letzter Ausstellungstag
+LOCATION:Die Neue Sammlung\, Pinakothek der Moderne\, Barer Straße 40\, M
+ ünchen
+DESCRIPTION:Rund 70 ausgewählte Abschlussarbeiten aus 28 deutschen Hochsch
+ ulen zeigen\, wie junge Gestalter*innen mit Materialien\, digitalen Medien
+  und gesellschaftlichen Fragen umgehen. Heute letzte Gelegenheit\; regulä
+ rer Museumsbesuch während der Öffnungszeiten\, kein gesonderter Finissag
+ e-Termin.
+URL:https://www.die-neue-sammlung.de/ausstellung/gdg-2026/
+CATEGORIES:Design,Kunst
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-triptych@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261202T193000
+DTEND;TZID=Europe/Berlin:20261202T202500
+SUMMARY:Triptych – Deutschlandpremiere zeitgenössischer Tanz
+LOCATION:Grand Chapiteau\, Tollwood Winterfestival\, Theresienwiese\, Münc
+ hen
+DESCRIPTION:Lewis Major Projects verbindet in drei Teilen Tanz\, Musik und 
+ Licht zu einer poetischen Bühnenerfahrung. Preisgekrönte Produktion\, au
+ ch ohne Tanzvorkenntnisse zugänglich. Ab 38 €. Weitere Termine 3.–5. 
+ und 8.–9.12. um 19:30 sowie 6.12. um 18 Uhr.
+URL:https://www.tollwood.de/veranstaltungen/2026/triptych/
+CATEGORIES:Tanz,Performance
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261208-pathos-salon-afterglow6@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261208T190000
+DTEND;TZID=Europe/Berlin:20261208T210000
+SUMMARY:Salon Afterglow #06 – Blühender Abschied
+LOCATION:Die Pförtner*in\, Dachauer Straße 110a\, München
+DESCRIPTION:Ein kleiner künstlerischer Salon für FLINTA*-Personen über A
+ bschiede\, Übergänge und das\, was bleibt. Texte\, Austausch und perform
+ ative Impulse von Team Beige. Eintritt frei\, Anmeldung an vermittlung@pat
+ hos.theater erbeten.
+URL:https://www.pathos.theater/veranstaltungen/2026/2026_05-06/06_25_Salon_
+ Afterglow.php
+CATEGORIES:Literatur,Performance,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261209-import-export-weihnachtsbazar@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261209T160000
+SUMMARY:Import Export Weihnachtsbazar – Secondhand\, Vinyl und Workshops
+LOCATION:Import Export\, Schwere-Reiter-Straße 2h\, München
+DESCRIPTION:Ein kreativer Nachbarschaftsbazar mit Secondhand\, Schallplatte
+ n\, Musik und Mitmachangeboten statt klassischem Weihnachtsmarkt. Stände 
+ ab 16 Uhr\, Workshops ab 17 Uhr. Eintritt gegen Spende.
+URL:https://import-export.cc/event/import-export-weihnachtsbazar/
+CATEGORIES:Markt,Design,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261210-habibi-toxic-technocultures@rumstreunern.ics
+DTSTAMP:20261111T060229Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210500
+SUMMARY:Toxic (Techno)cultures – Vernissage und Listening Session
+LOCATION:Habibi Kiosk\, Maximilianstraße 28\, München
+DESCRIPTION:19 Uhr Ausstellungseröffnung zu digitalen Körperbildern\, Mac
+ ht und Gegenstrategien. Um 20 Uhr folgt Luïza Luz mit einer englischsprac
+ higen Listening Session und Buchvorstellung (65 Min.). Kostenfrei. Ausstel
+ lung bis 29.1.2027.
+URL:https://www.muenchner-kammerspiele.de/de/programm/54862-toxic-techno-cu
+ ltures
+CATEGORIES:Kunst,Performance,Medien
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
