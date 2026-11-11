@@ -4,20 +4,146 @@ PRODID:-//EBE Raus aus dem Haus//Events Calendar//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:EBE – Raus aus dem Haus!
-X-WR-CALDESC:Kuratierte Kultur, Natur und Erlebnisse im Landkreis Ebersberg für Erwachsene, Jugendliche und Kinder.
+X-WR-CALDESC:Kuratierte Kultur, Natur und Erlebnisse im Landkreis Ebersberg
+  für Erwachsene, Jugendliche und Kinder.
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20261111-mittwochskino-ein-kuchen-fur-den-prasidenten@ebe-raus-aus-dem-
+ haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261111T200000
+SUMMARY:Mittwochskino: Ein Kuchen für den Präsidenten
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Hasan Hadis Film über ein Schulkind im Irak unter Saddam Husse
+ in\, das einen Geburtstagskuchen für den Präsidenten besorgen muss. 105 
+ Min. Abendkasse 7–10 EUR\; Einlass 19 Uhr\; Reservierung online.
+URL:https://kultur-in-ebersberg.de/programm/ein-kuchen-fuer-den-praesidente
+ n/
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261111T214500
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261113-platzchenbacken-im-chaxter@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261113T160000
+SUMMARY:Plätzchenbacken im CHAXTER
+LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
+DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 5 EUR\; Anmeldung beim CHAXTER. Wei
+ tere Informationen: https://www.grafing.de/kultur-bildung-soziales/kinder-
+ familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-grafing/novemberan
+ gebote-im-chaxter
+URL:https://www.grafing.de/kultur-bildung-soziales/kinder-familie/jugendpfl
+ ege/chaxter-das-schuelercafe-der-stadt-grafing/novemberangebote-im-chaxter
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261113T190000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261113-apulien-fotovernissage@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261113T193000
+SUMMARY:Apulien – Fotovernissage und Bilderschau
+LOCATION:Gemeindebücherei\, Schulstraße 7\, Zorneding
+DESCRIPTION:Wolfgang Göbler zeigt Fotografien aus Apulien und ergänzt die
+  Vernissage durch einen Vortrag und eine kurze audiovisuelle Schau. Eintri
+ tt frei.
+URL:https://www.zorneding.de/Wohnen-Leben/Gemeindeb%C3%BCcherei/Veranstaltu
+ ngen/
+CATEGORIES:Kunst
+STATUS:CONFIRMED
+END:VEVENT
 BEGIN:VEVENT
 UID:20261113-coorie-moderner-celtic-folk@ebe-raus-aus-dem-haus
 DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261113T193000
 SUMMARY:COORIE – moderner Celtic Folk
 LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Irisch-schottische Tradition und eigene Songs. Eintritt 
- frei\, Hutspenden\; Reservierung per E-Mail an reservierung@schrott
- galerie.de. Mehr Informationen: https://schrottgalerie.de/freitag-1
- 3-november-26-coorie/
+DESCRIPTION:Irisch-schottische Tradition und eigene Songs. Eintritt frei\, 
+ Hutspenden\; Reservierung per E-Mail an reservierung@schrottgalerie.de. Me
+ hr Informationen: https://schrottgalerie.de/freitag-13-november-26-coorie/
 URL:https://schrottgalerie.de/freitag-13-november-26-coorie/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-muellsammeln-eglharting@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261114T100000
+DTEND;TZID=Europe/Berlin:20261114T120000
+SUMMARY:Müllsammelaktion – Naturschutz zum Mitmachen
+LOCATION:Treffpunkt Urgibl\, Eglharting\, Kirchseeon
+DESCRIPTION:Öffentliche Mitmachaktion der BUND-Naturschutz-Ortsgruppe Kirc
+ hseeon zum Schutz von Wildtieren vor Plastikmüll. Kontakt Beate Kiss\, 01
+ 57 35548686.
+URL:https://ebersberg.bund-naturschutz.de/termine/termin/og-kirchseeon-muel
+ lsammeln
+CATEGORIES:Natur,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-holzschnitt-selbst-drucken@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Holzschnitt – selbst drucken
+LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, Ebersberg
+DESCRIPTION:Ältestes grafisches Druckverfahren ausprobieren und verschiede
+ ne Holzarten kennenlernen. Für Erwachsene und Familien ab 8 Jahren. Erwac
+ hsene 20 EUR\, Kinder 10 EUR inkl. Material\; Anmeldung beim Museum erford
+ erlich.
+URL:https://www.museumwaldundumwelt.de/programm/aktuell
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261114T180000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-stadtfuhrung-starke-frauen-in-grafing@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261114T140000
+SUMMARY:Stadtführung: Starke Frauen in Grafing
+LOCATION:Bronzesäule hinter dem Rathaus\, Marktplatz 28\, Grafing
+DESCRIPTION:Brigitte Binder führt zu bedeutenden Frauen aus Grafings Gesch
+ ichte\, darunter Unternehmerinnen und Künstlerinnen. Dauer ca. 2–2\,5 S
+ tunden. Vorverkauf 10 EUR\, Tageskasse 12\,50 EUR\; Tickets online oder be
+ i Bücher Herzog.
+URL:https://www.grafing.de/wirtschaft-und-tourismus/wirtschaftsfoerderung/s
+ tadtfuehrungen-im-november
+STATUS:CONFIRMED
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-architektur-der-gefahrtinnenschaft-werkabend@ebe-raus-aus-dem-
+ haus
+DTSTAMP:20261110T054300Z
+DTSTART;TZID=Europe/Berlin:20261114T190000
+SUMMARY:Architektur der Gefährtinnenschaft – Werkabend
+LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei Grafing
+DESCRIPTION:Experimenteller offener Werkabend zu Tanz\, Klang und bildender
+  Kunst\; begehbare Performance. Eintritt frei\, Spenden willkommen.
+URL:https://www.meta-theater.com/8035-architektur-der-gefaehrtinnenschaft-m
+ eta-theater-stipendium/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -26,39 +152,146 @@ DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261114T193000
 SUMMARY:Black Patti – Talkin’ Roots
 LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Musikalischer Vortrag zur Geschichte afroamerikanischer 
- Musik und ihrer Aufzeichnung. Eintritt frei\, Hutspenden\; Reservie
- rung empfohlen. Mehr Informationen: https://schrottgalerie.de/black
- -patti-talkin-roots/
+DESCRIPTION:Musikalischer Vortrag zur Geschichte afroamerikanischer Musik u
+ nd ihrer Aufzeichnung. Eintritt frei\, Hutspenden\; Reservierung empfohlen
+ . Mehr Informationen: https://schrottgalerie.de/black-patti-talkin-roots/
 URL:https://schrottgalerie.de/black-patti-talkin-roots/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261119-grado-gluhturm-geschichten-und-musik@ebe-raus-aus-dem-h
- aus
+UID:20261115-messweintortenerpressung-anzing@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261115T190000
+SUMMARY:Die Messweintortenerpressung – Theaterverein Anzing
+LOCATION:Pfarrheim Anzing\, Erdinger Straße 1\, Anzing
+DESCRIPTION:Lokales Amateurtheater mit einer bayerischen Komödie. Einlass 
+ 18 Uhr. Weitere Aufführungen im Gemeindekalender am 20.\, 21. und 22.11.\
+ ; Karten beim Veranstalter erfragen.
+URL:https://www.anzing.de/termin/theaterverein-31/
+CATEGORIES:Theater
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261117-meine-antarktis-tagebucher-egon-dorrer@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261117T183000
+SUMMARY:Meine Antarktis-Tagebücher – Egon Dorrer
+LOCATION:Stadtbücherei\, Grenzstraße 5\, Grafing
+DESCRIPTION:Antarktisforscher Prof. Dr. Egon Dorrer berichtet von Expeditio
+ nen in den 1960er Jahren\; bis 21:30 Uhr. Weitere Informationen: https://w
+ ww.grafing.de/kultur-bildung-soziales/kultur-unterhaltung/stadtbuecherei/v
+ eranstaltungen-in-der-stadtbuecherei
+URL:https://www.grafing.de/kultur-bildung-soziales/kultur-unterhaltung/stad
+ tbuecherei/veranstaltungen-in-der-stadtbuecherei
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261117T213000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-parkour-basics-kids@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261118T100000
+DTEND;TZID=Europe/Berlin:20261118T130000
+SUMMARY:Parkour-Basics – Workshop für Kids
+LOCATION:Hauptschule\, Turnhalle 1\, Schulstraße 11\, Zorneding
+DESCRIPTION:Einmaliger Bewegungsworkshop mit Springen\, Klettern\, Balancie
+ ren und Hindernis-Challenges. 30 EUR\; Anmeldung bei der VHS Vaterstetten 
+ (W1856K). Bewegungskleidung und Hallenschuhe mitbringen.
+URL:https://www.vhs-vaterstetten.de/programm/spezielle-angebote/kurs/Parkou
+ r-Basics-Workshop-fuer-Kids/W1856K
+CATEGORIES:Jugend,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-mittwochskino-gelbe-briefe@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261118T200000
+SUMMARY:Mittwochskino: Gelbe Briefe
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:İlker Çataks Drama über ein Künstlerehepaar in Ankara\, des
+ sen Leben sich nach einer Theaterpremiere verändert. Goldener Bär der Be
+ rlinale. 127 Min. Abendkasse 7–10 EUR\; Einlass 19 Uhr\; Reservierung on
+ line.
+URL:https://kultur-in-ebersberg.de/programm/gelbe-briefe/
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261118T220700
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-grado-gluhturm-geschichten-und-musik@ebe-raus-aus-dem-haus
 DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261119T183000
 SUMMARY:GraDo – Glühturm: Geschichten und Musik
 LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
-DESCRIPTION:Adventlicher Literatur- und Musikabend mit Robert Wetter
- stetter\, Wolfgang Hofer\, Albert Zimmerer und Lisa Lohmaier. Eintr
- itt frei\; Platzreservierung erforderlich. Mehr Informationen: http
- s://www.stadthalle-grafing.de/
+DESCRIPTION:Adventlicher Literatur- und Musikabend mit Robert Wetterstetter
+ \, Wolfgang Hofer\, Albert Zimmerer und Lisa Lohmaier. Eintritt frei\; Pla
+ tzreservierung erforderlich. Mehr Informationen: https://www.stadthalle-gr
+ afing.de/
 URL:https://www.stadthalle-grafing.de/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261120-vernissage-club-der-grafinger-maler@ebe-raus-aus-dem-ha
- us
-DTSTAMP:20261109T054200Z
+UID:20261120-kicker-turnier-im-chaxter@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261120T170000
+SUMMARY:Kicker-Turnier im CHAXTER
+LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
+DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 1\,50 EUR inklusive Getränk\; Anme
+ ldung erforderlich. Weitere Informationen: https://www.grafing.de/kultur-b
+ ildung-soziales/kinder-familie/jugendpflege/chaxter-das-schuelercafe-der-s
+ tadt-grafing/novemberangebote-im-chaxter
+URL:https://www.grafing.de/kultur-bildung-soziales/kinder-familie/jugendpfl
+ ege/chaxter-das-schuelercafe-der-stadt-grafing/novemberangebote-im-chaxter
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261120T190000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-schattenarchive-vernissage@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261120T180000
+DTEND;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Schattenarchive / Die verschleierte Zeit – Vernissage
+LOCATION:Haus an der Lehrer-Schwab-Gasse\, Lehrer-Schwab-Gasse 6\, Ebersber
+ g
+DESCRIPTION:Vasco Kintzel und Sebastian Schoepp machen Familiengeschichte u
+ nd Erinnerung an das 20. Jahrhundert mit Objekten und Kunst sichtbar. Kurz
+ e Lesung zur Eröffnung. Ausstellung auch am 21. und 22.11. jeweils 12–1
+ 8 Uhr. Wochen der Toleranz.
+URL:https://www.kbw-ebersberg.de/veranstaltung/37937_schattenarchive-die-ve
+ rschleierte-zeit
+CATEGORIES:Kunst,Geschichte
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-sudan-verstehen-film-und-gesprach@ebe-raus-aus-dem-haus
+DTSTAMP:20261110T054300Z
+DTSTART;TZID=Europe/Berlin:20261120T190000
+SUMMARY:Sudan verstehen – Film und Gespräch
+LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei Grafing
+DESCRIPTION:Film KHARTOUM (2025) in arabischer Originalfassung mit deutsche
+ n Untertiteln\; anschließendes Gespräch über Sudan mit Abdalla Abakar u
+ nd weiteren Gästen.
+URL:https://www.meta-theater.com/7958-sudan-verstehen-filmabend-und-gesprae
+ ch/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-vernissage-club-der-grafinger-maler@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261120T190000
 SUMMARY:Vernissage – Club der Grafinger Maler
 LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
-DESCRIPTION:Vernissage der Kunstausstellung zugunsten des Tierschutz
- vereins Ebersberg. Eintritt frei. Mehr Informationen: https://www.s
- tadthalle-grafing.de/
+DESCRIPTION:Vernissage der Kunstausstellung zugunsten des Tierschutzvereins
+  Ebersberg. Eintritt frei. Die Ausstellung ist auch am 21. und 22.11. jewe
+ ils 9–19 Uhr geöffnet.
 URL:https://www.stadthalle-grafing.de/
 STATUS:CONFIRMED
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:20261120-helt-oncale-louisiana-music@ebe-raus-aus-dem-haus
@@ -66,53 +299,244 @@ DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261120T193000
 SUMMARY:Helt Oncale – Louisiana Music
 LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Blues\, Cajun\, Swing und Folk aus New Orleans. Eintritt
-  frei\, Hutspenden\; Reservierung empfohlen. Mehr Informationen: ht
- tps://schrottgalerie.de/helt-oncale/
+DESCRIPTION:Blues\, Cajun\, Swing und Folk aus New Orleans. Eintritt frei\,
+  Hutspenden\; Reservierung empfohlen. Mehr Informationen: https://schrottg
+ alerie.de/helt-oncale/
 URL:https://schrottgalerie.de/helt-oncale/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261121-johnny-the-yooahoos-indie-folk-und-bluegrass@ebe-raus-a
- us-dem-haus
+UID:20261121-ebru-papiermarmorierung-familien@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261121T100000
+DTEND;TZID=Europe/Berlin:20261121T130000
+SUMMARY:Ebru – Papiermarmorierung für Familien
+LOCATION:VHS Malatelier\, Baldhamer Straße 39\, Vaterstetten
+DESCRIPTION:Farbmuster auf Wasser gestalten und auf Papier übertragen. Fü
+ r Familien mit Kindern ab 7 Jahren. Deutsch/Englisch. Erwachsene 47 EUR\, 
+ Kinder 31 EUR inkl. Material\; Anmeldung VHS (W8510KE).
+URL:https://www.vhs-vaterstetten.de/programm/kreatives/kurs/Ebru-Kunst-die-
+ Welt-der-Papiermarmorierung/W8510KE
+CATEGORIES:Workshop,Familie
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-lebensborn-exkursion-steinhoering@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261121T143000
+DTEND;TZID=Europe/Berlin:20261121T163000
+SUMMARY:Exkursion: Lebensborn in Steinhöring
+LOCATION:Einrichtungsverbund Steinhöring\, Mehrzweckhalle\, Münchener Str
+ aße 39\, Steinhöring
+DESCRIPTION:Historikerin Anna Bräsel erläutert beim Vortrag und Rundgang 
+ die Geschichte des ehemaligen NS-Entbindungsheims und die Folgen der NS-Ra
+ ssenideologie. Anmeldung erwünscht\, nicht zwingend: g.ros@kjf-muenchen.d
+ e.
+URL:https://www.kbw-ebersberg.de/veranstaltung/37963_exkursion-lebensborn
+CATEGORIES:Geschichte,Exkursion
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-perchten-neufarn@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261121T190000
+SUMMARY:Kirchseeoner Perchten – Saisonauftakt in Neufarn
+LOCATION:Nähe Gasthof Stangl\, Neufarn\, Gemeinde Vaterstetten
+DESCRIPTION:Traditioneller Maskenlauf mit geschnitzten Masken\, Tanz und Gl
+ ocken. Auftakt der Kirchseeoner Perchtensaison\; regionales immaterielles 
+ Kulturerbe. Draußen\, wettergerechte Kleidung.
+URL:https://maskeum.de/laufplan-perchten/
+CATEGORIES:Brauchtum,Familie
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-johnny-the-yooahoos-indie-folk-und-bluegrass@ebe-raus-aus-dem-
+ haus
 DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261121T193000
 SUMMARY:Johnny & The Yooahoos – Indie-Folk und Bluegrass
 LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Dreistimmiger Gesang\, Banjo\, Mandoline und Americana. 
- Eintritt frei\, Hutspenden\; Reservierung empfohlen. Mehr Informati
- onen: https://schrottgalerie.de/johnny-the-yooahoos-4/
+DESCRIPTION:Dreistimmiger Gesang\, Banjo\, Mandoline und Americana. Eintrit
+ t frei\, Hutspenden\; Reservierung empfohlen. Mehr Informationen: https://
+ schrottgalerie.de/johnny-the-yooahoos-4/
 URL:https://schrottgalerie.de/johnny-the-yooahoos-4/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261127-fernweh-nach-glonn-lyrik-prosa-und-musik@ebe-raus-aus-d
- em-haus
+UID:20261125-mittwochskino-nouvelle-vague@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+SUMMARY:Mittwochskino: Nouvelle Vague
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Richard Linklaters Hommage an die Entstehung von Godards Außer
+  Atem und das französische Kino der späten 1950er. 105 Min. Abendkasse 7
+ –10 EUR\; Einlass 19 Uhr\; Reservierung online.
+URL:https://kultur-in-ebersberg.de/programm/nouvelle-vague/
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261125T214500
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-big-band-markt-schwaben@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+DTEND;TZID=Europe/Berlin:20261127T193000
+SUMMARY:Big Band Markt Schwaben’s Finest & Friends
+LOCATION:Franz-Marc-Gymnasium\, Rektor-Haushofer-Straße 6\, Markt Schwaben
+DESCRIPTION:Die junge Schul-Big-Band und die Big Band der Musikschule treff
+ en sich zu einem Konzert mit Jazz\, Funk\, Swing und Jazz-Rock.
+URL:https://www.musikschule-ebersberger-land.de/event/big-band-markt-schwab
+ ens-finest-friends/
+CATEGORIES:Jugend,Musik
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-casinoabend-im-chaxter@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261127T180000
+SUMMARY:Casinoabend im CHAXTER
+LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
+DESCRIPTION:Ab 10 Jahren\; bis circa 21 Uhr\; Poker\, Roulette\, Blackjack 
+ und alkoholfreie Cocktails\; 3 EUR\; Anmeldung. Weitere Informationen: htt
+ ps://www.grafing.de/kultur-bildung-soziales/kinder-familie/jugendpflege/ch
+ axter-das-schuelercafe-der-stadt-grafing/novemberangebote-im-chaxter
+URL:https://www.grafing.de/kultur-bildung-soziales/kinder-familie/jugendpfl
+ ege/chaxter-das-schuelercafe-der-stadt-grafing/novemberangebote-im-chaxter
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261127T210000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-fernweh-nach-glonn-lyrik-prosa-und-musik@ebe-raus-aus-dem-haus
 DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261127T193000
 SUMMARY:Fernweh nach Glonn – Lyrik\, Prosa und Musik
 LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Frauenneuhartinger Rezitationstrio mit Banda Balorda. Ei
- ntritt frei\, Hutspenden\; Reservierung empfohlen. Mehr Information
- en: https://schrottgalerie.de/frauenneuhartinger-rezitationstrio-fe
- at-banda-balorda/
-URL:https://schrottgalerie.de/frauenneuhartinger-rezitationstrio-fea
- t-banda-balorda/
+DESCRIPTION:Frauenneuhartinger Rezitationstrio mit Banda Balorda. Eintritt 
+ frei\, Hutspenden\; Reservierung empfohlen. Mehr Informationen: https://sc
+ hrottgalerie.de/frauenneuhartinger-rezitationstrio-feat-banda-balorda/
+URL:https://schrottgalerie.de/frauenneuhartinger-rezitationstrio-feat-banda
+ -balorda/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261128-operation-heil-krauter-kabarett-und-zeitgesch@ebe-raus-
- aus-dem-haus
+UID:20261127-mehrwertkneipe-kneipenquiz-6-zusatztermin@ebe-raus-aus-dem-hau
+ s
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+SUMMARY:MehrwertKneipe: Kneipenquiz #6 – Zusatztermin
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Multimediales Kneipenquiz für Einzelpersonen und Teams. Eintri
+ tt frei\; Reservierung online erforderlich. Einlass 19 Uhr. Der reguläre 
+ Termin am 26.11. ist ausgebucht.
+URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-quiz-6-eintritt-
+ frei-zusatztermin/
+STATUS:CONFIRMED
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-perchten-kirchseeon-dorf-1@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261128T150000
+SUMMARY:Kirchseeoner Perchtenlauf – Dorf\, Teil 1
+LOCATION:Start Forstseeon\, Forstseeoner Straße\, Kirchseeon
+DESCRIPTION:Maskenumzug mit Tänzen\, Glocken und geschnitzten Masken. Rout
+ e über Am Hirtenfeld\, Vogelbergerstraße\, Aubachstraße\, Ebersberger S
+ traße und weitere Straßen bis Talweg\; vollständiger Laufweg auf der Ge
+ meindeseite.
+URL:https://www.kirchseeon.de/veranstaltungen/perchtenlauf-kirchseeon-dorf-
+ teil-1/
+CATEGORIES:Brauchtum,Familie
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-open-stage-markt-schwaben@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261128T190000
+DTEND;TZID=Europe/Berlin:20261128T233000
+SUMMARY:Open Stage – Musik aus der Region
+LOCATION:Kolpinghaus\, Erdinger Straße 50\, Markt Schwaben
+DESCRIPTION:Offene Bühne für Hobbymusiker und Publikum: Singer-Songwriter
+ \, Bands und spontane Auftritte. Eintritt frei\, Spenden willkommen. Anmel
+ dung für Musiker bei Michael Kramer (0151 64625381).
+URL:https://aktivkreise.de/termine/open-stage-4/
+CATEGORIES:Musik,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-operation-heil-krauter-kabarett-und-zeitgesch@ebe-raus-aus-dem
+ -haus
 DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261128T193000
 SUMMARY:Operation HEIL!Kräuter – Kabarett und Zeitgeschichte
 LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Historische Kabarettchansons und Texte der 1930er Jahre\
- , mit Hintergründen zur Verfolgung von Künstlern. Eintritt frei\, H
- utspenden\; Reservierung empfohlen. Mehr Informationen: https://sch
- rottgalerie.de/operation-heilkrauter/
+DESCRIPTION:Historische Kabarettchansons und Texte der 1930er Jahre\, mit H
+ intergründen zur Verfolgung von Künstlern. Eintritt frei\, Hutspenden\; 
+ Reservierung empfohlen. Mehr Informationen: https://schrottgalerie.de/oper
+ ation-heilkrauter/
 URL:https://schrottgalerie.de/operation-heilkrauter/
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-mehrwertkneipe-standupcomedy-6@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261128T200000
+SUMMARY:MehrwertKneipe: StandUpComedy #6
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Sechs Comedians mit kurzen Sets\, darunter erfahrene Bühnenpro
+ fis und Newcomer. Moderation Violetta Ditterich. Vorverkauf 10–20 EUR na
+ ch Wahl\; Einlass 19 Uhr.
+URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-standupcomedy-6/
+STATUS:CONFIRMED
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261129-silberschmieden-gross-klein-poing@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261129T093000
+DTEND;TZID=Europe/Berlin:20261129T173000
+SUMMARY:Silber- und Schmuckschmieden für Groß und Klein
+LOCATION:Grundschule an der Karl-Sittler-Straße\, Werkraum\, Rathausstraß
+ e 3a\, Poing
+DESCRIPTION:Einmaliger Workshop für ein Erwachsenen-Kind-Paar ab 8 Jahren.
+  Eigenen Schmuck sägen\, hämmern und schmieden. Erwachsene 82 EUR\, Kind
+  30 EUR\, Material extra. Anmeldung VHS (W8339KE)\; Termin wurde auf 29.11
+ . verschoben.
+URL:https://www.vhs-vaterstetten.de/programm/politik-wirtschaft-recht/kurs/
+ Silber-Schmuckschmieden-fuer-Gross-mit-Klein/W8339KE
+CATEGORIES:Workshop,Familie
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-perchten-hoehenberg@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261202T190000
+SUMMARY:Kirchseeoner Perchten – Höhenberg
+LOCATION:Anwesen Höherwirt\, Höhenberg bei Frauenneuharting
+DESCRIPTION:Traditioneller Perchtenlauf in einem kleinen Ort des Landkreise
+ s. Geschnitzte Masken\, Glocken und Tänze als regionaler Winterbrauch.
+URL:https://maskeum.de/laufplan-perchten/
+CATEGORIES:Brauchtum,Familie
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-mittwochskino-cotton-queen@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261202T200000
+SUMMARY:Mittwochskino: Cotton Queen
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Sudanesisches Weltkino von Suzannah Mirghani über ein Mädchen
+ \, dessen Baumwolldorf vor einem Umbruch steht. OmU\, 93 Min. Abendkasse 7
+ –10 EUR\; Einlass 19 Uhr\; Reservierung online.
+URL:https://kultur-in-ebersberg.de/programm/cotton-queen/
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261202T213300
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:20261203-wasteland-rudi-baumann-friends@ebe-raus-aus-dem-haus
@@ -120,283 +544,131 @@ DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261203T200000
 SUMMARY:Wasteland & Rudi Baumann + Friends
 LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
-DESCRIPTION:Liveabend von Folk bis Rock mit Albumvorstellung von Was
- teland. Eintritt 15 EUR\, Abendkasse. Mehr Informationen: https://w
- ww.stadthalle-grafing.de/
+DESCRIPTION:Liveabend von Folk bis Rock mit Albumvorstellung von Wasteland.
+  Eintritt 15 EUR\, Abendkasse. Mehr Informationen: https://www.stadthalle-
+ grafing.de/
 URL:https://www.stadthalle-grafing.de/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261205-arnulf-rating-jahrespresseschau-2026@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261109T054200Z
-DTSTART;TZID=Europe/Berlin:20261205T200000
-SUMMARY:Arnulf Rating – Jahrespresseschau 2026
-LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
-DESCRIPTION:Politisches Kabarett zum Nachrichtenjahr 2026. Tickets a
- b 30 EUR. Mehr Informationen: https://www.stadthalle-grafing.de/
-URL:https://www.stadthalle-grafing.de/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261206-feliz-navidad-andalusische-weihnacht-flamenco@ebe-raus-
- aus-dem-haus
-DTSTAMP:20261109T054200Z
-DTSTART;TZID=Europe/Berlin:20261206T180000
-SUMMARY:Feliz Navidad – Andalusische Weihnacht & Flamenco
-LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
-DESCRIPTION:Flamenco\, Villancicos\, Gitarre\, Cello\, Gesang und Ta
- nz. Tickets ab 23 EUR. Mehr Informationen: https://www.stadthalle-g
- rafing.de/
-URL:https://www.stadthalle-grafing.de/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261111-mittwochskino-ein-kuchen-fur-den-prasidenten@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261111T200000
-SUMMARY:Mittwochskino: Ein Kuchen für den Präsidenten
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
-URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261118-mittwochskino-gelbe-briefe@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261118T200000
-SUMMARY:Mittwochskino: Gelbe Briefe
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
-URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261125-mittwochskino-nouvelle-vague@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261125T200000
-SUMMARY:Mittwochskino: Nouvelle Vague
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
-URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261127-mehrwertkneipe-kneipenquiz-6-zusatztermin@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-SUMMARY:MehrwertKneipe: Kneipenquiz #6 – Zusatztermin
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Zusatztermin des Kneipenquiz im Alten Kino. Eintritt frei\; Reservierung und freie Plätze prüfen. Weitere Informationen: https://kultur-in-ebersberg.de/
-URL:https://kultur-in-ebersberg.de/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261128-mehrwertkneipe-standupcomedy-6@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261128T200000
-SUMMARY:MehrwertKneipe: StandUpComedy #6
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Stand-up-Abend mit erfahrenen Comedians und Newcomern. Weitere Informationen: https://kultur-in-ebersberg.de/programme/comedy/
-URL:https://kultur-in-ebersberg.de/programme/comedy/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261202-mittwochskino-cotton-queen@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261202T200000
-SUMMARY:Mittwochskino: Cotton Queen
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
-URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261204-antonia-stabinger-angenehm@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
+DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
 SUMMARY:Antonia Stabinger: ANGENEHM
 LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Comedy-Abend im Alten Kino Ebersberg. Weitere Informationen: https://kultur-in-ebersberg.de/programme/comedy/
-URL:https://kultur-in-ebersberg.de/programme/comedy/
+DESCRIPTION:Satirisches Soloprogramm ANGENEHM. Vorverkauf 21–25 EUR\, Abe
+ ndkasse 22–26 EUR\; Einlass 19 Uhr.
+URL:https://kultur-in-ebersberg.de/programm/antonia-stabinger/
 STATUS:CONFIRMED
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20261209-mittwochskino-der-frosch-und-das-wasser@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T180000Z
-DTSTART;TZID=Europe/Berlin:20261209T200000
-SUMMARY:Mittwochskino: Der Frosch und das Wasser
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Filmabend der kuratierten Mittwochskino-Reihe. Weitere Informationen: https://kultur-in-ebersberg.de/programme/mittwochskino/
-URL:https://kultur-in-ebersberg.de/programme/mittwochskino/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261113-platzchenbacken-im-chaxter@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261109T190000Z
-DTSTART;TZID=Europe/Berlin:20261113T160000
-SUMMARY:Plätzchenbacken im CHAXTER
-LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
-DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 5 EUR\; Anmeldung 
- beim CHAXTER. Weitere Informationen: https://www.grafing.
- de/kultur-bildung-soziales/kinder-familie/jugendpflege/ch
- axter-das-schuelercafe-der-stadt-grafing/novemberangebote
- -im-chaxter
-URL:https://www.grafing.de/kultur-bildung-soziales/kinder-
- familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-g
- rafing/novemberangebote-im-chaxter
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261114-holzschnitt-selbst-drucken@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261109T190000Z
-DTSTART;TZID=Europe/Berlin:20261114T140000
-SUMMARY:Holzschnitt – selbst drucken
-LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, Ebersber
- g
-DESCRIPTION:Workshop bis 18 Uhr\; ab 8 Jahren\; Erwachsene
-  20 EUR\, Kinder 10 EUR\; Anmeldung erforderlich. Weitere
-  Informationen: https://www.museumwaldundumwelt.de/progra
- mm/aktuell
-URL:https://www.museumwaldundumwelt.de/programm/aktuell
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261114-stadtfuhrung-starke-frauen-in-grafing@ebe-rau
- s-aus-dem-haus
-DTSTAMP:20261109T190000Z
-DTSTART;TZID=Europe/Berlin:20261114T140000
-SUMMARY:Stadtführung: Starke Frauen in Grafing
-LOCATION:Rathaus\, Marktplatz 28\, Grafing
-DESCRIPTION:Stadtführung mit Brigitte Binder über bemerken
- swerte Frauen der Stadt\; Details beim Veranstalter. Weit
- ere Informationen: https://www.grafing.de/kultur-bildung-
- soziales/veranstaltungen
-URL:https://www.grafing.de/kultur-bildung-soziales/veranst
- altungen
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261117-meine-antarktis-tagebucher-egon-dorrer@ebe-ra
- us-aus-dem-haus
-DTSTAMP:20261109T190000Z
-DTSTART;TZID=Europe/Berlin:20261117T183000
-SUMMARY:Meine Antarktis-Tagebücher – Egon Dorrer
-LOCATION:Stadtbücherei\, Grenzstraße 5\, Grafing
-DESCRIPTION:Antarktisforscher Prof. Dr. Egon Dorrer berich
- tet von Expeditionen in den 1960er Jahren\; bis 21:30 Uhr
- . Weitere Informationen: https://www.grafing.de/kultur-bi
- ldung-soziales/kultur-unterhaltung/stadtbuecherei/veranst
- altungen-in-der-stadtbuecherei
-URL:https://www.grafing.de/kultur-bildung-soziales/kultur-
- unterhaltung/stadtbuecherei/veranstaltungen-in-der-stadtb
- uecherei
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261120-kicker-turnier-im-chaxter@ebe-raus-aus-dem-ha
- us
-DTSTAMP:20261109T190000Z
-DTSTART;TZID=Europe/Berlin:20261120T170000
-SUMMARY:Kicker-Turnier im CHAXTER
-LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
-DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 1\,50 EUR inklusiv
- e Getränk\; Anmeldung erforderlich. Weitere Informationen
- : https://www.grafing.de/kultur-bildung-soziales/kinder-f
- amilie/jugendpflege/chaxter-das-schuelercafe-der-stadt-gr
- afing/novemberangebote-im-chaxter
-URL:https://www.grafing.de/kultur-bildung-soziales/kinder-
- familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-g
- rafing/novemberangebote-im-chaxter
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261127-casinoabend-im-chaxter@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T190000Z
-DTSTART;TZID=Europe/Berlin:20261127T180000
-SUMMARY:Casinoabend im CHAXTER
-LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
-DESCRIPTION:Ab 10 Jahren\; bis circa 21 Uhr\; Poker\, Roul
- ette\, Blackjack und alkoholfreie Cocktails\; 3 EUR\; Anm
- eldung. Weitere Informationen: https://www.grafing.de/kul
- tur-bildung-soziales/kinder-familie/jugendpflege/chaxter-
- das-schuelercafe-der-stadt-grafing/novemberangebote-im-ch
- axter
-URL:https://www.grafing.de/kultur-bildung-soziales/kinder-
- familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-g
- rafing/novemberangebote-im-chaxter
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261205-kreatives-papierschopfen@ebe-raus-aus-dem-hau
- s
-DTSTAMP:20261109T190000Z
+UID:20261205-kreatives-papierschopfen@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261205T140000
-SUMMARY:Kreatives Papierschöpfen
-LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, Ebersber
- g
-DESCRIPTION:Kreativer Workshop bis 18 Uhr\; ab 7 Jahren\; 
- Anmeldung und Verfügbarkeit beim Museum prüfen. Weitere I
- nformationen: https://www.museumwaldundumwelt.de/programm
- /aktuell
+SUMMARY:Kreatives Papierschöpfen – Warteliste
+LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, Ebersberg
+DESCRIPTION:Der Workshop ist laut Museum derzeit auf Warteliste. Papier mit
+  Gräsern und Blüten selbst gestalten. Für Erwachsene und Familien mit K
+ indern ab 7 Jahren. Erwachsene 20 EUR\, Kinder 10 EUR inkl. Material. Wart
+ eliste beim Museum anfragen.
 URL:https://www.museumwaldundumwelt.de/programm/aktuell
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261205T180000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-kleine-schritte-schauspiel@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261205T190000
+SUMMARY:Kleine Schritte – Schauspiel
+LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei Grafing
+DESCRIPTION:Schlosstheater Thurnau: Schauspiel über Parkinson\, Begegnung 
+ und Hoffnung mit Claudia Kurrle und Wolfgang Krebs. Eintritt 15 EUR\; Spen
+ den für die Parkinson-Initiative erbeten.
+URL:https://www.meta-theater.com/8020-kleine-schritte-schloss-theater-thurn
+ au/
+STATUS:CONFIRMED
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-arnulf-rating-jahrespresseschau-2026@ebe-raus-aus-dem-haus
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Arnulf Rating – Jahrespresseschau 2026
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Politisches Kabarett zum Nachrichtenjahr 2026. Tickets ab 30 EU
+ R. Mehr Informationen: https://www.stadthalle-grafing.de/
+URL:https://www.stadthalle-grafing.de/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261206-swinging-sunday-swing-tanzen@ebe-raus-aus-dem
+UID:20261206-jetzt-kunstverein-finissage@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261206T150000
+SUMMARY:JETZT – Finissage der Mitgliederausstellung
+LOCATION:Galerie Alte Brennerei\, Im Klosterbauhof 6\, Ebersberg
+DESCRIPTION:Zeitgenössische Werke zum Thema Gegenwart und Wahrnehmung. Abs
+ chluss der Ausstellung (6.11.–6.12.) mit Preisverleihung um 17 Uhr.
+URL:https://www.kunstvereinebersberg.de/mitgliederausstellung-2026/
+CATEGORIES:Kunst
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-feliz-navidad-andalusische-weihnacht-flamenco@ebe-raus-aus-dem
  -haus
-DTSTAMP:20261109T190000Z
+DTSTAMP:20261109T054200Z
+DTSTART;TZID=Europe/Berlin:20261206T180000
+SUMMARY:Feliz Navidad – Andalusische Weihnacht & Flamenco
+LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
+DESCRIPTION:Flamenco\, Villancicos\, Gitarre\, Cello\, Gesang und Tanz. Tic
+ kets ab 23 EUR. Mehr Informationen: https://www.stadthalle-grafing.de/
+URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-swinging-sunday-swing-tanzen@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261206T180000
 SUMMARY:Swinging Sunday – Swing tanzen
 LOCATION:Altes Kino\, Eberhardstraße 3\, Ebersberg
-DESCRIPTION:Swing-Tanzabend zum Mitmachen. Weitere Informa
- tionen: https://kultur-in-ebersberg.de/ort/altes-kino/
-URL:https://kultur-in-ebersberg.de/ort/altes-kino/
+DESCRIPTION:Offener Social Dance mit Swingmusik für Anfänger und Fortgesc
+ hrittene\, auch zum Zuschauen. Eintritt frei.
+URL:https://kultur-in-ebersberg.de/programm/swinging-sunday-15/
 STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261206T210000
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20261114-architektur-der-gefahrtinnenschaft-werkabend
- @ebe-raus-aus-dem-haus
-DTSTAMP:20261110T054300Z
-DTSTART;TZID=Europe/Berlin:20261114T190000
-SUMMARY:Architektur der Gefährtinnenschaft – Werkabend
-LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei 
- Grafing
-DESCRIPTION:Experimenteller offener Werkabend zu Tanz\, K
- lang und bildender Kunst\; begehbare Performance. Eintri
- tt frei\, Spenden willkommen.
-URL:https://www.meta-theater.com/8035-architektur-der-gef
- aehrtinnenschaft-meta-theater-stipendium/
+UID:20261209-mittwochskino-der-frosch-und-das-wasser@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261209T200000
+SUMMARY:Mittwochskino: Der Frosch und das Wasser
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Poetisches Roadmovie von Thomas Stuber über eine ungewöhnlich
+ e Begegnung und eine Reise bis nach Japan. 113 Min. Abendkasse 7–10 EUR\
+ ; Einlass 19 Uhr\; Reservierung online.
+URL:https://kultur-in-ebersberg.de/programm/der-frosch-und-das-wasser/
 STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20261209T215300
+LAST-MODIFIED:20261111T054846Z
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20261120-sudan-verstehen-film-und-gesprach@ebe-raus-a
- us-dem-haus
-DTSTAMP:20261110T054300Z
-DTSTART;TZID=Europe/Berlin:20261120T190000
-SUMMARY:Sudan verstehen – Film und Gespräch
-LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei 
- Grafing
-DESCRIPTION:Film KHARTOUM (2025) in arabischer Originalfa
- ssung mit deutschen Untertiteln\; anschließendes Gespräc
- h über Sudan mit Abdalla Abakar und weiteren Gästen.
-URL:https://www.meta-theater.com/7958-sudan-verstehen-fil
- mabend-und-gespraech/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261205-kleine-schritte-schauspiel@ebe-raus-aus-dem-
- haus
-DTSTAMP:20261110T054300Z
-DTSTART;TZID=Europe/Berlin:20261205T190000
-SUMMARY:Kleine Schritte – Schauspiel
-LOCATION:Meta Theater\, Osteranger 8\, 85665 Moosach bei 
- Grafing
-DESCRIPTION:Schlosstheater Thurnau: ein Schauspiel über P
- arkinson\, Begegnung und Hoffnung.
-URL:https://www.meta-theater.com/category/aktuell/
+UID:20261211-mehrwertkneipe-siea@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+SUMMARY:MehrwertKneipe: SiEA & Sarah Bugar
+LOCATION:Altes Kino\, Eberhardstraße 3\, Ebersberg
+DESCRIPTION:Münchner Band SiEA mit Synth-Pop\, Soul\, Avantgarde-Pop und g
+ esellschaftskritischen Texten\; Support Sarah Bugar. Vorverkauf 10–25 EU
+ R nach Wahl\, Einlass 19 Uhr.
+URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-siea-konzert/
+CATEGORIES:Musik,Mehrwertkneipe
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
