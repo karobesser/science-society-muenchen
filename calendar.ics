@@ -6,6 +6,65 @@ METHOD:PUBLISH
 X-WR-CALNAME:Science & Society München
 X-WR-TIMEZONE:Europe/Berlin
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19960331T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20261111-1000-quanten-energienetze@science-society-muenchen
+DTSTAMP:20261110T053200Z
+DTSTART;TZID=Europe/Berlin:20261111T100000
+DTEND;TZID=Europe/Berlin:20261111T110000
+SUMMARY:Nachhaltigkeit: effizientere Energienetze dank Quantencomputing
+LOCATION:LMU\, Amalienstraße 52\, Seminarraum 402\, München
+DESCRIPTION:Vortrag im Rahmen der LMU Sustainability Week zu Quantencomputi
+ ng und Energiewende\, anschließend Fragen. Weitere Informationen: https:/
+ /www.lmu.de/de/newsroom/veranstaltungskalender/veranstaltung/nachhaltigkei
+ t-effizientere-energienetze-dank-quantencomputing-07e0b1b3.html
+URL:https://www.lmu.de/de/newsroom/veranstaltungskalender/veranstaltung/nac
+ hhaltigkeit-effizientere-energienetze-dank-quantencomputing-07e0b1b3.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261111-1830-women-in-science@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261111T183000
+SUMMARY:Women in Science
+LOCATION:TranslaTUM\, Auditorium\, Einsteinstraße 25\, München
+DESCRIPTION:Englischsprachiges Podium über wissenschaftliche Karrierewege\
+ , Sorgearbeit\, Familie und Führung. Mit Annalisa Marsico\, Ulrike Protze
+ r\, Franziska Traube und Kathi Zarnack. Offen für alle Interessierten\; A
+ nmeldung über Veranstaltungsseite. Weitere Informationen: https://badw.de
+ /veranstaltungen/event/women-in-science
+URL:https://badw.de/veranstaltungen/event/women-in-science
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:feministischer-chor-20261111@science-society-muenchen
+DTSTAMP:20261109T203000Z
+DTSTART;TZID=Europe/Berlin:20261111T183000
+SUMMARY:Feministischer Chor München – offenes Mitsingen
+LOCATION:KÖŞK\, Zenettistraße 2 EG\, 80337 München
+DESCRIPTION:Offener feministischer Chor ohne erforderliche Vorkenntnisse. K
+ ostenlos\, ab 16 Jahren\, ohne Anmeldung\; Raum nicht barrierefrei. Einmal
+ ige redaktionelle Ausnahme im Science-&-Society-Kalender. Infos: https://w
+ ww.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
+URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
+STATUS:CONFIRMED
+END:VEVENT
 BEGIN:VEVENT
 UID:20261111-1900-waerme-leben@science-society-muenchen
 DTSTAMP:20261107T225000Z
@@ -13,62 +72,25 @@ DTSTART;TZID=Europe/Berlin:20261111T190000
 DTEND;TZID=Europe/Berlin:20261111T210000
 SUMMARY:Wie Wärme dem Leben auf die Sprünge half
 LOCATION:Deutsches Museum\, Museumsinsel 1\, Auditorium\, München
-DESCRIPTION:Öffentlicher Vortrag von Christof Mast zur Entstehung des Lebens und zur Rolle von Wärme. Weitere Informationen: https://www.mpe.mpg.de/events/47134/2163
+DESCRIPTION:Öffentlicher Vortrag von Christof Mast zur Entstehung des Lebe
+ ns und zur Rolle von Wärme. Weitere Informationen: https://www.mpe.mpg.de
+ /events/47134/2163
 URL:https://www.mpe.mpg.de/events/47134/2163
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-1900-demokratie-stress@science-society-muenchen
-DTSTAMP:20261107T225000Z
+DTSTAMP:20261111T053450Z
 DTSTART;TZID=Europe/Berlin:20261112T190000
 SUMMARY:Demokratie unter Stress – Wie können wir Umbrüche meistern?
-LOCATION:Bayerische Akademie der Wissenschaften\, München
-DESCRIPTION:Öffentliche Diskussion über Demokratie und gesellschaftliche Umbrüche. Teilnahme und Livestream auf der Veranstaltungsseite prüfen. Weitere Informationen: https://badw.de/veranstaltungen/event/demokratie-unter-stress-umbrueche
+LOCATION:Münchner Volkshochschule – Einstein 28\, Einsteinstraße 28\, 8
+ 1675 München und Livestream
+DESCRIPTION:Max-Weber-Lecture mit dem Soziologen Steffen Mau über gesellsc
+ haftliche Umbrüche und Demokratie. Präsenz ausgebucht\; Livestream über
+  https://www.mvhs.de/kurse/mensch-politik-gesellschaft-460-C-X130201. Weit
+ ere Informationen: https://badw.de/veranstaltungen/event/demokratie-unter-
+ stress-umbrueche
 URL:https://badw.de/veranstaltungen/event/demokratie-unter-stress-umbrueche
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261115-1100-weibs-bilder@science-society-muenchen
-DTSTAMP:20261107T225000Z
-DTSTART;TZID=Europe/Berlin:20261115T110000
-DTEND;TZID=Europe/Berlin:20261115T130000
-SUMMARY:Münchner Weibs-Bilder – Berühmte und vergessene Frauen
-LOCATION:Treffpunkt Spielzeugmuseum\, Turm des Alten Rathauses\, Marienplatz\, München
-DESCRIPTION:Stadtführung von STATTreisen über Frauen der Münchner Geschichte. Erwachsene 17 EUR. Anmeldung erwünscht. Weitere Informationen: https://stadtgeschichte-muenchen.de/stadtfuehrung/d_stadtfuehrung.php?id=27398
-URL:https://stadtgeschichte-muenchen.de/stadtfuehrung/d_stadtfuehrung.php?id=27398
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261119-1815-ursprung-leben@science-society-muenchen
-DTSTAMP:20261107T225000Z
-DTSTART;TZID=Europe/Berlin:20261119T181500
-SUMMARY:Lässt sich der Ursprung des Lebens im Labor nachbauen?
-LOCATION:LMU\, Physikhörsaal H 030\, Schellingstraße 4\, München
-DESCRIPTION:Physik Modern: öffentlicher Vortrag von Prof. Dieter Braun. Weitere Informationen: https://www.physik.lmu.de/de/aktuelles/veranstaltungsuebersicht/veranstaltung/physik-modern-eb7a25aa.html
-URL:https://www.physik.lmu.de/de/aktuelles/veranstaltungsuebersicht/veranstaltung/physik-modern-eb7a25aa.html
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261119-1900-maenner-macht-klimakrise@science-society-muenchen
-DTSTAMP:20261107T225000Z
-DTSTART;TZID=Europe/Berlin:20261119T190000
-SUMMARY:Männer\, Macht und Klimakrise
-LOCATION:Bellevue di Monaco\, Müllerstraße 2\, München
-DESCRIPTION:Podiumsdiskussion über Genderaspekte von Klima und Klimapolitik. Weitere Informationen: https://bellevuedimonaco.de/veranstaltungen/monat/
-URL:https://bellevuedimonaco.de/veranstaltungen/monat/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:vsw-20261108-teleskope@science-society-muenchen
-DTSTAMP:20261108T052800Z
-DTSTART;TZID=Europe/Berlin:20261108T170000
-SUMMARY:Teleskope sinnvoll auswählen
-LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
- dwig-Jung-Str.\, 81671 München
-DESCRIPTION:Kostenloses Kolloquium mit Martin Elsässer\; Tic
- ket erforderlich. Weitere Informationen: https://sternwarte-
- muenchen.de/event-vsw/teleskope/
-URL:https://sternwarte-muenchen.de/event-vsw/teleskope/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -76,12 +98,11 @@ UID:vsw-20261113-winter26@science-society-muenchen
 DTSTAMP:20261108T052800Z
 DTSTART;TZID=Europe/Berlin:20261113T200000
 SUMMARY:Der Wintersternhimmel 2026
-LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
- dwig-Jung-Str.\, 81671 München
-DESCRIPTION:Vortrag mit Bernhard Buchner\; Beobachtung bei k
- larem Himmel. Eintritt 10 / 7 EUR\; Buchung erforderlich. We
- itere Informationen: https://sternwarte-muenchen.de/event-vs
- w/winter26/
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-Str.
+ \, 81671 München
+DESCRIPTION:Vortrag mit Bernhard Buchner\; Beobachtung bei klarem Himmel. E
+ intritt 10 / 7 EUR\; Buchung erforderlich. Weitere Informationen: https://
+ sternwarte-muenchen.de/event-vsw/winter26/
 URL:https://sternwarte-muenchen.de/event-vsw/winter26/
 STATUS:CONFIRMED
 END:VEVENT
@@ -90,71 +111,43 @@ UID:vsw-20261114-universe@science-society-muenchen
 DTSTAMP:20261108T052800Z
 DTSTART;TZID=Europe/Berlin:20261114T190000
 SUMMARY:Our Place in the Universe
-LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
- dwig-Jung-Str.\, 81671 München
-DESCRIPTION:English lecture by Paul Salazar\; telescope view
- ing if clear. Tickets 10 / 7 EUR\; booking recommended. Weit
- ere Informationen: https://sternwarte-muenchen.de/event-vsw/
- universe/
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-Str.
+ \, 81671 München
+DESCRIPTION:English lecture by Paul Salazar\; telescope viewing if clear. T
+ ickets 10 / 7 EUR\; booking recommended. Weitere Informationen: https://st
+ ernwarte-muenchen.de/event-vsw/universe/
 URL:https://sternwarte-muenchen.de/event-vsw/universe/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:vsw-20261116-videoastronomie@science-society-muenchen
-DTSTAMP:20261108T052800Z
-DTSTART;TZID=Europe/Berlin:20261116T190000
-SUMMARY:Videoastronomie mit freier Software in der Großstadt
-LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
- dwig-Jung-Str.\, 81671 München
-DESCRIPTION:Kostenloses Kolloquium mit Andreas Zottmann zu L
- inux-basierter Videoastronomie\; Ticket erforderlich. Weiter
- e Informationen: https://sternwarte-muenchen.de/event-vsw/vi
- deoastronomie/
-URL:https://sternwarte-muenchen.de/event-vsw/videoastronomie
- /
+UID:20261115-1100-weibs-bilder@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261115T110000
+DTEND;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Münchner Weibs-Bilder – Berühmte und vergessene Frauen
+LOCATION:Treffpunkt Spielzeugmuseum\, Turm des Alten Rathauses\, Marienplat
+ z\, München
+DESCRIPTION:Stadtführung von STATTreisen über Frauen der Münchner Geschi
+ chte. Erwachsene 17 EUR. Anmeldung erwünscht. Weitere Informationen: http
+ s://stadtgeschichte-muenchen.de/stadtfuehrung/d_stadtfuehrung.php?id=27398
+URL:https://stadtgeschichte-muenchen.de/stadtfuehrung/d_stadtfuehrung.php?i
+ d=27398
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:vsw-20261118-hornung2026-2@science-society-muenchen
-DTSTAMP:20261108T052800Z
-DTSTART;TZID=Europe/Berlin:20261118T180000
-SUMMARY:Unheimliche Welten – Ein Trip durch das Planeten-Sys
- tem
-LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
- dwig-Jung-Str.\, 81671 München
-DESCRIPTION:Familienvortrag ab 8 Jahren mit Helmut Hornung. 
- 10 / 7 EUR\, Familientickets ab 15 EUR\; Buchung erforderlic
- h. Weitere Informationen: https://sternwarte-muenchen.de/eve
- nt-vsw/hornung2026-2/
-URL:https://sternwarte-muenchen.de/event-vsw/hornung2026-2/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:vsw-20261120-typ2supernovae@science-society-muenchen
-DTSTAMP:20261108T052800Z
-DTSTART;TZID=Europe/Berlin:20261120T200000
-SUMMARY:Mit Typ II Supernovae der Expansion des Universums a
- uf der Spur
-LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Lu
- dwig-Jung-Str.\, 81671 München
-DESCRIPTION:Vortrag von Dr. Stefan Taubenberger zur Expansio
- n des Universums. Weitere Informationen: https://sternwarte-
- muenchen.de/event-vsw/typ2supernovae/
-URL:https://sternwarte-muenchen.de/event-vsw/typ2supernovae/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261110-1400-quantendienstag@science-society-muenchen
-DTSTAMP:20261108T083000Z
-DTSTART;TZID=Europe/Berlin:20261110T140000
-DTEND;TZID=Europe/Berlin:20261110T153000
-SUMMARY:Quantendienstag – Quanten(t)räume Projektabschluss
-LOCATION:Deutsches Museum\, Museumsinsel 1\, München
-DESCRIPTION:Offene Präsentationen und Austausch zu Quantentechnologien. 
- Teilnahme im Museumsticket enthalten. Weitere Informationen: https://www
- .deutsches-museum.de/museumsinsel/programm/veranstaltung/quantendienstag
-URL:https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/q
- uantendienstag
+UID:20261115-1300-zwangsarbeit-neuaubing@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261115T130000
+SUMMARY:Das ehemalige Zwangsarbeiter*innenlager Neuaubing
+LOCATION:Erinnerungsort Neuaubing\, München
+DESCRIPTION:Historischer Rundgang des NS-Dokumentationszentrums über das G
+ elände des ehemaligen Lagers\, erhaltene Baracken und die Geschichte der 
+ dort untergebrachten Zwangsarbeiter*innen. Treffpunkt und Teilnahmebedingu
+ ngen auf der Veranstaltungsseite prüfen. Weitere Informationen: https://w
+ ww.nsdoku.de/programm/aktuell/detailseite/das-ehemalige-zwangsarbeiterinne
+ nlager-neuaubing-2688
+URL:https://www.nsdoku.de/programm/aktuell/detailseite/das-ehemalige-zwangs
+ arbeiterinnenlager-neuaubing-2688
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -163,14 +156,96 @@ DTSTAMP:20261108T083000Z
 DTSTART;TZID=Europe/Berlin:20261116T190000
 DTEND;TZID=Europe/Berlin:20261116T203000
 SUMMARY:Hirnforschung und nationalsozialistische Verbrechen
-LOCATION:NS-Dokumentationszentrum\, Max-Mannheimer-Platz 1\, München und
-  Livestream
-DESCRIPTION:Buchvorstellung zu NS-Verbrechen und Wissenschaftsgeschichte.
-  Präsenz ausgebucht\; Livestream laut Veranstalter vorgesehen. Weitere 
- Informationen: https://www.mpg.de/26881604/hirnforschung-und-ns-verbrech
- en-buchvorstellung1
-URL:https://www.mpg.de/26881604/hirnforschung-und-ns-verbrechen-buchvorst
- ellung1
+LOCATION:NS-Dokumentationszentrum\, Max-Mannheimer-Platz 1\, München und L
+ ivestream
+DESCRIPTION:Buchvorstellung zu NS-Verbrechen und Wissenschaftsgeschichte. P
+ räsenz ausgebucht\; Livestream laut Veranstalter vorgesehen. Weitere Info
+ rmationen: https://www.mpg.de/26881604/hirnforschung-und-ns-verbrechen-buc
+ hvorstellung1
+URL:https://www.mpg.de/26881604/hirnforschung-und-ns-verbrechen-buchvorstel
+ lung1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261116-videoastronomie@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261116T190000
+SUMMARY:Videoastronomie mit freier Software in der Großstadt
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-Str.
+ \, 81671 München
+DESCRIPTION:Kostenloses Kolloquium mit Andreas Zottmann zu Linux-basierter 
+ Videoastronomie\; Ticket erforderlich. Weitere Informationen: https://ster
+ nwarte-muenchen.de/event-vsw/videoastronomie/
+URL:https://sternwarte-muenchen.de/event-vsw/videoastronomie/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261118-hornung2026-2@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261118T180000
+SUMMARY:Unheimliche Welten – Ein Trip durch das Planeten-System
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-Str.
+ \, 81671 München
+DESCRIPTION:Familienvortrag ab 8 Jahren mit Helmut Hornung. 10 / 7 EUR\, Fa
+ milientickets ab 15 EUR\; Buchung erforderlich. Weitere Informationen: htt
+ ps://sternwarte-muenchen.de/event-vsw/hornung2026-2/
+URL:https://sternwarte-muenchen.de/event-vsw/hornung2026-2/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-1815-ursprung-leben@science-society-muenchen
+DTSTAMP:20261107T225000Z
+DTSTART;TZID=Europe/Berlin:20261119T181500
+SUMMARY:Lässt sich der Ursprung des Lebens im Labor nachbauen?
+LOCATION:LMU\, Physikhörsaal H 030\, Schellingstraße 4\, München
+DESCRIPTION:Physik Modern: öffentlicher Vortrag von Prof. Dieter Braun. We
+ itere Informationen: https://www.physik.lmu.de/de/aktuelles/veranstaltungs
+ uebersicht/veranstaltung/physik-modern-eb7a25aa.html
+URL:https://www.physik.lmu.de/de/aktuelles/veranstaltungsuebersicht/veranst
+ altung/physik-modern-eb7a25aa.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-1900-leseclub-der-mann-das-opfer@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+DTEND;TZID=Europe/Berlin:20261119T203000
+SUMMARY:Feministischer Leseclub: Sophia Fritz – Der Mann\, das Opfer
+LOCATION:Buch & Bohne\, Kapuzinerplatz 4\, 80337 München
+DESCRIPTION:Diskussion mit Frauenstudien München über männliche Rollenbi
+ lder\, patriarchale Strukturen und Gleichberechtigung. Moderation Laura Fr
+ eisberg. Offen für alle Geschlechter\; vorherige Lektüre keine Vorausset
+ zung. Eintritt frei\, Spenden willkommen\; Anmeldung an info@frauenstudien
+ -muenchen.de. Weitere Informationen: https://www.frauenstudien-muenchen.de
+ /veranstaltungen/leseclub-sophia-fritz
+URL:https://www.frauenstudien-muenchen.de/veranstaltungen/leseclub-sophia-f
+ ritz
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-1900-maenner-macht-klimakrise@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261119T190000
+SUMMARY:Männer\, Macht und Klimakrise
+LOCATION:Bellevue di Monaco\, Müllerstraße 2\, München
+DESCRIPTION:Podiumsdiskussion über Klimagerechtigkeit\, Geschlechterrollen
+  und Machtstrukturen mit Gotelind Alber\, Markus Nau und Rahel Weier. Mode
+ ration Nadja Schlüter. Weitere Informationen: https://bellevuedimonaco.de
+ /veranstaltung/maenner-macht-und-klimakrise/
+URL:https://bellevuedimonaco.de/veranstaltung/maenner-macht-und-klimakrise/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261120-typ2supernovae@science-society-muenchen
+DTSTAMP:20261108T052800Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Mit Typ II Supernovae der Expansion des Universums auf der Spur
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-Str.
+ \, 81671 München
+DESCRIPTION:Vortrag von Dr. Stefan Taubenberger zur Expansion des Universum
+ s. Weitere Informationen: https://sternwarte-muenchen.de/event-vsw/typ2sup
+ ernovae/
+URL:https://sternwarte-muenchen.de/event-vsw/typ2supernovae/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -179,12 +254,12 @@ DTSTAMP:20261108T083000Z
 DTSTART;TZID=Europe/Berlin:20261124T180000
 SUMMARY:Demokratische Resilienz in Zeiten weltpolitischer Umbrüche
 LOCATION:Institut für Zeitgeschichte\, Leonrodstraße 46b\, München
-DESCRIPTION:Podium über die Bundesrepublik und ihre internationalen Bün
- dnisse in Geschichte und Gegenwart. Online-Anmeldung beim Veranstalter. 
- Weitere Informationen: https://www.khw-muenchen.de/termine/detailansicht
- /demokratische-resilienz-in-zeiten-weltpolitischer-umbrueche
-URL:https://www.khw-muenchen.de/termine/detailansicht/demokratische-resil
- ienz-in-zeiten-weltpolitischer-umbrueche
+DESCRIPTION:Podium über die Bundesrepublik und ihre internationalen Bündn
+ isse in Geschichte und Gegenwart. Online-Anmeldung beim Veranstalter. Weit
+ ere Informationen: https://www.khw-muenchen.de/termine/detailansicht/demok
+ ratische-resilienz-in-zeiten-weltpolitischer-umbrueche
+URL:https://www.khw-muenchen.de/termine/detailansicht/demokratische-resilie
+ nz-in-zeiten-weltpolitischer-umbrueche
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -192,15 +267,30 @@ UID:20261124-1830-learning-peace@science-society-muenchen
 DTSTAMP:20261108T083000Z
 DTSTART;TZID=Europe/Berlin:20261124T183000
 SUMMARY:Learning for Peace in Times of Conflict – Podium
-LOCATION:Hochschule für Philosophie\, Aula\, Kaulbachstraße 31/33\, Mü
- nchen
-DESCRIPTION:Wie Hochschulbildung Frieden und Menschenrechte in Krisengebi
- eten fördern kann. Podium auf Englisch\; Anmeldung für Präsenz erbete
- n\; Livestream angeboten. Anschließende Vernissage nicht Teil der Kalen
- derauswahl. Weitere Informationen: https://hfph.de/hochschule/veranstalt
- ung/learning-for-peace-in-times-of-conflict/
-URL:https://hfph.de/hochschule/veranstaltung/learning-for-peace-in-times-
- of-conflict/
+LOCATION:Hochschule für Philosophie\, Aula\, Kaulbachstraße 31/33\, Münc
+ hen
+DESCRIPTION:Wie Hochschulbildung Frieden und Menschenrechte in Krisengebiet
+ en fördern kann. Podium auf Englisch\; Anmeldung für Präsenz erbeten\; 
+ Livestream angeboten. Anschließende Vernissage nicht Teil der Kalenderaus
+ wahl. Weitere Informationen: https://hfph.de/hochschule/veranstaltung/lear
+ ning-for-peace-in-times-of-conflict/
+URL:https://hfph.de/hochschule/veranstaltung/learning-for-peace-in-times-of
+ -conflict/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261124-1900-iran-kunst-widerstand@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261124T190000
+SUMMARY:Iran und die Kunst des Widerstands
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Gespräch mit Behzad Karim Khani und Aida Amini über Exil\, di
+ e iranische Frau-Leben-Freiheit-Bewegung und die Rolle künstlerischer Arb
+ eit im politischen Widerstand. Weitere Informationen: https://www.nsdoku.d
+ e/programm/aktuell/detailseite/iran-und-die-kunst-des-widerstands-2719
+URL:https://www.nsdoku.de/programm/aktuell/detailseite/iran-und-die-kunst-d
+ es-widerstands-2719
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -209,14 +299,129 @@ DTSTAMP:20261108T083000Z
 DTSTART;TZID=Europe/Berlin:20261124T190000
 DTEND;TZID=Europe/Berlin:20261124T203000
 SUMMARY:John McDowell – zur Einführung
-LOCATION:Hochschule für Philosophie\, Dozenten-Cafeteria (3. OG)\, Kaulb
- achstraße 31/33\, München
-DESCRIPTION:Philosophische Buchpräsentation und Gespräch über Natur\, 
- Vernunft\, Ethik und Ästhetik mit Daniel Martin Feige und Dominik Finke
- lde. Weitere Informationen: https://hfph.de/hochschule/veranstaltung/joh
- n-mcdowell-zur-einfuehrung/
-URL:https://hfph.de/hochschule/veranstaltung/john-mcdowell-zur-einfuehrun
- g/
+LOCATION:Hochschule für Philosophie\, Dozenten-Cafeteria (3. OG)\, Kaulbac
+ hstraße 31/33\, München
+DESCRIPTION:Philosophische Buchpräsentation und Gespräch über Natur\, Ve
+ rnunft\, Ethik und Ästhetik mit Daniel Martin Feige und Dominik Finkelde.
+  Weitere Informationen: https://hfph.de/hochschule/veranstaltung/john-mcdo
+ well-zur-einfuehrung/
+URL:https://hfph.de/hochschule/veranstaltung/john-mcdowell-zur-einfuehrung/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:feministischer-chor-20261125@science-society-muenchen
+DTSTAMP:20261109T203000Z
+DTSTART;TZID=Europe/Berlin:20261125T183000
+SUMMARY:Feministischer Chor München – offenes Mitsingen
+LOCATION:KÖŞK\, Zenettistraße 2 EG\, 80337 München
+DESCRIPTION:Offener feministischer Chor ohne erforderliche Vorkenntnisse. K
+ ostenlos\, ab 16 Jahren\, ohne Anmeldung\; Raum nicht barrierefrei. Einmal
+ ige redaktionelle Ausnahme im Science-&-Society-Kalender. Infos: https://w
+ ww.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
+URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-2000-gender-salon-romantikdiktat@science-society-muenchen
+DTSTAMP:20261108T080000Z
+DTSTART;TZID=Europe/Berlin:20261125T200000
+SUMMARY:Gender Salon – Zusammenleben jenseits des Romantikdiktats
+LOCATION:Glockenbachwerkstatt\, Blumenstraße 7\, 80331 München
+DESCRIPTION:Gender Salon mit Soziologin Andrea Newerla über alternative Fo
+ rmen des Zusammenlebens und die gesellschaftliche Dominanz romantischer Pa
+ arbeziehungen. Eintritt 4 EUR\; Einlass 19:30–19:55 Uhr. Veranstalterinf
+ o: https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
+URL:https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-1900-emissionshandel@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261126T190000
+DTEND;TZID=Europe/Berlin:20261126T210000
+SUMMARY:Emissionshandel – wirkungsvoll?
+LOCATION:Münchner Zukunftssalon\, Goethestraße 28\, München und online
+DESCRIPTION:Vortrag und Diskussion mit Felix Christian Matthes (Öko-Instit
+ ut) über den europäischen Emissionshandel\, CO2-Preise und Klimapolitik.
+  Kostenlos\; Anmeldung für Präsenz oder Zoom auf der Veranstaltungsseite
+ . Weitere Informationen: https://energienetzwerk-muc.de/event/emissionshan
+ del-wirkungsvoll-26-11-2026/
+URL:https://energienetzwerk-muc.de/event/emissionshandel-wirkungsvoll-26-11
+ -2026/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-1700-europaeische-geschichte@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261127T170000
+SUMMARY:Was lehrt uns die europäische Geschichte für heute (und morgen)?
+LOCATION:LMU Hauptgebäude\, Raum M018\, Geschwister-Scholl-Platz 1\, Münc
+ hen
+DESCRIPTION:Munich History Lecture mit Timothy Garton Ash über europäisch
+ e Geschichte\, politische Umbrüche und die Zukunft des Kontinents. Eintri
+ tt frei\, keine Anmeldung\; Einlass nach Verfügbarkeit. Weitere Informati
+ onen: https://www.literaturhaus-muenchen.de/veranstaltung/was-lehrt-uns-di
+ e-europaeische-geschichte-fuer-heute-und-morgen/
+URL:https://www.literaturhaus-muenchen.de/veranstaltung/was-lehrt-uns-die-e
+ uropaeische-geschichte-fuer-heute-und-morgen/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vsw-20261127-saturn-2026@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+SUMMARY:Saturn – der Ringplanet im Fokus
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-Str.
+ \, 81671 München
+DESCRIPTION:Vortrag von Wolfgang Planding über Saturn und seine Ringe\, vo
+ n frühen Beobachtungen bis zur Cassini-Mission. Bei klarem Himmel anschli
+ eßende Teleskopbeobachtung. Eintritt 10/7 EUR\; Reservierung empfohlen\, 
+ Einlass ab 19:30. Weitere Informationen: https://sternwarte-muenchen.de/ev
+ ent-vsw/saturn-2026/
+URL:https://sternwarte-muenchen.de/event-vsw/saturn-2026/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-1815-osmanische-bildung@science-society-muenchen
+DTSTAMP:20261110T053200Z
+DTSTART;TZID=Europe/Berlin:20261201T181500
+DTEND;TZID=Europe/Berlin:20261201T190000
+SUMMARY:Was Osmanen wissen sollten: Wandel höherer Bildung 1730–1840
+LOCATION:LMU Hauptgebäude\, Hörsaal M010\, Geschwister-Scholl-Platz 1\, M
+ ünchen
+DESCRIPTION:Öffentlicher Vortrag von Prof. Henning Sievert in der Reihe Ba
+ siswissen Islam über Bildung und gesellschaftlichen Wandel im Osmanischen
+  Reich. Weitere Informationen: https://www.kw.lmu.de/inmo/de/aktuelles/ver
+ anstaltungsuebersicht/veranstaltung/basiswissen-islam-73-ce230626.html
+URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/verans
+ taltung/basiswissen-islam-73-ce230626.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-1900-ukraine-leben-ueberleben@science-society-muenchen
+DTSTAMP:20261109T053200Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+SUMMARY:Ukraine: Leben und Überleben
+LOCATION:Seidlvilla\, Nikolaiplatz 1b\, München
+DESCRIPTION:Vortrag und Diskussion über Alltag\, Resilienz und Solidaritä
+ t im fünften Jahr des russischen Angriffskriegs. Mit Keno Verseck und Ira
+  Ganzhorn. Sprache: Deutsch.
+URL:https://bellevuedimonaco.de/veranstaltung/ukraine-leben-und-ueberleben/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-1900-usa-midterm-elections@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261201T190000
+SUMMARY:Die USA nach den Midterm Elections
+LOCATION:Amerikahaus München\, München
+DESCRIPTION:Podium mit Volker Depkat\, Christian Lammert\, Ursula Münch un
+ d Rieke Havertz über die US-Zwischenwahlen 2026\, Demokratie\, Rechtsstaa
+ t und internationale Folgen. Reihe Voices of Democracy. Weitere Informatio
+ nen: https://www.nsdoku.de/programm/aktuell/detailseite/die-usa-nach-den-m
+ idterm-elections-2720
+URL:https://www.nsdoku.de/programm/aktuell/detailseite/die-usa-nach-den-mid
+ term-elections-2720
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -224,13 +429,13 @@ UID:20261202-1900-fingerabdruck-materie@science-society-muenchen
 DTSTAMP:20261108T083000Z
 DTSTART;TZID=Europe/Berlin:20261202T190000
 DTEND;TZID=Europe/Berlin:20261202T210000
-SUMMARY:Der Fingerabdruck der Materie: Ionen\, Moleküle und die Geheimni
- sse des Universums
-LOCATION:Deutsches Museum\, Auditorium (Ebene 0)\, Museumsinsel 1\, Münc
- hen
-DESCRIPTION:Wissenschaft für jedermann: Vortrag von Klaus Blaum (MPIK He
- idelberg) über Präzisionsmessungen und die Geheimnisse der Materie. We
- itere Informationen: https://www.mpe.mpg.de/events/47132/6317211
+SUMMARY:Der Fingerabdruck der Materie: Ionen\, Moleküle und die Geheimniss
+ e des Universums
+LOCATION:Deutsches Museum\, Auditorium (Ebene 0)\, Museumsinsel 1\, Münche
+ n
+DESCRIPTION:Wissenschaft für jedermann: Vortrag von Klaus Blaum (MPIK Heid
+ elberg) über Präzisionsmessungen und die Geheimnisse der Materie. Weiter
+ e Informationen: https://www.mpe.mpg.de/events/47132/6317211
 URL:https://www.mpe.mpg.de/events/47132/6317211
 STATUS:CONFIRMED
 END:VEVENT
@@ -240,37 +445,26 @@ DTSTAMP:20261108T083000Z
 DTSTART;TZID=Europe/Berlin:20261202T190000
 SUMMARY:Harald Lesch & Axel Kleidon: Die Natur ist kein Parteimitglied
 LOCATION:Bayerische Staatsbibliothek\, München
-DESCRIPTION:Wissenschaftliches Gespräch über Naturgesetze\, effiziente 
- Energienutzung und Klimaschutz. Ticketbedingungen beim Veranstalter prü
- fen. Weitere Informationen: https://www.mpg.de/events/46707/9023208
+DESCRIPTION:Wissenschaftliches Gespräch über Naturgesetze\, effiziente En
+ ergienutzung und Klimaschutz. Ticketbedingungen beim Veranstalter prüfen.
+  Weitere Informationen: https://www.mpg.de/events/46707/9023208
 URL:https://www.mpg.de/events/46707/9023208
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261125-2000-gender-salon-romantikdiktat@science-society-muenchen
-DTSTAMP:20261108T080000Z
-DTSTART;TZID=Europe/Berlin:20261125T200000
-SUMMARY:Gender Salon – Zusammenleben jenseits des Romantikdiktats
-LOCATION:Glockenbachwerkstatt\, Blumenstraße 7\, 80331 München
-DESCRIPTION:Gender Salon mit Soziologin Andrea Newerla über alternative 
- Formen des Zusammenlebens und die gesellschaftliche Dominanz romantische
- r Paarbeziehungen. Eintritt 4 EUR\; Einlass 19:30–19:55 Uhr. Veranstal
- terinfo: https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salo
- n/
-URL:https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261201-1900-ukraine-leben-ueberleben@science-society-muenchen
-DTSTAMP:20261109T053200Z
-DTSTART;TZID=Europe/Berlin:20261201T190000
-SUMMARY:Ukraine: Leben und Überleben
-LOCATION:Seidlvilla\, Nikolaiplatz 1b\, München
-DESCRIPTION:Vortrag und Diskussion über Alltag\, Resilienz und Solidarit
- ät im fünften Jahr des russischen Angriffskriegs. Mit Keno Verseck und
-  Ira Ganzhorn. Sprache: Deutsch.
-URL:https://bellevuedimonaco.de/veranstaltung/ukraine-leben-und-ueberlebe
- n/
+UID:20261203-1900-sanyal-militarisierung@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261203T190000
+SUMMARY:NEIN: Gegen die Militarisierung der Gegenwart
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
+  München
+DESCRIPTION:Gespräch mit Kulturwissenschaftlerin und Autorin Mithu Sanyal 
+ und Mirjam Zadoff über Pazifismus\, Gewaltkritik\, Friedenspolitik und ge
+ sellschaftliche Debatten zur Zeitenwende. Weitere Informationen: https://w
+ ww.nsdoku.de/programm/aktuell/detailseite/nein-gegen-die-militarisierung-d
+ er-gegenwart-2722
+URL:https://www.nsdoku.de/programm/aktuell/detailseite/nein-gegen-die-milit
+ arisierung-der-gegenwart-2722
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -280,86 +474,27 @@ DTSTART;TZID=Europe/Berlin:20261204T190000
 DTEND;TZID=Europe/Berlin:20261204T210000
 SUMMARY:Zwischen Besatzung & Widerstand im Westjordanland
 LOCATION:Bellevue di Monaco\, Müllerstraße 2\, 80469 München
-DESCRIPTION:Vortrag und Diskussion mit Kerem Schamberger und Lara Prölß
-  über den Alltag im besetzten Westjordanland\, Landnahme\, Widerstand u
- nd internationale Solidarität.
-URL:https://bellevuedimonaco.de/veranstaltung/zwischen-besatzung-widersta
- nd-im-westjordanland/
+DESCRIPTION:Vortrag und Diskussion mit Kerem Schamberger und Lara Prölß 
+ über den Alltag im besetzten Westjordanland\, Landnahme\, Widerstand und 
+ internationale Solidarität.
+URL:https://bellevuedimonaco.de/veranstaltung/zwischen-besatzung-widerstand
+ -im-westjordanland/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:feministischer-chor-20261111@science-society-muenchen
-DTSTAMP:20261109T203000Z
-DTSTART;TZID=Europe/Berlin:20261111T183000
-SUMMARY:Feministischer Chor München – offenes Mitsingen
-LOCATION:KÖŞK\, Zenettistraße 2 EG\, 80337 München
-DESCRIPTION:Offener feministischer Chor ohne erforderliche Vorkenntnisse.
-  Kostenlos\, ab 16 Jahren\, ohne Anmeldung\; Raum nicht barrierefrei. Ei
- nmalige redaktionelle Ausnahme im Science-&-Society-Kalender. Infos: htt
- ps://www.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
-URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muench
- en
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:feministischer-chor-20261125@science-society-muenchen
-DTSTAMP:20261109T203000Z
-DTSTART;TZID=Europe/Berlin:20261125T183000
-SUMMARY:Feministischer Chor München – offenes Mitsingen
-LOCATION:KÖŞK\, Zenettistraße 2 EG\, 80337 München
-DESCRIPTION:Offener feministischer Chor ohne erforderliche Vorkenntnisse.
-  Kostenlos\, ab 16 Jahren\, ohne Anmeldung\; Raum nicht barrierefrei. Ei
- nmalige redaktionelle Ausnahme im Science-&-Society-Kalender. Infos: htt
- ps://www.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
-URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muench
- en
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:feministischer-chor-20261209@science-society-muenchen
-DTSTAMP:20261109T203000Z
-DTSTART;TZID=Europe/Berlin:20261209T183000
-SUMMARY:Feministischer Chor München – offenes Mitsingen
-LOCATION:KÖŞK\, Zenettistraße 2 EG\, 80337 München
-DESCRIPTION:Offener feministischer Chor ohne erforderliche Vorkenntnisse.
-  Kostenlos\, ab 16 Jahren\, ohne Anmeldung\; Raum nicht barrierefrei. Ei
- nmalige redaktionelle Ausnahme im Science-&-Society-Kalender. Infos: htt
- ps://www.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
-URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muench
- en
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261111-1000-quanten-energienetze@science-society-muenchen
-DTSTAMP:20261110T053200Z
-DTSTART;TZID=Europe/Berlin:20261111T100000
-DTEND;TZID=Europe/Berlin:20261111T110000
-SUMMARY:Nachhaltigkeit: effizientere Energienetze dank Quantencomputing
-LOCATION:LMU\, Amalienstraße 52\, Seminarraum 402\, München
-DESCRIPTION:Vortrag im Rahmen der LMU Sustainability Week zu Quantencompu
- ting und Energiewende\, anschließend Fragen. Weitere Informationen: htt
- ps://www.lmu.de/de/newsroom/veranstaltungskalender/veranstaltung/nachhal
- tigkeit-effizientere-energienetze-dank-quantencomputing-07e0b1b3.html
-URL:https://www.lmu.de/de/newsroom/veranstaltungskalender/veranstaltung/n
- achhaltigkeit-effizientere-energienetze-dank-quantencomputing-07e0b1b3.h
- tml
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261201-1815-osmanische-bildung@science-society-muenchen
-DTSTAMP:20261110T053200Z
-DTSTART;TZID=Europe/Berlin:20261201T181500
-DTEND;TZID=Europe/Berlin:20261201T190000
-SUMMARY:Was Osmanen wissen sollten: Wandel höherer Bildung 1730–1840
-LOCATION:LMU Hauptgebäude\, Hörsaal M010\, Geschwister-Scholl-Platz 1\,
+UID:20261207-1900-klassenfoto-1937@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261207T190000
+SUMMARY:Klassenfoto 1937 – Die Geschichte einer jüdischen Schulklasse
+LOCATION:NS-Dokumentationszentrum München\, Max-Mannheimer-Platz 1\, 80333
   München
-DESCRIPTION:Öffentlicher Vortrag von Prof. Henning Sievert in der Reihe 
- Basiswissen Islam über Bildung und gesellschaftlichen Wandel im Osmanis
- chen Reich. Weitere Informationen: https://www.kw.lmu.de/inmo/de/aktuell
- es/veranstaltungsuebersicht/veranstaltung/basiswissen-islam-73-ce230626.
- html
-URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/vera
- nstaltung/basiswissen-islam-73-ce230626.html
+DESCRIPTION:Historikerinnen Kristina Milz und Julia Schneidawind sprechen m
+ it Niels Beintker über die Rekonstruktion der Lebenswege einer Münchner 
+ jüdischen Schulklasse. Sofie Gross liest aus historischen Quellen. Weiter
+ e Informationen: https://www.nsdoku.de/programm/aktuell/detailseite/klasse
+ nfoto-1937-die-geschichte-einer-juedischen-schulklasse-2723
+URL:https://www.nsdoku.de/programm/aktuell/detailseite/klassenfoto-1937-die
+ -geschichte-einer-juedischen-schulklasse-2723
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -368,15 +503,63 @@ DTSTAMP:20261110T053200Z
 DTSTART;TZID=Europe/Berlin:20261208T181500
 DTEND;TZID=Europe/Berlin:20261208T190000
 SUMMARY:Arabische\, persische und osmanische Handschriften an der BSB
-LOCATION:LMU Hauptgebäude\, Hörsaal M010\, Geschwister-Scholl-Platz 1\,
-  München
-DESCRIPTION:Öffentlicher Vortrag von Felix Wiedemann und Mirja Dorothée
-  Weinmann über Handschriftenbestände und Kulturgeschichte\, Reihe Basi
- swissen Islam. Weitere Informationen: https://www.kw.lmu.de/inmo/de/aktu
- elles/veranstaltungsuebersicht/veranstaltung/basiswissen-islam-74-be2424
- 47.html
-URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/vera
- nstaltung/basiswissen-islam-74-be242447.html
+LOCATION:LMU Hauptgebäude\, Hörsaal M010\, Geschwister-Scholl-Platz 1\, M
+ ünchen
+DESCRIPTION:Öffentlicher Vortrag von Felix Wiedemann und Mirja Dorothée W
+ einmann über Handschriftenbestände und Kulturgeschichte\, Reihe Basiswis
+ sen Islam. Weitere Informationen: https://www.kw.lmu.de/inmo/de/aktuelles/
+ veranstaltungsuebersicht/veranstaltung/basiswissen-islam-74-be242447.html
+URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/verans
+ taltung/basiswissen-islam-74-be242447.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261208-1900-klima-umwelt-muenchen@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261208T190000
+DTEND;TZID=Europe/Berlin:20261208T210000
+SUMMARY:Klima\, Umwelt und globale Verantwortung
+LOCATION:Münchner Zukunftssalon\, Goethestraße 28\, München und online
+DESCRIPTION:Kai Schäfer (städtisches Referat für Klima- und Umweltschutz
+ ) erläutert Münchens Nachhaltigkeitsstrategie\, Klimaanpassung\, Biodive
+ rsität und globale Verantwortung. Vortrag mit Diskussion. Kostenlos\; Anm
+ eldung für Präsenz oder Zoom auf der Veranstaltungsseite. Weitere Inform
+ ationen: https://energienetzwerk-muc.de/event/klima-umwelt-globale-verantw
+ ortung-08-12-2026/
+URL:https://energienetzwerk-muc.de/event/klima-umwelt-globale-verantwortung
+ -08-12-2026/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261209-1830-hydrothermale-quellen-enceladus@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261209T183000
+DTEND;TZID=Europe/Berlin:20261209T193000
+SUMMARY:Die Entstehung des Lebens an hydrothermalen Tiefseequellen – ein 
+ Vorbild für Leben auf Enceladus?
+LOCATION:Paläontologisches Museum\, Hörsaal D016 oder C006\, Richard-Wagn
+ er-Straße 10\, München und Zoom
+DESCRIPTION:Dr. Vanessa Helmbrecht (LMU) über Experimente zum Ursprung des
+  Lebens an hydrothermalen Quellen und die Möglichkeit außerirdischen Leb
+ ens im Ozean des Saturnmondes Enceladus. Kostenloser Hybridvortrag\; Zoom-
+ Zugang auf Veranstaltungsseite. Weitere Informationen: https://freunde-zsm
+ .de/veranstaltung/die-entstehung-des-lebens-an-hydrothermalen-tiefseequell
+ en/
+URL:https://freunde-zsm.de/veranstaltung/die-entstehung-des-lebens-an-hydro
+ thermalen-tiefseequellen/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:feministischer-chor-20261209@science-society-muenchen
+DTSTAMP:20261109T203000Z
+DTSTART;TZID=Europe/Berlin:20261209T183000
+SUMMARY:Feministischer Chor München – offenes Mitsingen
+LOCATION:KÖŞK\, Zenettistraße 2 EG\, 80337 München
+DESCRIPTION:Offener feministischer Chor ohne erforderliche Vorkenntnisse. K
+ ostenlos\, ab 16 Jahren\, ohne Anmeldung\; Raum nicht barrierefrei. Einmal
+ ige redaktionelle Ausnahme im Science-&-Society-Kalender. Infos: https://w
+ ww.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
+URL:https://www.musenkuss-muenchen.de/angebote/feministischer-chor-muenchen
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -384,15 +567,31 @@ UID:20261210-1815-mihrab-architektur@science-society-muenchen
 DTSTAMP:20261110T053200Z
 DTSTART;TZID=Europe/Berlin:20261210T181500
 DTEND;TZID=Europe/Berlin:20261210T200000
-SUMMARY:Der Mihrab: Entstehung der Gebetsnische in islamischer Architektu
- r
+SUMMARY:Der Mihrab: Entstehung der Gebetsnische in islamischer Architektur
 LOCATION:LMU\, Raum 009\, Veterinärstraße 1\, München
-DESCRIPTION:Vortrag von Johanna Moussian zur politischen und symbolischen
-  Bedeutung frühislamischer Sakralarchitektur. Weitere Informationen: ht
- tps://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/veranstal
- tung/vortrag-von-johanna-moussian-ma-wien-782981ef.html
-URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/vera
- nstaltung/vortrag-von-johanna-moussian-ma-wien-782981ef.html
+DESCRIPTION:Vortrag von Johanna Moussian zur politischen und symbolischen B
+ edeutung frühislamischer Sakralarchitektur. Weitere Informationen: https:
+ //www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/veranstaltung/v
+ ortrag-von-johanna-moussian-ma-wien-782981ef.html
+URL:https://www.kw.lmu.de/inmo/de/aktuelles/veranstaltungsuebersicht/verans
+ taltung/vortrag-von-johanna-moussian-ma-wien-782981ef.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261210-1900-eso-dunkles-universum@science-society-muenchen
+DTSTAMP:20261111T053450Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+SUMMARY:Kosmisches Kino: Durch Raum und Zeit – Ist das Universum wirklich
+  dunkel?
+LOCATION:ESO Supernova Planetarium\, Karl-Schwarzschild-Straße 2\, 85748 G
+ arching
+DESCRIPTION:Live-Vortrag auf Englisch mit Dr. Sveva Castello (Max-Planck-In
+ stitut für Astrophysik) unter der Planetariumskuppel über Dunkle Materie
+ \, Dunkle Energie und Gravitation. Filmsequenzen und Publikumsfragen. Ca. 
+ eine Stunde\; ab 12 Jahren\; 6\,50 EUR. Ticketbuchung: https://supernova.e
+ so.org/germany/programme/booking/xb7w1/ Weitere Informationen: https://sup
+ ernova.eso.org/germany/news/releases/es2631/
+URL:https://supernova.eso.org/germany/news/releases/es2631/
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
