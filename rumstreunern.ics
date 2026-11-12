@@ -324,4 +324,37 @@ URL:https://www.muenchner-kammerspiele.de/de/programm/54862-toxic-techno-cu
 CATEGORIES:Kunst,Performance,Medien
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261113-schubert-paradise@rumstreunern.ics
+DTSTAMP:20261112T060000Z
+DTSTART;TZID=Europe/Berlin:20261113T200000
+SUMMARY:Schubert in Paradise – Premiere
+LOCATION:Münchner Kammerspiele\, Schauspielhaus\, Maximilianstraße 26-28\, München
+DESCRIPTION:Musikalisch-experimentelle Reise in die Nacht mit Katharina Bach\, Jelena Kuljić\, Lucy Wilke und bitchboy. Premiere am 13. November.
+URL:https://www.muenchner-kammerspiele.de/de/programm/51812-schubert-in-paradise
+CATEGORIES:Theater,Musik
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-meister-margarita@rumstreunern.ics
+DTSTAMP:20261112T060000Z
+DTSTART;TZID=Europe/Berlin:20261118T190000
+SUMMARY:Meister und Margarita – opulentes Theater
+LOCATION:Münchner Kammerspiele\, Schauspielhaus\, Maximilianstraße 26-28\, München
+DESCRIPTION:Jette Steckels bildstarke Bulgakow-Adaption über Zensur\, Kunst und Macht. Mit englischen Übertiteln\, Dauer ca. 4 Stunden 10 Minuten einschließlich Pause.
+URL:https://www.muenchner-kammerspiele.de/de/programm/42859-meister-und-margarita
+CATEGORIES:Theater,Literatur
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261120-schubert-paradise@rumstreunern.ics
+DTSTAMP:20261112T060000Z
+DTSTART;TZID=Europe/Berlin:20261120T200000
+SUMMARY:Schubert in Paradise – musikalische Theaterreise
+LOCATION:Münchner Kammerspiele\, Schauspielhaus\, Maximilianstraße 26-28\, München
+DESCRIPTION:Experimentelles Musiktheater über Franz Schubert mit Katharina Bach\, Jelena Kuljić\, Lucy Wilke und bitchboy. Einführung ab 19:30 Uhr.
+URL:https://www.muenchner-kammerspiele.de/de/programm/51812-schubert-in-paradise
+CATEGORIES:Theater,Musik
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
