@@ -331,7 +331,8 @@ DESCRIPTION:Gender Salon mit Soziologin Andrea Newerla über alternative Fo
  rmen des Zusammenlebens und die gesellschaftliche Dominanz romantischer Pa
  arbeziehungen. Eintritt 4 EUR\; Einlass 19:30–19:55 Uhr. Veranstalterinf
  o: https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
-URL:https://www.soziologie.lmu.de/de/lehrbereiche/lb-05/gender-salon/
+URL:https://www.soziologie.lmu.de/de/aktuelles/veranstaltungsuebersicht/v
+ eranstaltung/gender-salon-mit-andrea-newerla-soziologin-7cd67053.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -592,6 +593,20 @@ DESCRIPTION:Live-Vortrag auf Englisch mit Dr. Sveva Castello (Max-Planck-In
  so.org/germany/programme/booking/xb7w1/ Weitere Informationen: https://sup
  ernova.eso.org/germany/news/releases/es2631/
 URL:https://supernova.eso.org/germany/news/releases/es2631/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-1900-stonehenge-archaeoastronomie@science-society-muenchen
+DTSTAMP:20261112T053000Z
+DTSTART;TZID=Europe/Berlin:20261212T190000
+SUMMARY:Stonehenge – Spannende Funde und bleibende Rätsel
+LOCATION:Volkssternwarte München\, Gisela-Stein-Straße Ecke Ludwig-Jung
+ -Straße\, 81671 München
+DESCRIPTION:Vortrag von Dr. Michael A. Rappenglück über Archäoastronom
+ ie\, archäologische Befunde und die Rekonstruktion astronomischer Bezü
+ ge von Stonehenge. Ticketverkauf beginnt am 15. November um 12 Uhr. Weit
+ ere Informationen: https://sternwarte-muenchen.de/event-vsw/stonehenge/
+URL:https://sternwarte-muenchen.de/event-vsw/stonehenge/
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
