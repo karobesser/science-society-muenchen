@@ -27,23 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261111-mittwochskino-ein-kuchen-fur-den-prasidenten@ebe-raus-aus-dem-
- haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261111T200000
-SUMMARY:Mittwochskino: Ein Kuchen für den Präsidenten
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Hasan Hadis Film über ein Schulkind im Irak unter Saddam Husse
- in\, das einen Geburtstagskuchen für den Präsidenten besorgen muss. 105 
- Min. Abendkasse 7–10 EUR\; Einlass 19 Uhr\; Reservierung online.
-URL:https://kultur-in-ebersberg.de/programm/ein-kuchen-fuer-den-praesidente
- n/
-STATUS:CONFIRMED
-DTEND;TZID=Europe/Berlin:20261111T214500
-LAST-MODIFIED:20261111T054846Z
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:20261113-platzchenbacken-im-chaxter@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261113T160000
