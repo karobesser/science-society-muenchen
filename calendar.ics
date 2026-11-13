@@ -609,4 +609,18 @@ DESCRIPTION:Vortrag von Dr. Michael A. Rappenglück über Archäoastronom
 URL:https://sternwarte-muenchen.de/event-vsw/stonehenge/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261204-2000-ausserirdisches-leben@science-society-muenchen
+DTSTAMP:20261113T052900Z
+DTSTART;TZID=Europe/Berlin:20261204T200000
+SUMMARY:Außerirdisches Leben – Astrobiologie und SETI
+LOCATION:Volkssternwarte München\, Gisela-Stein-Str. Ecke Ludwig-Jung-St
+ r.\, 81671 München
+DESCRIPTION:Vortrag von Paul Salazar über Astrobiologie\, Raumsonden und
+  Radioastronomie bei der Suche nach außerirdischem Leben. Anschließend
+  bei gutem Wetter Teleskopbeobachtung. Eintritt 10 EUR\, ermäßigt 7 EU
+ R. Voranmeldung/Ticket erforderlich.
+URL:https://sternwarte-muenchen.de/event-vsw/ausserirdisch/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
