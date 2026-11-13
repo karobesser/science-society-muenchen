@@ -654,4 +654,32 @@ URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-siea-konzert/
 CATEGORIES:Musik,Mehrwertkneipe
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261117-jena-puppets-dornroeschen@ebe-raus-aus-dem-ha
+ us
+DTSTAMP:20261113T060000Z
+DTSTART;TZID=Europe/Berlin:20261117T150000
+SUMMARY:Kindertheatertage: Schlafe! Dornröschen im Bett zu
+  spielen
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Feinsinniges Objekttheater der Jena Puppets fü
+ r Kinder ab 5 Jahren und Familien. Öffentliche Vorstellun
+ g\, 8 EUR pro Person. Beginn 15 Uhr.
+URL:https://kultur-in-ebersberg.de/programm/kindertheatert
+ age-familienvorstellung-5/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261213-auf-den-spuren-der-eiszeit@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261113T060000Z
+DTSTART;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Auf den Spuren der Eiszeit – Wanderung
+LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, 85560 Eb
+ ersberg
+DESCRIPTION:Wanderung in die Erdgeschichte\, 13 bis 16 Uhr
+ . Treffpunkt und Anmeldung beim Museum prüfen.
+URL:https://www.museumwaldundumwelt.de/aktuelles
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
