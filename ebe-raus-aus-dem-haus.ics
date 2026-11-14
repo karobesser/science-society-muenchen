@@ -27,49 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261113-platzchenbacken-im-chaxter@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261113T160000
-SUMMARY:Plätzchenbacken im CHAXTER
-LOCATION:Schülercafé CHAXTER\, Am Stadion 7\, Grafing
-DESCRIPTION:Ab 10 Jahren\; bis 19 Uhr\; 5 EUR\; Anmeldung beim CHAXTER. Wei
- tere Informationen: https://www.grafing.de/kultur-bildung-soziales/kinder-
- familie/jugendpflege/chaxter-das-schuelercafe-der-stadt-grafing/novemberan
- gebote-im-chaxter
-URL:https://www.grafing.de/kultur-bildung-soziales/kinder-familie/jugendpfl
- ege/chaxter-das-schuelercafe-der-stadt-grafing/novemberangebote-im-chaxter
-STATUS:CONFIRMED
-DTEND;TZID=Europe/Berlin:20261113T190000
-LAST-MODIFIED:20261111T054846Z
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-UID:20261113-apulien-fotovernissage@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261113T193000
-SUMMARY:Apulien – Fotovernissage und Bilderschau
-LOCATION:Gemeindebücherei\, Schulstraße 7\, Zorneding
-DESCRIPTION:Wolfgang Göbler zeigt Fotografien aus Apulien und ergänzt die
-  Vernissage durch einen Vortrag und eine kurze audiovisuelle Schau. Eintri
- tt frei.
-URL:https://www.zorneding.de/Wohnen-Leben/Gemeindeb%C3%BCcherei/Veranstaltu
- ngen/
-CATEGORIES:Kunst
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261113-coorie-moderner-celtic-folk@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T054200Z
-DTSTART;TZID=Europe/Berlin:20261113T193000
-SUMMARY:COORIE – moderner Celtic Folk
-LOCATION:Schrottgalerie\, St.-Johannes-Str. 2\, Glonn
-DESCRIPTION:Irisch-schottische Tradition und eigene Songs. Eintritt frei\, 
- Hutspenden\; Reservierung per E-Mail an reservierung@schrottgalerie.de. Me
- hr Informationen: https://schrottgalerie.de/freitag-13-november-26-coorie/
-URL:https://schrottgalerie.de/freitag-13-november-26-coorie/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:20261114-muellsammeln-eglharting@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261114T100000
@@ -680,6 +637,21 @@ LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, 85560 Eb
 DESCRIPTION:Wanderung in die Erdgeschichte\, 13 bis 16 Uhr
  . Treffpunkt und Anmeldung beim Museum prüfen.
 URL:https://www.museumwaldundumwelt.de/aktuelles
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261121-naturforscher-ab-in-den-wald@ebe-raus-aus-dem-haus
+DTSTAMP:20261114T054400Z
+DTSTART;TZID=Europe/Berlin:20261121T133000
+DTEND;TZID=Europe/Berlin:20261121T150000
+SUMMARY:Naturforscher: Ab in den Wald (5–8 Jahre)
+LOCATION:Vorplatz Ebersberger Alm\, Ludwigshöhe 3\, Ebersberg
+DESCRIPTION:Waldabenteuer und weihnachtliches Basteln mit Naturma
+ terialien für Kinder von 5 bis 8 Jahren. Gebühr 11\,50 EUR\; Anme
+ ldung über VHS Ebersberger Land. Kurs 262-68862.
+URL:https://www.vhs-ebersberger-land.de/p/junge-vhs/kinder/natur-
+ umwelt/naturforscher-ab-in-den-wald/fuer-kinder-von-5-bis-8-jahre
+ n-649-C-262-68862
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
