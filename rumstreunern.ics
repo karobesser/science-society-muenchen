@@ -476,4 +476,26 @@ URL:https://www.pathos.theater/veranstaltungen/2026/2026_11-12/12
 CATEGORIES:Tanz,Performance,Musik
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261216-limina-open-rehearsal@rumstreunern.ics
+DTSTAMP:20261114T060000Z
+DTSTART;TZID=Europe/Berlin:20261216T190000
+SUMMARY:Limina – öffentliche Probe der neuen Kammerspiele-Produktion
+LOCATION:Münchner Kammerspiele\, Therese-Giehse-Halle\, Falckenbergstraße 1\, München
+DESCRIPTION:Einblick in die neue visuell-experimentelle Theaterarbeit von Łukasz Twarkowski über KI\, Wahrnehmung und die Grenzen des Menschlichen. Öffentliche Probe vor der Uraufführung. Details und Zugang auf der Veranstalterseite prüfen.
+URL:https://www.muenchner-kammerspiele.de/de/programm/51838-limina
+CATEGORIES:Theater,Performance,Medien
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261219-limina-premiere@rumstreunern.ics
+DTSTAMP:20261114T060000Z
+DTSTART;TZID=Europe/Berlin:20261219T200000
+SUMMARY:Limina – Uraufführung über KI und neue Wirklichkeiten
+LOCATION:Münchner Kammerspiele\, Therese-Giehse-Halle\, Falckenbergstraße 1\, München
+DESCRIPTION:Łukasz Twarkowski inszeniert nach WoW – Word on Wirecard eine visuell-poetische Reise durch Wahrnehmung\, künstliche Intelligenz und menschliches Bewusstsein. Besonders spannende Theaterpremiere\; Vorverkauf laut Spielplan seit 2.11.
+URL:https://www.muenchner-kammerspiele.de/de/programm/51838-limina
+CATEGORIES:Theater,Performance,Medien
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
