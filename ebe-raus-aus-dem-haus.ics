@@ -582,4 +582,55 @@ URL:https://www.vhs-ebersberger-land.de/p/junge-vhs/kinder/natur-
  n-649-C-262-68862
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261127-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261127T140000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
+ ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
+ achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
+ ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
+ uchkriterium.
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
+ dlmarkt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261128T140000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
+ ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
+ achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
+ ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
+ uchkriterium.
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
+ dlmarkt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261129-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261129T120000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
+ ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
+ achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
+ ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
+ uchkriterium.
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
+ dlmarkt
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
