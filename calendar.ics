@@ -623,4 +623,19 @@ DESCRIPTION:Vortrag von Paul Salazar über Astrobiologie\, Raumsonden und
 URL:https://sternwarte-muenchen.de/event-vsw/ausserirdisch/
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261201-1845-tedx-ki-after-the-fear@science-society-muenchen
+DTSTAMP:20261115T052956Z
+DTSTART;TZID=Europe/Berlin:20261201T184500
+DTEND;TZID=Europe/Berlin:20261201T220000
+SUMMARY:TEDxMünchen meets SZ – KI: After The Fear
+LOCATION:Ten Towers\, Dingolfinger Str. 1–15\, 81673 München
+DESCRIPTION:TEDxSalon mit der Süddeutschen Zeitung: Talks\, Diskussionen
+  und interaktive Formate über Chancen\, Risiken und gesellschaftliche F
+ olgen künstlicher Intelligenz\, darunter Demokratie\, Wahrheit und Arbe
+ itswelt. Einlass ab 18:00 Uhr. Tickets über die offizielle Veranstaltun
+ gsseite: https://www.tedxmuenchen.com/salon2026/tedxmeetssz
+URL:https://www.tedxmuenchen.com/salon2026/tedxmeetssz
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
