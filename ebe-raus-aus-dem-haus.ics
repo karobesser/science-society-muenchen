@@ -633,4 +633,112 @@ URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
  dlmarkt
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261204-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261204T150000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261206T130000
+DTEND;TZID=Europe/Berlin:20261206T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261211-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261211T150000
+DTEND;TZID=Europe/Berlin:20261211T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261212T150000
+DTEND;TZID=Europe/Berlin:20261212T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261213-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261213T130000
+DTEND;TZID=Europe/Berlin:20261213T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
