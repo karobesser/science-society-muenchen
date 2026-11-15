@@ -498,4 +498,27 @@ URL:https://www.muenchner-kammerspiele.de/de/programm/51838-limina
 CATEGORIES:Theater,Performance,Medien
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261124-kunstverein-vision-sequence@rumstreunern.ics
+DTSTAMP:20261115T060000Z
+DTSTART;TZID=Europe/Berlin:20261124T163000
+DTEND;TZID=Europe/Berlin:20261124T210000
+SUMMARY:Vision Sequence – experimenteller Sound im Kunstverein
+LOCATION:Kunstverein München\, Galeriestraße 4\, München
+DESCRIPTION:Zwei Abende mit experimentellem Sound und Kunst im Kunstverein München. Künstlerische Positionen zwischen Klang\, Performance und Experiment\; auch am 25.11. von 16:30 bis 21 Uhr.
+URL:https://www.kunstverein-muenchen.de/de/programm
+CATEGORIES:Kunst,Musik,Performance
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261204-kunstverein-jahresgaben@rumstreunern.ics
+DTSTAMP:20261115T060000Z
+DTSTART;TZID=Europe/Berlin:20261204T180000
+SUMMARY:Jahresgaben 2026 – Ausstellungseröffnung im Kunstverein
+LOCATION:Kunstverein München\, Galeriestraße 4\, München
+DESCRIPTION:Eröffnung der Jahresgaben 2026 im Kunstverein München. Gelegenheit\, zeitgenössische künstlerische Positionen und Editionen in der Münchner Kunstszene kennenzulernen. Ausstellung vom 5. bis 13. Dezember.
+URL:https://www.kunstverein-muenchen.de/de/programm
+CATEGORIES:Kunst,Design
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
