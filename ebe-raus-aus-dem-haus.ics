@@ -27,16 +27,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261115-messweintortenerpressung-anzing@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261115T190000
-SUMMARY:Die Messweintortenerpressung – Theaterverein Anzing
-LOCATION:Pfarrheim Anzing\, Erdinger Straße 1\, Anzing
-DESCRIPTION:Lokales Amateurtheater mit einer bayerischen Komödie. Einlass 
- 18 Uhr. Weitere Aufführungen im Gemeindekalender am 20.\, 21. und 22.11.\
- ; Karten beim Veranstalter erfragen.
-URL:https://www.anzing.de/termin/theaterverein-31/
-CATEGORIES:Theater
+UID:20261117-jena-puppets-dornroeschen@ebe-raus-aus-dem-ha
+ us
+DTSTAMP:20261113T060000Z
+DTSTART;TZID=Europe/Berlin:20261117T150000
+SUMMARY:Kindertheatertage: Schlafe! Dornröschen im Bett zu
+  spielen
+LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
+DESCRIPTION:Feinsinniges Objekttheater der Jena Puppets fü
+ r Kinder ab 5 Jahren und Familien. Öffentliche Vorstellun
+ g\, 8 EUR pro Person. Beginn 15 Uhr.
+URL:https://kultur-in-ebersberg.de/programm/kindertheatert
+ age-familienvorstellung-5/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -189,6 +191,21 @@ CATEGORIES:Workshop,Familie
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:20261121-naturforscher-ab-in-den-wald@ebe-raus-aus-dem-haus
+DTSTAMP:20261114T054400Z
+DTSTART;TZID=Europe/Berlin:20261121T133000
+DTEND;TZID=Europe/Berlin:20261121T150000
+SUMMARY:Naturforscher: Ab in den Wald (5–8 Jahre)
+LOCATION:Vorplatz Ebersberger Alm\, Ludwigshöhe 3\, Ebersberg
+DESCRIPTION:Waldabenteuer und weihnachtliches Basteln mit Naturma
+ terialien für Kinder von 5 bis 8 Jahren. Gebühr 11\,50 EUR\; Anme
+ ldung über VHS Ebersberger Land. Kurs 262-68862.
+URL:https://www.vhs-ebersberger-land.de/p/junge-vhs/kinder/natur-
+ umwelt/naturforscher-ab-in-den-wald/fuer-kinder-von-5-bis-8-jahre
+ n-649-C-262-68862
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:20261121-lebensborn-exkursion-steinhoering@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261121T143000
@@ -244,6 +261,23 @@ STATUS:CONFIRMED
 DTEND;TZID=Europe/Berlin:20261125T214500
 LAST-MODIFIED:20261111T054846Z
 SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261127-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261127T140000
+DTEND;TZID=Europe/Berlin:20261127T210000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
+ ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
+ achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
+ ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
+ uchkriterium.
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
+ dlmarkt
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261127-big-band-markt-schwaben@ebe-raus-aus-dem-haus
@@ -304,6 +338,23 @@ URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-quiz-6-eintritt-
 STATUS:CONFIRMED
 LAST-MODIFIED:20261111T054846Z
 SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20261128-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261128T140000
+DTEND;TZID=Europe/Berlin:20261128T210000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
+ ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
+ achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
+ ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
+ uchkriterium.
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
+ dlmarkt
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261128-perchten-kirchseeon-dorf-1@ebe-raus-aus-dem-haus
@@ -380,6 +431,23 @@ CATEGORIES:Workshop,Familie
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:20261129-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
+ -haus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261129T120000
+DTEND;TZID=Europe/Berlin:20261129T210000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
+ ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
+ achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
+ ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
+ uchkriterium.
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
+ dlmarkt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:20261202-perchten-hoehenberg@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261202T190000
@@ -419,6 +487,24 @@ URL:https://www.stadthalle-grafing.de/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:20261204-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261204T150000
+DTEND;TZID=Europe/Berlin:20261204T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:20261204-antonia-stabinger-angenehm@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261204T200000
@@ -448,6 +534,24 @@ LAST-MODIFIED:20261111T054846Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+UID:20261205-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261205T150000
+DTEND;TZID=Europe/Berlin:20261205T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:20261205-kleine-schritte-schauspiel@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261205T190000
@@ -471,6 +575,24 @@ LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
 DESCRIPTION:Politisches Kabarett zum Nachrichtenjahr 2026. Tickets ab 30 EU
  R. Mehr Informationen: https://www.stadthalle-grafing.de/
 URL:https://www.stadthalle-grafing.de/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261206-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261115T181300Z
+DTSTART;TZID=Europe/Berlin:20261206T130000
+DTEND;TZID=Europe/Berlin:20261206T220000
+SUMMARY:Bad Aiblinger Christkindlmarkt
+LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
+DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
+ sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
+  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
+ /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
+ d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
+ nstaltungen
+URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
+ markt
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -527,167 +649,6 @@ LAST-MODIFIED:20261111T054846Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20261211-mehrwertkneipe-siea@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261211T200000
-SUMMARY:MehrwertKneipe: SiEA & Sarah Bugar
-LOCATION:Altes Kino\, Eberhardstraße 3\, Ebersberg
-DESCRIPTION:Münchner Band SiEA mit Synth-Pop\, Soul\, Avantgarde-Pop und g
- esellschaftskritischen Texten\; Support Sarah Bugar. Vorverkauf 10–25 EU
- R nach Wahl\, Einlass 19 Uhr.
-URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-siea-konzert/
-CATEGORIES:Musik,Mehrwertkneipe
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261117-jena-puppets-dornroeschen@ebe-raus-aus-dem-ha
- us
-DTSTAMP:20261113T060000Z
-DTSTART;TZID=Europe/Berlin:20261117T150000
-SUMMARY:Kindertheatertage: Schlafe! Dornröschen im Bett zu
-  spielen
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Feinsinniges Objekttheater der Jena Puppets fü
- r Kinder ab 5 Jahren und Familien. Öffentliche Vorstellun
- g\, 8 EUR pro Person. Beginn 15 Uhr.
-URL:https://kultur-in-ebersberg.de/programm/kindertheatert
- age-familienvorstellung-5/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261213-auf-den-spuren-der-eiszeit@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261113T060000Z
-DTSTART;TZID=Europe/Berlin:20261213T130000
-SUMMARY:Auf den Spuren der Eiszeit – Wanderung
-LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, 85560 Eb
- ersberg
-DESCRIPTION:Wanderung in die Erdgeschichte\, 13 bis 16 Uhr
- . Treffpunkt und Anmeldung beim Museum prüfen.
-URL:https://www.museumwaldundumwelt.de/aktuelles
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261121-naturforscher-ab-in-den-wald@ebe-raus-aus-dem-haus
-DTSTAMP:20261114T054400Z
-DTSTART;TZID=Europe/Berlin:20261121T133000
-DTEND;TZID=Europe/Berlin:20261121T150000
-SUMMARY:Naturforscher: Ab in den Wald (5–8 Jahre)
-LOCATION:Vorplatz Ebersberger Alm\, Ludwigshöhe 3\, Ebersberg
-DESCRIPTION:Waldabenteuer und weihnachtliches Basteln mit Naturma
- terialien für Kinder von 5 bis 8 Jahren. Gebühr 11\,50 EUR\; Anme
- ldung über VHS Ebersberger Land. Kurs 262-68862.
-URL:https://www.vhs-ebersberger-land.de/p/junge-vhs/kinder/natur-
- umwelt/naturforscher-ab-in-den-wald/fuer-kinder-von-5-bis-8-jahre
- n-649-C-262-68862
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261127-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
- -haus
-DTSTAMP:20261115T181300Z
-DTSTART;TZID=Europe/Berlin:20261127T140000
-DTEND;TZID=Europe/Berlin:20261127T210000
-SUMMARY:Bad Aiblinger Christkindlmarkt
-LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
-DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
- ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
- achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
- ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
- uchkriterium.
-URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
- dlmarkt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261128-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
- -haus
-DTSTAMP:20261115T181300Z
-DTSTART;TZID=Europe/Berlin:20261128T140000
-DTEND;TZID=Europe/Berlin:20261128T210000
-SUMMARY:Bad Aiblinger Christkindlmarkt
-LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
-DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
- ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
- achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
- ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
- uchkriterium.
-URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
- dlmarkt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261129-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
- -haus
-DTSTAMP:20261115T181300Z
-DTSTART;TZID=Europe/Berlin:20261129T120000
-DTEND;TZID=Europe/Berlin:20261129T210000
-SUMMARY:Bad Aiblinger Christkindlmarkt
-LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
-DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
- ersberg. Christkindlmarkt mit festlicher Beleuchtung am Irl
- achweiher\, Kunsthandwerk\, Essen und Familienprogramm. Zei
- ten laut verlinkter Veranstaltungsseite. Kein dauerhaftes S
- uchkriterium.
-URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
- dlmarkt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261204-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261115T181300Z
-DTSTART;TZID=Europe/Berlin:20261204T150000
-DTEND;TZID=Europe/Berlin:20261204T220000
-SUMMARY:Bad Aiblinger Christkindlmarkt
-LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
-DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
- sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
-  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
- /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
- d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
- nstaltungen
-URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
- markt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261205-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261115T181300Z
-DTSTART;TZID=Europe/Berlin:20261205T150000
-DTEND;TZID=Europe/Berlin:20261205T220000
-SUMMARY:Bad Aiblinger Christkindlmarkt
-LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
-DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
- sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
-  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
- /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
- d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
- nstaltungen
-URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
- markt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261206-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
- aus
-DTSTAMP:20261115T181300Z
-DTSTART;TZID=Europe/Berlin:20261206T130000
-DTEND;TZID=Europe/Berlin:20261206T220000
-SUMMARY:Bad Aiblinger Christkindlmarkt
-LOCATION:Kurpark am Irlachweiher\, 83043 Bad Aibling
-DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
- sberg. Christkindlmarkt mit Lichterzauber\, Kunsthandwerk und
-  Familienprogramm. Oeffnungszeiten laut Stadt Bad Aibling: Fr
- /Sa 15-22 Uhr\, So 13-22 Uhr. Details: https://www.rathaus-ba
- d-aibling.de/Wirtschaft-und-Wohnen/Wirtschaftsfoerderung/Vera
- nstaltungen
-URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
- markt
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:20261211-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
  aus
 DTSTAMP:20261115T181300Z
@@ -703,6 +664,19 @@ DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
  nstaltungen
 URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
  markt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261211-mehrwertkneipe-siea@ebe-raus-aus-dem-haus
+DTSTAMP:20261111T054846Z
+DTSTART;TZID=Europe/Berlin:20261211T200000
+SUMMARY:MehrwertKneipe: SiEA & Sarah Bugar
+LOCATION:Altes Kino\, Eberhardstraße 3\, Ebersberg
+DESCRIPTION:Münchner Band SiEA mit Synth-Pop\, Soul\, Avantgarde-Pop und g
+ esellschaftskritischen Texten\; Support Sarah Bugar. Vorverkauf 10–25 EU
+ R nach Wahl\, Einlass 19 Uhr.
+URL:https://kultur-in-ebersberg.de/programm/mehrwertkneipe-siea-konzert/
+CATEGORIES:Musik,Mehrwertkneipe
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -724,6 +698,19 @@ URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:20261213-auf-den-spuren-der-eiszeit@ebe-raus-aus-dem-h
+ aus
+DTSTAMP:20261113T060000Z
+DTSTART;TZID=Europe/Berlin:20261213T130000
+SUMMARY:Auf den Spuren der Eiszeit – Wanderung
+LOCATION:Museum Wald und Umwelt\, Ludwigshöhe 2\, 85560 Eb
+ ersberg
+DESCRIPTION:Wanderung in die Erdgeschichte\, 13 bis 16 Uhr
+ . Treffpunkt und Anmeldung beim Museum prüfen.
+URL:https://www.museumwaldundumwelt.de/aktuelles
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:20261213-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem-h
  aus
 DTSTAMP:20261115T181300Z
@@ -739,6 +726,16 @@ DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
  nstaltungen
 URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
  markt
+STATUS:CONFIRMED
+END:VEVENTBEGIN:VEVENT
+UID:20261216-mittwochskino-kurzfilmabend@ebe-raus-aus-dem-haus
+DTSTAMP:20261116T054300Z
+DTSTART;TZID=Europe/Berlin:20261216T200000
+DTEND;TZID=Europe/Berlin:20261216T220000
+SUMMARY:Mittwochskino: Kurzfilmabend
+LOCATION:Altes Kino\, Ebersberg
+DESCRIPTION:Kuratiertes Kurzfilmprogramm von Barbara Lux. Einlass ab 19 Uhr\; Kartenreservierung über Veranstalter.
+URL:https://kultur-in-ebersberg.de/programm/kurzfilmabend-4/
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
