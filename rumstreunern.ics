@@ -521,4 +521,15 @@ URL:https://www.kunstverein-muenchen.de/de/programm
 CATEGORIES:Kunst,Design
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261117-kunstarkaden-structure-arbitrariness@rumstreunern.ics
+DTSTAMP:20261116T060000Z
+DTSTART;TZID=Europe/Berlin:20261117T190000
+SUMMARY:structure and arbitrariness – Vernissage mit Musikperformance
+LOCATION:Kunstarkaden\, Sparkassenstraße 3\, München
+DESCRIPTION:Gruppenausstellung mit Dimitrios Dimitriadis\, Lisa Holzapfel\, Minjoon Kim\, Celia Renée Meissner\, Alexandra Müller und Branka Predojevic. Zur Eröffnung spielt 100000loca live. Eintritt frei. Ausstellung 18.11.–19.12.\, Di–Sa 13–19 Uhr.
+URL:https://kunstarkaden-muenchen.de/vorschau/
+CATEGORIES:Kunst,Performance
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
