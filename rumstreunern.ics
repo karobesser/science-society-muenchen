@@ -532,4 +532,16 @@ URL:https://kunstarkaden-muenchen.de/vorschau/
 CATEGORIES:Kunst,Performance
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261211-luise-kunstbegegnungen@rumstreunern.ics
+DTSTAMP:20261117T055600Z
+DTSTART;TZID=Europe/Berlin:20261211T163000
+DTEND;TZID=Europe/Berlin:20261211T190000
+SUMMARY:Kunst·begegnungen – offenes Atelier in der LUISE
+LOCATION:LUISE werkt\, Ruppertstraße 5\, 80337 München
+DESCRIPTION:Offene inklusive Kunstwerkstatt zum Zeichnen\, Malen und kreativen Experimentieren. Materialien vorhanden\, keine Vorkenntnisse oder Anmeldung nötig\, kostenlos. Raum 2. Ein entspannter Ort zum Selbermachen und Austausch.
+URL:https://www.luise-kultur.de/termine/kunstundbegegnung/11-12-26
+CATEGORIES:Kunst,Mitmachen,Workshop
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
