@@ -654,4 +654,36 @@ DESCRIPTION:Vier Forschende präsentieren in kurzen unterhaltsamen Beitr
 URL:https://hm.edu/aktuelles/news/news_detailseite_550528.de.html
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261123-1800-lectures-for-future@science-society-muenchen
+DTSTAMP:20261117T053209Z
+DTSTART;TZID=Europe/Berlin:20261123T180000
+SUMMARY:Lectures for Future – Energiespeicherung der Zukunft
+LOCATION:LMU München\, Luisenstraße 37\, Hörsaal C106\, München
+DESCRIPTION:Öffentliche Ringvorlesung mit Prof. Dr. Maximilian Fichtner 
+ über Batterien als zentrale Elemente der Energiewende. Auch online übe
+ r Zoom zugänglich. Offizielle Informationen: https://hm.edu/hochschule_
+ muenchen/nachhaltigkeit_1/ringvorlesung_hm_lectures_for_future_1/ringvor
+ lesung_hm_lectures_for_future.de.html
+URL:https://hm.edu/hochschule_muenchen/nachhaltigkeit_1/ringvorlesung_hm_
+ lectures_for_future_1/ringvorlesung_hm_lectures_for_future.de.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261130-1800-lectures-for-future@science-society-muenchen
+DTSTAMP:20261117T053209Z
+DTSTART;TZID=Europe/Berlin:20261130T180000
+SUMMARY:Lectures for Future – Wer bezahlt den Preis für ein 3-Euro-T-S
+ hirt?
+LOCATION:Hochschule München\, Lothstraße 64\, Hörsaal Roter Würfel R 
+ 1.046\, München
+DESCRIPTION:Öffentliche Ringvorlesung mit Prof. Dr. Sina Hardaker über 
+ Wertschöpfung\, Abfall und Ungleichheiten im Zeitalter von Temu\, Amazo
+ n und Co. Auch online über Zoom zugänglich. Offizielle Informationen: 
+ https://hm.edu/aktuelles/veranstaltungen/veranstaltung_detailseite_54790
+ 4.de.html
+URL:https://hm.edu/aktuelles/veranstaltungen/veranstaltung_detailseite_54
+ 7904.de.html
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
