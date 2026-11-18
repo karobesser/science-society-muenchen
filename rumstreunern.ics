@@ -544,4 +544,16 @@ URL:https://www.luise-kultur.de/termine/kunstundbegegnung/11-12-26
 CATEGORIES:Kunst,Mitmachen,Workshop
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261121-luise-puppenbau-workshop@rumstreunern.ics
+DTSTAMP:20261118T055800Z
+DTSTART;TZID=Europe/Berlin:20261121T100000
+DTEND;TZID=Europe/Berlin:20261122T180000
+SUMMARY:Mit voller Wirkung – Tischmarionetten selbst bauen
+LOCATION:LUISE\, Ruppertstraße 5\, 80337 München
+DESCRIPTION:Zweitägiger kreativer Puppenbau-Workshop: ausdrucksstarke Tischmarionetten gestalten und zum Leben erwecken. Ein ungewöhnlicher Ausflug zwischen Handwerk und Figurentheater. Teilnahmebedingungen und Anmeldung beim Veranstalter prüfen.
+URL:https://www.luise-kultur.de/termine
+CATEGORIES:Kunst,Workshop,Theater
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
