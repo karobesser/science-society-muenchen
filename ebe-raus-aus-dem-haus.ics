@@ -27,38 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261117-jena-puppets-dornroeschen@ebe-raus-aus-dem-ha
- us
-DTSTAMP:20261113T060000Z
-DTSTART;TZID=Europe/Berlin:20261117T150000
-SUMMARY:Kindertheatertage: Schlafe! Dornröschen im Bett zu
-  spielen
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Feinsinniges Objekttheater der Jena Puppets fü
- r Kinder ab 5 Jahren und Familien. Öffentliche Vorstellun
- g\, 8 EUR pro Person. Beginn 15 Uhr.
-URL:https://kultur-in-ebersberg.de/programm/kindertheatert
- age-familienvorstellung-5/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261117-meine-antarktis-tagebucher-egon-dorrer@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261117T183000
-SUMMARY:Meine Antarktis-Tagebücher – Egon Dorrer
-LOCATION:Stadtbücherei\, Grenzstraße 5\, Grafing
-DESCRIPTION:Antarktisforscher Prof. Dr. Egon Dorrer berichtet von Expeditio
- nen in den 1960er Jahren\; bis 21:30 Uhr. Weitere Informationen: https://w
- ww.grafing.de/kultur-bildung-soziales/kultur-unterhaltung/stadtbuecherei/v
- eranstaltungen-in-der-stadtbuecherei
-URL:https://www.grafing.de/kultur-bildung-soziales/kultur-unterhaltung/stad
- tbuecherei/veranstaltungen-in-der-stadtbuecherei
-STATUS:CONFIRMED
-DTEND;TZID=Europe/Berlin:20261117T213000
-LAST-MODIFIED:20261111T054846Z
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:20261118-parkour-basics-kids@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261118T100000
