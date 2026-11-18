@@ -686,4 +686,51 @@ URL:https://hm.edu/aktuelles/veranstaltungen/veranstaltung_detailseite_54
  7904.de.html
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261125T190000-quanten@science-society-muenchen
+DTSTAMP:20261118T053300Z
+DTSTART;TZID=Europe/Berlin:20261125T190000
+DTEND;TZID=Europe/Berlin:20261125T203000
+SUMMARY:Daten, Sensoren und Quantenforschung – vier Einblicke
+LOCATION:Deutsches Museum\, Museumsinsel 1\, Auditorium\, München
+DESCRIPTION:Vier Forschungsimpulse der TUM zu maschinellem Lernen\, Weara
+ bles\, Mikrosensoren und Quantensensorik. Livestream verfügbar. Weitere
+  Informationen: https://www.deutsches-museum.de/museumsinsel/programm/ve
+ ranstaltung/daten-sensoren-und-quantenforschung
+URL:https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/d
+ aten-sensoren-und-quantenforschung
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261130T160000-asphalted@science-society-muenchen
+DTSTAMP:20261118T053300Z
+DTSTART;TZID=Europe/Berlin:20261130T160000
+SUMMARY:The Asphalted Planet: Caring for Broken Roads in the Age of Clima
+ te Change
+LOCATION:Deutsches Museum\, Bibliotheksbau\, Seminarraum Forschung I\, M
+ ünchen
+DESCRIPTION:Öffentliches Montagskolloquium mit Prof. Dr. Simone Müller 
+ über Straßeninfrastruktur und Klimawandel. Online-Teilnahme möglich. 
+ Weitere Informationen: https://www.deutsches-museum.de/forschung/forschu
+ ngsinstitut/vortragsreihen/montagskolloquium
+URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortrags
+ reihen/montagskolloquium
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261214T160000-castle-bravo@science-society-muenchen
+DTSTAMP:20261118T053300Z
+DTSTART;TZID=Europe/Berlin:20261214T160000
+SUMMARY:Fallout and fallibility: The secret causes of Castle Bravo nuclea
+ r disaster
+LOCATION:Deutsches Museum\, Bibliotheksbau\, Seminarraum Forschung I\, M
+ ünchen
+DESCRIPTION:Öffentliches Montagskolloquium mit Prof. Dr. Alex Wellerstei
+ n über die Castle-Bravo-Nuklearkatastrophe. Online-Teilnahme möglich. 
+ Weitere Informationen: https://www.deutsches-museum.de/forschung/forschu
+ ngsinstitut/vortragsreihen/montagskolloquium
+URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortrags
+ reihen/montagskolloquium
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
