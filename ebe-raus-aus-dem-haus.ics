@@ -27,37 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261118-parkour-basics-kids@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261118T100000
-DTEND;TZID=Europe/Berlin:20261118T130000
-SUMMARY:Parkour-Basics – Workshop für Kids
-LOCATION:Hauptschule\, Turnhalle 1\, Schulstraße 11\, Zorneding
-DESCRIPTION:Einmaliger Bewegungsworkshop mit Springen\, Klettern\, Balancie
- ren und Hindernis-Challenges. 30 EUR\; Anmeldung bei der VHS Vaterstetten 
- (W1856K). Bewegungskleidung und Hallenschuhe mitbringen.
-URL:https://www.vhs-vaterstetten.de/programm/spezielle-angebote/kurs/Parkou
- r-Basics-Workshop-fuer-Kids/W1856K
-CATEGORIES:Jugend,Mitmachen
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261118-mittwochskino-gelbe-briefe@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261118T200000
-SUMMARY:Mittwochskino: Gelbe Briefe
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:İlker Çataks Drama über ein Künstlerehepaar in Ankara\, des
- sen Leben sich nach einer Theaterpremiere verändert. Goldener Bär der Be
- rlinale. 127 Min. Abendkasse 7–10 EUR\; Einlass 19 Uhr\; Reservierung on
- line.
-URL:https://kultur-in-ebersberg.de/programm/gelbe-briefe/
-STATUS:CONFIRMED
-DTEND;TZID=Europe/Berlin:20261118T220700
-LAST-MODIFIED:20261111T054846Z
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:20261119-grado-gluhturm-geschichten-und-musik@ebe-raus-aus-dem-haus
 DTSTAMP:20261109T054200Z
 DTSTART;TZID=Europe/Berlin:20261119T183000
@@ -413,6 +382,36 @@ DESCRIPTION:Einmalige Wunschaufnahme ausserhalb Landkreis Eb
  uchkriterium.
 URL:https://www.bad-aibling.de/event/bad-aiblinger-christkin
  dlmarkt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-poing-kasperltheater-1530@ebe-raus-aus-dem-haus
+DTSTAMP:20261119T054641Z
+DTSTART;TZID=Europe/Berlin:20261202T153000
+DTEND;TZID=Europe/Berlin:20261202T160000
+SUMMARY:Kasperltheater: Wer hat den Nikolaussack gestohlen?
+LOCATION:Café im Zentrum in der Mitte (ZiM)\, Max-Mannheimer-Bür
+ gerhaus\, Poing
+DESCRIPTION:Familien-Kasperltheater des ZiM Familienzentrums Poi
+ ng. Einmalige Vorstellung am 2. Dezember. Angaben laut offiziel
+ lem Veranstaltungskalender der Gemeinde Poing.
+URL:https://www.poing.de/leben-freizeit/veranstaltungskalender/m
+ onat/2026/12
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-poing-kasperltheater-1615@ebe-raus-aus-dem-haus
+DTSTAMP:20261119T054641Z
+DTSTART;TZID=Europe/Berlin:20261202T161500
+DTEND;TZID=Europe/Berlin:20261202T164500
+SUMMARY:Kasperltheater: Wer hat den Nikolaussack gestohlen?
+LOCATION:Café im Zentrum in der Mitte (ZiM)\, Max-Mannheimer-Bür
+ gerhaus\, Poing
+DESCRIPTION:Familien-Kasperltheater des ZiM Familienzentrums Poi
+ ng. Einmalige Vorstellung am 2. Dezember. Angaben laut offiziel
+ lem Veranstaltungskalender der Gemeinde Poing.
+URL:https://www.poing.de/leben-freizeit/veranstaltungskalender/m
+ onat/2026/12
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
