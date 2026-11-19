@@ -733,4 +733,21 @@ URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortrags
  reihen/montagskolloquium
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261124-tum-fettversteher-freising@science-society-muenchen
+DTSTAMP:20261119T053200Z
+DTSTART;TZID=Europe/Berlin:20261124T180000
+DTEND;TZID=Europe/Berlin:20261124T193000
+SUMMARY:Der Fettversteher kehrt zurück – TUM@Freising
+LOCATION:Lindenkeller Freising\, Oberhaus\, Veitsmüllerweg 2\, 85354 Fre
+ ising
+DESCRIPTION:Öffentlicher Wissenschaftsvortrag von Prof. Alexander Bartel
+ t aus der Reihe TUM@Freising über aktuelle Forschung zu Fettgewebe und 
+ Stoffwechsel. Anschließende Diskussion. Eintritt frei\; keine Anmeldung
+  erforderlich. Offizielle Veranstaltungsseite: https://www.tum.de/aktuel
+ les/veranstaltungen/details/der-fettversteher-kehrt-zurueck
+URL:https://www.tum.de/aktuelles/veranstaltungen/details/der-fettverstehe
+ r-kehrt-zurueck
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
