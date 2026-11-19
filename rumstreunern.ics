@@ -556,4 +556,28 @@ URL:https://www.luise-kultur.de/termine
 CATEGORIES:Kunst,Workshop,Theater
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261211-campus-truecrime-dj@rumstreunern.ics
+DTSTAMP:20261119T060000Z
+DTSTART;TZID=Europe/Berlin:20261211T160000
+DTEND;TZID=Europe/Berlin:20261211T190000
+SUMMARY:Campus The truest True Crime – Wut an den DJ-Decks
+LOCATION:Habibi Kiosk\, München
+DESCRIPTION:Kostenfreier FLINTA*-Workshop mit Kim_Twiddle: DJ-Technik ausprobieren und Wut kreativ in Musik verwandeln. Anmeldung unter mitmachen@kammerspiele.de. Anschließend Abendessen und Theaterbesuch.
+URL:https://www.muenchner-kammerspiele.de/de/programm/54962-campus-the-truest-true-crime
+CATEGORIES:Workshop,Performance,FLINTA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-campus-truecrime-rage@rumstreunern.ics
+DTSTAMP:20261119T060000Z
+DTSTART;TZID=Europe/Berlin:20261212T110000
+DTEND;TZID=Europe/Berlin:20261212T170000
+SUMMARY:Campus The truest True Crime – Embodied Rage
+LOCATION:Münchner Kammerspiele\, Bühnenpforte\, München
+DESCRIPTION:Kostenfreier FLINTA*-Workshop mit Birte Opitz: Körper- und Stimmarbeit\, Tanz und feministische Selbstbehauptung. Anmeldung unter mitmachen@kammerspiele.de.
+URL:https://www.muenchner-kammerspiele.de/de/programm/54962-campus-the-truest-true-crime
+CATEGORIES:Workshop,Performance,FLINTA
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
