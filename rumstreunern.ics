@@ -580,4 +580,16 @@ URL:https://www.muenchner-kammerspiele.de/de/programm/54962-campus-the-truest-tr
 CATEGORIES:Workshop,Performance,FLINTA
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261210-luise-just-write@rumstreunern.ics
+DTSTAMP:20261120T055500Z
+DTSTART;TZID=Europe/Berlin:20261210T190000
+DTEND;TZID=Europe/Berlin:20261210T210000
+SUMMARY:Just Write! – offener Schreibjam
+LOCATION:LUISE\, Ruppertstraße 5\, 80337 München
+DESCRIPTION:Kreative Schreibwerkstatt mit kurzen Impulsen\, spontanen Texten und Austausch in einer Münchner Schreibcommunity. Ohne Leistungsdruck und ohne Vorkenntnisse. Kostenlos\; keine Anmeldung nötig. Für schreibfreudige Erwachsene.
+URL:https://www.luise-kultur.de/justwrite
+CATEGORIES:Literatur,Workshop,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
