@@ -27,19 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261119-grado-gluhturm-geschichten-und-musik@ebe-raus-aus-dem-haus
-DTSTAMP:20261109T054200Z
-DTSTART;TZID=Europe/Berlin:20261119T183000
-SUMMARY:GraDo – Glühturm: Geschichten und Musik
-LOCATION:Stadthalle Grafing\, Jahnstr. 13\, Grafing
-DESCRIPTION:Adventlicher Literatur- und Musikabend mit Robert Wetterstetter
- \, Wolfgang Hofer\, Albert Zimmerer und Lisa Lohmaier. Eintritt frei\; Pla
- tzreservierung erforderlich. Mehr Informationen: https://www.stadthalle-gr
- afing.de/
-URL:https://www.stadthalle-grafing.de/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:20261120-kicker-turnier-im-chaxter@ebe-raus-aus-dem-haus
 DTSTAMP:20261111T054846Z
 DTSTART;TZID=Europe/Berlin:20261120T170000
@@ -703,6 +690,17 @@ SUMMARY:Mittwochskino: Kurzfilmabend
 LOCATION:Altes Kino\, Ebersberg
 DESCRIPTION:Kuratiertes Kurzfilmprogramm von Barbara Lux. Einlass ab 19 Uhr\; Kartenreservierung über Veranstalter.
 URL:https://kultur-in-ebersberg.de/programm/kurzfilmabend-4/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-kasperl-citycenter-poing@ebe-raus-aus-dem-haus
+DTSTAMP:20261120T055000Z
+DTSTART;TZID=Europe/Berlin:20261212T140000
+DTEND;TZID=Europe/Berlin:20261212T160000
+SUMMARY:Kasperltheater im CityCenter Poing (3 Vorstellungen)
+LOCATION:CityCenter Poing\, Alte Gruber Str. 2-6\, 85586 Poing
+DESCRIPTION:Drei Familienvorstellungen um 14:00\, 15:00 und 16:00 Uhr. Einzelheiten siehe offizieller Gemeindekalender.
+URL:https://www.poing.de/leben-freizeit/veranstaltungskalender/detail/termin/kasperltheater-im-citycenter-poing-12-dezember-2026?print=1
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
