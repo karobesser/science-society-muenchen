@@ -592,4 +592,16 @@ URL:https://www.luise-kultur.de/justwrite
 CATEGORIES:Literatur,Workshop,Mitmachen
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261212-luise-linolschnitt@rumstreunern.ics
+DTSTAMP:20261121T060200Z
+DTSTART;TZID=Europe/Berlin:20261212T184500
+DTEND;TZID=Europe/Berlin:20261212T214500
+SUMMARY:Winterliche Karten im Linolschnitt – eigene Drucke gestalten
+LOCATION:LUISE\, Ruppertstraße 5\, 80337 München
+DESCRIPTION:Kleine Druckwerkstatt mit Anastasiya Shalkevich: Motiv entwerfen\, Linolplatte schneiden und eigene Karten sowie Kunstdrucke herstellen. Ohne Vorkenntnisse\, ab 16 Jahren\, maximal 10 Personen. 65 Euro inklusive Material\; Anmeldung über die Veranstalterseite.
+URL:https://www.luise-kultur.de/termine/winter-linoldruck/12-12-26
+CATEGORIES:Kunst,Design,Workshop,Mitmachen
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
