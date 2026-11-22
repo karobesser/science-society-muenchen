@@ -750,4 +750,23 @@ URL:https://www.tum.de/aktuelles/veranstaltungen/details/der-fettverstehe
  r-kehrt-zurueck
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261124-1400-code-geschichten-ews@science-society-muenchen
+DTSTAMP:20261122T053200Z
+DTSTART;TZID=Europe/Berlin:20261124T140000
+DTEND;TZID=Europe/Berlin:20261124T150000
+SUMMARY:Code-Geschichte(n): Edition wissenschaftliche Software
+LOCATION:Deutsches Museum\, Seminarraum Forschung I oder II\, Museumsinsel 
+ 1\, München
+DESCRIPTION:Dr. Andrea Reichenberger und Dr. Stefan Esselborn stellen das A
+ kademienprojekt Edition wissenschaftliche Software (EWS) vor. Öffentliche
+ r Arbeitskreis Forschung\; Teilnahme für Gasthörende nur nach vorheriger
+  Anmeldung beim Forschungsinstitut (089 2179-280/275 oder forschungsinstit
+ ut@deutsches-museum.de). Seminarraum I oder II bzw. online. Offizielles Se
+ mesterprogramm: https://www.deutsches-museum.de/forschung/forschungsinstit
+ ut/vortragsreihen/arbeitskreis-forschung
+URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortragsre
+ ihen/arbeitskreis-forschung
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
