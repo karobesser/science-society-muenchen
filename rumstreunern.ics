@@ -604,4 +604,15 @@ URL:https://www.luise-kultur.de/termine/winter-linoldruck/12-12-26
 CATEGORIES:Kunst,Design,Workshop,Mitmachen
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261203-kunstpavillon-vbk@rumstreunern.ics
+DTSTAMP:20261122T060000Z
+DTSTART;TZID=Europe/Berlin:20261203T170000
+SUMMARY:Jahresausstellung 2026 VBK – Vernissage im Kunstpavillon
+LOCATION:Kunstpavillon im Alten Botanischen Garten\, München
+DESCRIPTION:Eröffnung der Jahresausstellung 2026 der Vereinigung Bildender Künstlerinnen und Künstler im Kunstpavillon. Zeitgenössische Kunst abseits der großen Museen entdecken. Ausstellung 4.–20. Dezember. Eintrittsdetails beim Veranstalter prüfen.
+URL:https://www.kunstpavillon.org/programm/
+CATEGORIES:Kunst,Ausstellung
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
