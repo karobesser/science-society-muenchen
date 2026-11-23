@@ -615,4 +615,16 @@ URL:https://www.kunstpavillon.org/programm/
 CATEGORIES:Kunst,Ausstellung
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:20261208-floris-muenchen@rumstreunern.ics
+DTSTAMP:20261123T060300Z
+DTSTART;TZID=Europe/Berlin:20261208T183000
+DTEND;TZID=Europe/Berlin:20261208T193000
+SUMMARY:Floris München – dialogischer Stadtspaziergang zu Sauhund
+LOCATION:Sendlinger-Tor-Platz 5\, München
+DESCRIPTION:Ein dialogischer Spaziergang durch München im Umfeld der Theaterproduktion Sauhund über queeres Leben und Aufbruch in den 1980er-Jahren. Treffpunkt Sendlinger-Tor-Platz 5. Tickets und Details über den offiziellen Spielplan der Münchner Kammerspiele.
+URL:https://www.muenchner-kammerspiele.de/de/programm/
+CATEGORIES:Stadtentdeckung,Theater,Queere Kultur
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
