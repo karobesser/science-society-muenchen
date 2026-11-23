@@ -769,4 +769,52 @@ URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortragsre
  ihen/arbeitskreis-forschung
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:rhi-demokratie@science-society-muenchen
+DTSTAMP:20261123T052800Z
+DTSTART;TZID=Europe/Berlin:20261124T180000
+SUMMARY:RHI-Symposium: Perspektive(n) Gefährdete Demokratie
+LOCATION:hbw – Haus der Bayerischen Wirtschaft\, Max-Joseph-Str. 5\, 8033
+ 3 München
+DESCRIPTION:Neun wissenschaftliche Talks zu Populismus\, Demokratie\, KI un
+ d Justiz. Ausgebucht\; Warteliste verfügbar.
+URL:https://www.romanherzoginstitut.de/veranstaltungen/rhi-symposium-2026/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:oberseminar-screws@science-society-muenchen
+DTSTAMP:20261123T052800Z
+DTSTART;TZID=Europe/Berlin:20261123T160000
+SUMMARY:Seen but Unnoticed: Screws and Early Modern Objects
+LOCATION:Deutsches Museum\, Seminarraum Forschung I\, München
+DESCRIPTION:Öffentliches Oberseminar mit Celine Camps. Anmeldung erforderl
+ ich.
+URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortragsre
+ ihen/oberseminar
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:oberseminar-emotions@science-society-muenchen
+DTSTAMP:20261123T052800Z
+DTSTART;TZID=Europe/Berlin:20261207T160000
+SUMMARY:Tracing Sweaty Emotions: The Psycho-Galvanometer and Film
+LOCATION:Deutsches Museum\, Seminarraum Forschung I\, München
+DESCRIPTION:Öffentliches Oberseminar mit Tamara Mercante Thierauf. Anmeldu
+ ng erforderlich.
+URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortragsre
+ ihen/oberseminar
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:oberseminar-altstoff@science-society-muenchen
+DTSTAMP:20261123T052800Z
+DTSTART;TZID=Europe/Berlin:20261221T160000
+SUMMARY:Lumpen: Wissens- und Wirtschaftsgeschichte der Altstoffwirtschaft
+LOCATION:Deutsches Museum\, Seminarraum Forschung I\, München
+DESCRIPTION:Öffentliches Oberseminar mit Roman Köster. Anmeldung erforder
+ lich.
+URL:https://www.deutsches-museum.de/forschung/forschungsinstitut/vortragsre
+ ihen/oberseminar
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
