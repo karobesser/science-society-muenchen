@@ -536,7 +536,8 @@ DESCRIPTION:Einmalige Ausnahme ausserhalb des Landkreises Eber
 URL:https://www.bad-aibling.de/event/bad-aiblinger-christkindl
  markt
 STATUS:CONFIRMED
-END:VEVENTBEGIN:VEVENT
+END:VEVENT
+BEGIN:VEVENT
 UID:20261216-mittwochskino-kurzfilmabend@ebe-raus-aus-dem-haus
 DTSTAMP:20261116T054300Z
 DTSTART;TZID=Europe/Berlin:20261216T200000
@@ -556,6 +557,19 @@ SUMMARY:Kasperltheater im CityCenter Poing (3 Vorstellungen)
 LOCATION:CityCenter Poing\, Alte Gruber Str. 2-6\, 85586 Poing
 DESCRIPTION:Drei Familienvorstellungen um 14:00\, 15:00 und 16:00 Uhr. Einzelheiten siehe offizieller Gemeindekalender.
 URL:https://www.poing.de/leben-freizeit/veranstaltungskalender/detail/termin/kasperltheater-im-citycenter-poing-12-dezember-2026?print=1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261205-spieleabend-zim-poing@ebe-raus-aus-dem-haus
+DTSTAMP:20261124T054106Z
+DTSTART;TZID=Europe/Berlin:20261205T200000
+SUMMARY:Spieleabend im ZiM
+LOCATION:Café im ZiM\, Max-Mannheimer-Bürgerhaus\, Poing
+DESCRIPTION:Offener Spieleabend für spielbegeisterte Jugendliche und
+ Erwachsene. Veranstalter: Familienzentrum ZiM.
+URL:https://www.poing.de/leben-freizeit/veranstaltungskalender/monat/
+ 2026/12
+CATEGORIES:Jugend,Mitmachen
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
