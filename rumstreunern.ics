@@ -28,149 +28,6 @@ TZNAME:CET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261112-florida-word@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261112T190000
-DTEND;TZID=Europe/Berlin:20261112T220000
-SUMMARY:word – Vernissage und Lesungen
-LOCATION:FLORIDA Lothringer 13\, Lothringer Straße 13\, München
-DESCRIPTION:Künstlerisch geführte Verlage zeigen Publizieren als 
- eigene K
- unstform. Der neue Verlag Fiftycents stellt seine ersten drei Pu
- blikatione
- n vor. Lesungen 19:30–20:30. Ausstellung bis 22.11. Ein ungewöhn
- licher 
- Blick in die unabhängige Kunstbuchszene.
-URL:https://floridalothringer13.org/program/word
-CATEGORIES:Kunst,Design,Literatur
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:fofs-2026@rumstreunern.ics
-DTSTAMP:20261110T055700Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261121
-SUMMARY:Festival of Future Storytellers – Kurzfilm und neue Erzäh
- lformen
-LOCATION:HFF München / Arena Kino / weitere Orte\, München
-DESCRIPTION:Eine Woche junges internationales Kino\, Filmgespräch
- e\, offen
- e Panels und experimentelle Medienformate. Besonders spannend fü
- r Kurzfil
- m- und Designneugierige.
-URL:https://www.future-storytellers.de/de/programm/filme/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261113-bbk-foerderpreis@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261113T180000
-DTEND;TZID=Europe/Berlin:20261113T200000
-SUMMARY:BBK-Förderpreis – Preisverleihung und junge Kunst
-LOCATION:Galerie der Künstler*innen\, Maximilianstraße 42\, Münch
- en
-DESCRIPTION:Drei künstlerische Positionen zu Erinnerung\, digital
- er Identi
- tät und dem Verhältnis von Mensch\, Tier und Technik. Bei der Pr
- eisverle
- ihung lässt sich die aktuelle Münchner Kunstszene entdecken. Ein
- tritt fr
- ei. Ausstellung bis 20.11.
-URL:https://bbk-muc-obb.de/event/foerderpreis-des-bbk-muenchen-un
- d-oberbaye
- rn-2026/
-CATEGORIES:Kunst
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261114-pathos-glitsh7@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261114T210000
-DTEND;TZID=Europe/Berlin:20261114T220000
-SUMMARY:GLITSH #07 – absurde Textwerkstatt und Jubiläumsparty
-LOCATION:PATHOS theater\, Dachauer Straße 110d\, München
-DESCRIPTION:Zum zehnjährigen Bestehen des Netzwerks Münchner Thea
- tertexte
- r*innen wird aus Beiträgen eine absurde Bühnen-Textcollage. Ansc
- hließen
- d Party bis 1 Uhr. Einlass ab 20 Uhr. Tickets ab 10 € (Mindestpr
- eis).
-URL:https://www.pathos.theater/veranstaltungen/2026/2026_11-12/11
- _14_Glitsh
- 7.php
-CATEGORIES:Theater,Performance,Literatur
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261116-dokfest-schwere-reiter@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261116T190000
-DTEND;TZID=Europe/Berlin:20261116T201500
-SUMMARY:DOK.fest goes schwere reiter – zwei Kurzfilme und Artist 
- Talk
-LOCATION:schwere reiter studio\, Dachauer Straße 114a\, München
-DESCRIPTION:Zwei dokumentarische Arbeiten über Identität\, Bezieh
- ungen un
- d die Erfahrung\, sich zu bewegen oder es nicht mehr zu können. 
- Im Anschl
- uss Gespräch mit den Filmschaffenden. 9 €.
-URL:https://www.pathos.theater/veranstaltungen/2026/2026_11-12/DO
- K.fest_sch
- were_reiter.php
-CATEGORIES:Film,Performance
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:fofs-transmedia-2026@rumstreunern.ics
-DTSTAMP:20261110T055700Z
-DTSTART;TZID=Europe/Berlin:20261118T100000
-DTEND;TZID=Europe/Berlin:20261118T180000
-SUMMARY:Transmedia Day – Film\, Games und Storytelling
-LOCATION:HFF München\, Bernd-Eichinger-Platz 1\, München
-DESCRIPTION:Talks und Workshops darüber\, wie Geschichten über Fi
- lm\, Bü
- cher und Games hinweg neue Welten bilden. Teil des Festival of F
- uture Stor
- ytellers.
-URL:https://creatifcenter.com/transmedia-day-festival-of-future-s
- toryteller
- s-2026/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:kinoasyl-opening-2026@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261122T190000
-SUMMARY:KINO ASYL – Festivaleröffnung im Volkstheater
-LOCATION:Münchner Volkstheater\, München
-DESCRIPTION:Festivalauftakt mit Osun – The River in Me und Genera
- tion Ukr
- aine. Persönlich kuratierte Filmgeschichten aus Nigeria und der 
- Ukraine. 
- Tickets 6 € über das Volkstheater oder kostenfreie Ticketanfrage
-  beim F
- estival. Ende nicht veröffentlicht.
-URL:https://kinoasyl.de/eroeffnung_2026
-STATUS:CONFIRMED
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-UID:20261123-impact-theater-offen@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261123T183000
-DTEND;TZID=Europe/Berlin:20261123T203000
-SUMMARY:IMPACT Theater Offen – selbst improvisieren
-LOCATION:Import Export\, Schwere-Reiter-Straße 2h\, München
-DESCRIPTION:Offene Theaterwerkstatt mit Bewegung\, Improvisation 
- und Texten
- . Schauspielerische Mittel ausprobieren\, ohne Vorkenntnisse ode
- r Verpflic
- htung zu einem Kurs. Ab 18 Jahren\, kostenfrei\, ohne Anmeldung.
-URL:https://import-export.cc/event/impact-theater-offen-11/
-CATEGORIES:Mitmachen,Theater,Workshop
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:kinoasyl-hp8-2026@rumstreunern.ics
 DTSTAMP:20261111T060229Z
 DTSTART;TZID=Europe/Berlin:20261124T180000
@@ -400,51 +257,6 @@ CATEGORIES:Kunst,Performance,Medien
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261113-schubert-paradise@rumstreunern.ics
-DTSTAMP:20261112T060000Z
-DTSTART;TZID=Europe/Berlin:20261113T200000
-SUMMARY:Schubert in Paradise – Premiere
-LOCATION:Münchner Kammerspiele\, Schauspielhaus\, Maximilianstraß
- e 26-28\, München
-DESCRIPTION:Musikalisch-experimentelle Reise in die Nacht mit Kat
- harina Bach\, Jelena Kuljić\, Lucy Wilke und bitchboy. Premiere a
- m 13. November.
-URL:https://www.muenchner-kammerspiele.de/de/programm/51812-schub
- ert-in-paradise
-CATEGORIES:Theater,Musik
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261118-meister-margarita@rumstreunern.ics
-DTSTAMP:20261112T060000Z
-DTSTART;TZID=Europe/Berlin:20261118T190000
-SUMMARY:Meister und Margarita – opulentes Theater
-LOCATION:Münchner Kammerspiele\, Schauspielhaus\, Maximilianstraß
- e 26-28\, München
-DESCRIPTION:Jette Steckels bildstarke Bulgakow-Adaption über Zens
- ur\, Kunst und Macht. Mit englischen Übertiteln\, Dauer ca. 4 Stu
- nden 10 Minuten einschließlich Pause.
-URL:https://www.muenchner-kammerspiele.de/de/programm/42859-meist
- er-und-margarita
-CATEGORIES:Theater,Literatur
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261120-schubert-paradise@rumstreunern.ics
-DTSTAMP:20261112T060000Z
-DTSTART;TZID=Europe/Berlin:20261120T200000
-SUMMARY:Schubert in Paradise – musikalische Theaterreise
-LOCATION:Münchner Kammerspiele\, Schauspielhaus\, Maximilianstraß
- e 26-28\, München
-DESCRIPTION:Experimentelles Musiktheater über Franz Schubert mit 
- Katharina Bach\, Jelena Kuljić\, Lucy Wilke und bitchboy. Einführ
- ung ab 19:30 Uhr.
-URL:https://www.muenchner-kammerspiele.de/de/programm/51812-schub
- ert-in-paradise
-CATEGORIES:Theater,Musik
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:20261210-pathos-wg-gesucht@rumstreunern.ics
 DTSTAMP:20261113T060340Z
 DTSTART;TZID=Europe/Berlin:20261210T200000
@@ -522,17 +334,6 @@ CATEGORIES:Kunst,Design
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261117-kunstarkaden-structure-arbitrariness@rumstreunern.ics
-DTSTAMP:20261116T060000Z
-DTSTART;TZID=Europe/Berlin:20261117T190000
-SUMMARY:structure and arbitrariness – Vernissage mit Musikperformance
-LOCATION:Kunstarkaden\, Sparkassenstraße 3\, München
-DESCRIPTION:Gruppenausstellung mit Dimitrios Dimitriadis\, Lisa Holzapfel\, Minjoon Kim\, Celia Renée Meissner\, Alexandra Müller und Branka Predojevic. Zur Eröffnung spielt 100000loca live. Eintritt frei. Ausstellung 18.11.–19.12.\, Di–Sa 13–19 Uhr.
-URL:https://kunstarkaden-muenchen.de/vorschau/
-CATEGORIES:Kunst,Performance
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:20261211-luise-kunstbegegnungen@rumstreunern.ics
 DTSTAMP:20261117T055600Z
 DTSTART;TZID=Europe/Berlin:20261211T163000
@@ -542,18 +343,6 @@ LOCATION:LUISE werkt\, Ruppertstraße 5\, 80337 München
 DESCRIPTION:Offene inklusive Kunstwerkstatt zum Zeichnen\, Malen und kreativen Experimentieren. Materialien vorhanden\, keine Vorkenntnisse oder Anmeldung nötig\, kostenlos. Raum 2. Ein entspannter Ort zum Selbermachen und Austausch.
 URL:https://www.luise-kultur.de/termine/kunstundbegegnung/11-12-26
 CATEGORIES:Kunst,Mitmachen,Workshop
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:20261121-luise-puppenbau-workshop@rumstreunern.ics
-DTSTAMP:20261118T055800Z
-DTSTART;TZID=Europe/Berlin:20261121T100000
-DTEND;TZID=Europe/Berlin:20261122T180000
-SUMMARY:Mit voller Wirkung – Tischmarionetten selbst bauen
-LOCATION:LUISE\, Ruppertstraße 5\, 80337 München
-DESCRIPTION:Zweitägiger kreativer Puppenbau-Workshop: ausdrucksstarke Tischmarionetten gestalten und zum Leben erwecken. Ein ungewöhnlicher Ausflug zwischen Handwerk und Figurentheater. Teilnahmebedingungen und Anmeldung beim Veranstalter prüfen.
-URL:https://www.luise-kultur.de/termine
-CATEGORIES:Kunst,Workshop,Theater
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -625,6 +414,28 @@ LOCATION:Sendlinger-Tor-Platz 5\, München
 DESCRIPTION:Ein dialogischer Spaziergang durch München im Umfeld der Theaterproduktion Sauhund über queeres Leben und Aufbruch in den 1980er-Jahren. Treffpunkt Sendlinger-Tor-Platz 5. Tickets und Details über den offiziellen Spielplan der Münchner Kammerspiele.
 URL:https://www.muenchner-kammerspiele.de/de/programm/
 CATEGORIES:Stadtentdeckung,Theater,Queere Kultur
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261208-catarina-volkstheater@rumstreunern.ics
+DTSTAMP:20261124T055624Z
+DTSTART;TZID=Europe/Berlin:20261208T193000
+SUMMARY:Catarina oder Von der Schönheit\, Faschisten zu töten
+LOCATION:Münchner Volkstheater\, Tumblingerstraße 29\, München
+DESCRIPTION:Tiago Rodrigues untersucht anhand eines familiären Rituals den Umgang mit Rechtsextremismus und die Grenzen politischer Gewalt. Regie Christian Stückl.
+URL:https://www.muenchner-volkstheater.de/programm/spielplan
+CATEGORIES:Theater
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-sidekicks-monster@rumstreunern.ics
+DTSTAMP:20261124T055624Z
+DTSTART;TZID=Europe/Berlin:20261126T200000
+SUMMARY:side.kicks+ – How to build a monster? (Premiere)
+LOCATION:schwere reiter\, Dachauer Straße 114a\, München
+DESCRIPTION:Zeitgenössische Tanzperformance von Alexandra Rauh und Stephanie Felber im Kreativquartier. Weitere Vorstellung am 27.11. um 20 Uhr.
+URL:https://schwerereiter.de/
+CATEGORIES:Tanz,Performance
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
