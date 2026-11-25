@@ -28,23 +28,6 @@ TZNAME:CET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:kinoasyl-hp8-2026@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261124T180000
-SUMMARY:KINO ASYL – Filme aus unserer Heimat
-LOCATION:Gasteig HP8\, Projektor\, München
-DESCRIPTION:Kostenloser Filmabend: I still stand. und Nachbarn (D
- rama/Komö
- die über ein kurdisches Dorf). Der spätere Film Donbass beginnt 
- laut Gas
- teig um 21:30\, laut Festival um 21:15. Das Kinderprogramm am Vo
- rmittag is
- t nicht Teil dieses Eintrags.
-URL:https://www.gasteig.de/veranstaltungen/kino-asyl-2026/
-STATUS:CONFIRMED
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:kinoasyl-kammerspiele-2026@rumstreunern.ics
 DTSTAMP:20261111T060229Z
 DTSTART;TZID=Europe/Berlin:20261125T191500
@@ -312,14 +295,15 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261124-kunstverein-vision-sequence@rumstreunern.ics
-DTSTAMP:20261115T060000Z
-DTSTART;TZID=Europe/Berlin:20261124T163000
-DTEND;TZID=Europe/Berlin:20261124T210000
+DTSTAMP:20261125T060034Z
+DTSTART;TZID=Europe/Berlin:20261125T163000
+DTEND;TZID=Europe/Berlin:20261125T210000
 SUMMARY:Vision Sequence – experimenteller Sound im Kunstverein
 LOCATION:Kunstverein München\, Galeriestraße 4\, München
 DESCRIPTION:Zwei Abende mit experimentellem Sound und Kunst im Kunstverein München. Künstlerische Positionen zwischen Klang\, Performance und Experiment\; auch am 25.11. von 16:30 bis 21 Uhr.
 URL:https://www.kunstverein-muenchen.de/de/programm
 CATEGORIES:Kunst,Musik,Performance
+SEQUENCE:1
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
