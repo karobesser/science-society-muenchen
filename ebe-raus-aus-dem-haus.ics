@@ -27,21 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261125-mittwochskino-nouvelle-vague@ebe-raus-aus-dem-haus
-DTSTAMP:20261111T054846Z
-DTSTART;TZID=Europe/Berlin:20261125T200000
-SUMMARY:Mittwochskino: Nouvelle Vague
-LOCATION:Altes Kino\, Eberhardstraße 3\, 85560 Ebersberg
-DESCRIPTION:Richard Linklaters Hommage an die Entstehung von Godards Außer
-  Atem und das französische Kino der späten 1950er. 105 Min. Abendkasse 7
- –10 EUR\; Einlass 19 Uhr\; Reservierung online.
-URL:https://kultur-in-ebersberg.de/programm/nouvelle-vague/
-STATUS:CONFIRMED
-DTEND;TZID=Europe/Berlin:20261125T214500
-LAST-MODIFIED:20261111T054846Z
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:20261127-bad-aiblinger-christkindlmarkt@ebe-raus-aus-dem
  -haus
 DTSTAMP:20261115T181300Z
