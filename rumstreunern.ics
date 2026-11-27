@@ -28,10 +28,10 @@ TZNAME:CET
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20261126-ten-thousand-hours@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261126T193000
-DTEND;TZID=Europe/Berlin:20261126T203000
+UID:20261128-ten-thousand-hours@rumstreunern.ics
+DTSTAMP:20261127T060000Z
+DTSTART;TZID=Europe/Berlin:20261128T193000
+DTEND;TZID=Europe/Berlin:20261128T203000
 SUMMARY:Ten Thousand Hours – zeitgenössischer Zirkus
 LOCATION:Grand Chapiteau\, Tollwood Winterfestival\, Theresienwie
  se\, Münc
@@ -238,8 +238,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:20261204-kunstverein-jahresgaben@rumstreunern.ics
-DTSTAMP:20261115T060000Z
+DTSTAMP:20261127T060000Z
 DTSTART;TZID=Europe/Berlin:20261204T180000
+DTEND;TZID=Europe/Berlin:20261204T220000
 SUMMARY:Jahresgaben 2026 – Ausstellungseröffnung im Kunstverein
 LOCATION:Kunstverein München\, Galeriestraße 4\, München
 DESCRIPTION:Eröffnung der Jahresgaben 2026 im Kunstverein München. Gelegenheit\, zeitgenössische künstlerische Positionen und Editionen in der Münchner Kunstszene kennenzulernen. Ausstellung vom 5. bis 13. Dezember.
@@ -342,10 +343,10 @@ CATEGORIES:Theater
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261126-sidekicks-monster@rumstreunern.ics
-DTSTAMP:20261124T055624Z
-DTSTART;TZID=Europe/Berlin:20261126T200000
-SUMMARY:side.kicks+ – How to build a monster? (Premiere)
+UID:20261127-sidekicks-monster@rumstreunern.ics
+DTSTAMP:20261127T060000Z
+DTSTART;TZID=Europe/Berlin:20261127T200000
+SUMMARY:side.kicks+ – How to build a monster?
 LOCATION:schwere reiter\, Dachauer Straße 114a\, München
 DESCRIPTION:Zeitgenössische Tanzperformance von Alexandra Rauh und Stephanie Felber im Kreativquartier. Weitere Vorstellung am 27.11. um 20 Uhr.
 URL:https://schwerereiter.de/
