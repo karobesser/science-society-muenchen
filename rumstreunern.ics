@@ -49,22 +49,6 @@ CATEGORIES:Zirkus,Performance
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:kinoasyl-bellevue-2026@rumstreunern.ics
-DTSTAMP:20261111T060229Z
-DTSTART;TZID=Europe/Berlin:20261127T180000
-SUMMARY:KINO ASYL – Festivalabend im Bellevue di Monaco
-LOCATION:Bellevue di Monaco\, Müllerstraße 2–6\, München
-DESCRIPTION:Festivalabschluss: um 18 Uhr Traces\, ein Dokumentarf
- ilm über 
- ukrainische Frauen und Kriegsfolgen. Um 20:15 Uhr Filme aus dem 
- Irak und U
- ganda. Eintritt frei. Zwei Filmblöcke\, kein festes Ende veröffe
- ntlicht.
-URL:https://kinoasyl.de/
-STATUS:CONFIRMED
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:20261128-pathos-goldclit@rumstreunern.ics
 DTSTAMP:20261111T060229Z
 DTSTART;TZID=Europe/Berlin:20261128T200000
@@ -343,17 +327,6 @@ CATEGORIES:Theater
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:20261127-sidekicks-monster@rumstreunern.ics
-DTSTAMP:20261127T060000Z
-DTSTART;TZID=Europe/Berlin:20261127T200000
-SUMMARY:side.kicks+ – How to build a monster?
-LOCATION:schwere reiter\, Dachauer Straße 114a\, München
-DESCRIPTION:Zeitgenössische Tanzperformance von Alexandra Rauh und Stephanie Felber im Kreativquartier. Weitere Vorstellung am 27.11. um 20 Uhr.
-URL:https://schwerereiter.de/
-CATEGORIES:Tanz,Performance
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:20261205-tune-joan-la-barbara@rumstreunern.ics
 DTSTAMP:20261126T055541Z
 DTSTART;TZID=Europe/Berlin:20261205T200000
@@ -396,6 +369,33 @@ LOCATION:Filmmuseum\, St.-Jakobs-Platz 1\, München
 DESCRIPTION:Herzog präsentiert seinen neuen Spielfilm persönlich. Originalfassung. Am 20.12. um 17 Uhr zusätzlich Werkstattgespräch zu The Walk of Life.
 URL:https://www.muenchner-stadtmuseum.de/sammlungen/filmmuseum/filmreihen/werner-herzog-filmpreis-3-1
 CATEGORIES:Film
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261212-kunstlabor-open-ateliers@rumstreunern.ics
+DTSTAMP:20261128T060000Z
+DTSTART;TZID=Europe/Berlin:20261212T140000
+DTEND;TZID=Europe/Berlin:20261212T200000
+SUMMARY:Open Ateliers – Christmas Edition
+LOCATION:KUNSTLABOR 2\, Dachauer Straße 90\, München
+DESCRIPTION:Offene Künstlerateliers auf drei Etagen mit Malerei\, Fotograf
+ ie und Installationen. Direkter Austausch mit Kunstschaffenden sowie kreat
+ ive Aktionen. Eintritt frei.
+URL:https://kunstlabor.org/en/event/open-ateliers-christmas-edition/
+CATEGORIES:Kunst,Design
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:20261216-luise-contact-jam@rumstreunern.ics
+DTSTAMP:20261128T060000Z
+DTSTART;TZID=Europe/Berlin:20261216T190000
+DTEND;TZID=Europe/Berlin:20261216T210000
+SUMMARY:Pop Up Contact Jam – Tanzimprovisation
+LOCATION:LUISE\, Ruppertstraße 5\, München
+DESCRIPTION:Offenes Bewegungsformat für Tanzinteressierte zum gemeinsamen 
+ Improvisieren und Experimentieren.
+URL:https://www.luise-kultur.de/termine
+CATEGORIES:Tanz,Mitmachen
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
